@@ -1,0 +1,11 @@
+{
+  "name": "blacklilitattoos",
+  "version": "1.0.0",
+  "description": "BlackLili Tattoos - Estudio de línea fina en Madrid",
+  "scripts": {
+    "test": "echo \"No tests available\" && exit 0"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
