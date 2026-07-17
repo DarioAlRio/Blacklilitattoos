@@ -64,19 +64,23 @@ if (burger && navLinks) {
 }
 
 // subtle draw-in for the small flower mark (safe: only runs if present)
-const flowerPath = document.querySelector('.flower-icon path');
+// measurement deferred to next frame so it doesn't force a layout during the critical initial render
+// subtle fade+scale reveal for the small flower mark (safe: only runs if present)
+// uses opacity/transform (compositor-friendly) instead of animating stroke-dashoffset,
+// which the browser can't run off the main thread
+const flowerIcon = document.querySelector('.flower-icon');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-if (flowerPath && !reduceMotion) {
-  const len = flowerPath.getTotalLength();
-  flowerPath.style.strokeDasharray = len;
-  flowerPath.style.strokeDashoffset = len;
-  flowerPath.style.transition = 'stroke-dashoffset 1.8s cubic-bezier(.65,0,.35,1) .1s';
-  const flowerIO = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) { flowerPath.style.strokeDashoffset = 0; flowerIO.unobserve(e.target); }
-    });
-  }, { threshold: 0.4 });
-  flowerIO.observe(flowerPath.closest('.flower-icon'));
+if (flowerIcon) {
+  if (reduceMotion) {
+    flowerIcon.classList.add('in');
+  } else {
+    const flowerIO = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { flowerIcon.classList.add('in'); flowerIO.unobserve(e.target); }
+      });
+    }, { threshold: 0.4 });
+    flowerIO.observe(flowerIcon);
+  }
 }
 
 // legal modals (Aviso Legal, Privacidad, Cookies) — present in the footer on every page
