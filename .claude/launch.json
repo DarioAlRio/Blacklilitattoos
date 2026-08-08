@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "estatico",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["_build/servidor.js"],
+      "port": 4173
+    }
+  ]
+}

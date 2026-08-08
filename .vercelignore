@@ -1,3 +1,6 @@
 # El generador de artículos y sus archivos de contenido no se publican:
 # solo sirven para regenerar el HTML en local con `node _build/generar.js`.
 _build
+
+# configuracion local del editor
+.claude
