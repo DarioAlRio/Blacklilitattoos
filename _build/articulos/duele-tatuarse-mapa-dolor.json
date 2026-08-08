@@ -1,0 +1,97 @@
+{
+  "slug": "duele-tatuarse-mapa-dolor",
+  "titulo": "¿Duele tatuarse? Mapa de dolor por zonas del cuerpo",
+  "tituloCorto": "¿Duele tatuarse? Mapa por zonas",
+  "migaCorta": "Mapa de dolor",
+  "titleTag": "¿Duele tatuarse? Mapa de dolor por zonas | BlackLili Tattoos",
+  "descripcion": "Qué zonas duelen más y menos al tatuarse, por qué, cómo se siente realmente, qué influye en tu tolerancia y qué hacer si te mareas durante la sesión.",
+  "ogDescripcion": "Qué zonas duelen más y menos, cómo se siente de verdad y qué hacer si te mareas.",
+  "eyebrow": "Antes de tatuarte",
+  "lead": "La pregunta que todo el mundo hace y casi nadie responde con detalle. La respuesta corta: duele, pero no como te imaginas, y depende muchísimo de dónde.",
+  "minutos": 6,
+  "contexto": "Antes de tatuarte",
+  "fecha": "2026-08-08",
+  "tema": "Dolor al tatuarse",
+  "categoria": "practico",
+  "orden": 4,
+  "resumenTarjeta": "Qué zonas duelen más y menos, por qué, cómo se siente de verdad y qué hacer si te mareas.",
+  "resumenTitulo": "Lo esencial",
+  "resumen": [
+    "El factor decisivo es la <strong>zona</strong>, no el estilo ni el tamaño del dibujo.",
+    "Carne y músculo amortiguan; hueso y nervios superficiales, no.",
+    "Lo que más cansa no es la intensidad: es la duración.",
+    "Comer antes y dormir bien cambia tu tolerancia de forma notable."
+  ],
+  "intro": "        <p>La descripción que más se repite entre quienes salen de su primera sesión es esta: <em>\"como un arañazo continuo\"</em> o <em>\"como la sensación de calor de un rasguño\"</em>. Molesto, sí. Insoportable, casi nunca.</p>\n\n        <p>Y una aclaración que evita muchas dudas: <strong>la línea fina no duele más que otros estilos</strong>. Usa agujas con menos puntas y no requiere pasadas repetidas de relleno. Lo que determina el dolor es dónde te lo haces.</p>",
+  "secciones": [
+    {
+      "id": "por-que",
+      "titulo": "Por qué unas zonas duelen más que otras",
+      "toc": "Por qué duele más",
+      "html": "        <p>Tres factores lo explican casi todo:</p>\n        <ul>\n          <li><strong>Grosor del tejido entre piel y hueso.</strong> Donde hay músculo y grasa, hay amortiguación. Donde la piel está directamente sobre hueso, no hay nada que amortigüe y la vibración se transmite entera.</li>\n          <li><strong>Densidad de terminaciones nerviosas.</strong> Manos, pies, cara interna de brazos y muslos, cuello y zona genital tienen muchísimas más que la cara externa del brazo.</li>\n          <li><strong>Movimiento y tensión de la piel.</strong> Zonas que se pliegan constantemente son más sensibles y más difíciles de tatuar.</li>\n        </ul>"
+    },
+    {
+      "id": "suave",
+      "titulo": "Zonas suaves: por aquí se empieza",
+      "toc": "Zonas suaves",
+      "html": "        <p>Molestia baja, perfectamente llevadera incluso en sesiones largas:</p>\n        <ul>\n          <li><strong>Antebrazo, cara externa.</strong> La zona más amable del cuerpo. Si es tu primera vez, empieza aquí.</li>\n          <li><strong>Brazo superior, cara externa.</strong> Mucho músculo, poca terminación nerviosa.</li>\n          <li><strong>Gemelo.</strong> Cómodo y con espacio.</li>\n          <li><strong>Muslo, cara externa y frontal.</strong> De lo más tolerable que hay.</li>\n          <li><strong>Omóplato y espalda alta.</strong> Zona amplia y bastante llevadera.</li>\n          <li><strong>Antebrazo interior.</strong> Algo más sensible, pero sigue siendo zona fácil.</li>\n        </ul>"
+    },
+    {
+      "id": "medio",
+      "titulo": "Zonas intermedias",
+      "toc": "Zonas intermedias",
+      "html": "        <p>Notables pero manejables. Aquí es donde la duración empieza a pesar más que la intensidad:</p>\n        <ul>\n          <li><strong>Hombro y clavícula.</strong> El hueso de la clavícula se nota bastante.</li>\n          <li><strong>Espalda baja y zona lumbar.</strong></li>\n          <li><strong>Muñeca por fuera.</strong></li>\n          <li><strong>Tobillo exterior.</strong></li>\n          <li><strong>Nuca.</strong> Sorprende a la gente: es más llevadera de lo que se teme.</li>\n          <li><strong>Cara interna del brazo</strong> y del muslo. Piel fina y sensible.</li>\n        </ul>\n        <p class=\"pullquote\">Casi nadie abandona por la intensidad del dolor. Se abandona por llevar tres horas con la misma zona irritada.</p>"
+    },
+    {
+      "id": "intenso",
+      "titulo": "Zonas intensas",
+      "toc": "Zonas intensas",
+      "html": "        <p>Aquí ya es dolor de verdad. Se puede perfectamente, pero conviene saber a qué vas y planificar pausas:</p>\n        <ul>\n          <li><strong>Costillas y costado.</strong> La zona que más se menciona. Piel fina sobre hueso, y además el propio movimiento de respirar.</li>\n          <li><strong>Esternón y centro del pecho.</strong></li>\n          <li><strong>Columna vertebral.</strong> Directamente sobre las vértebras.</li>\n          <li><strong>Empeine y planta del pie.</strong></li>\n          <li><strong>Manos, dedos y nudillos.</strong> Poco tejido y muchas terminaciones.</li>\n          <li><strong>Cuello y garganta.</strong></li>\n          <li><strong>Codo y hueco del codo.</strong> Sobre el hueso, muy intenso.</li>\n          <li><strong>Rodilla y hueco poplíteo.</strong></li>\n          <li><strong>Interior del bíceps y axila.</strong></li>\n        </ul>\n        <p>Que estén aquí no significa que haya que evitarlas: hay piezas preciosas en costillas y esternón. Significa que no son la mejor idea para estrenarse.</p>"
+    },
+    {
+      "id": "influye",
+      "titulo": "Lo que sí puedes controlar",
+      "toc": "Lo que puedes controlar",
+      "html": "        <p>Tu tolerancia no es fija: varía según el día, y bastante.</p>\n        <ul>\n          <li><strong>Come antes.</strong> Una comida consistente una o dos horas antes. Ir en ayunas es la causa número uno de mareos.</li>\n          <li><strong>Duerme.</strong> El cansancio baja el umbral de dolor de forma muy notable.</li>\n          <li><strong>Hidrátate el día anterior,</strong> no solo un vaso al llegar.</li>\n          <li><strong>Nada de alcohol,</strong> ni la noche antes. Además de aumentar el sangrado, la resaca dispara la sensibilidad.</li>\n          <li><strong>Ciclo menstrual.</strong> Muchas personas notan más sensibilidad los días previos y durante la regla. No impide nada, pero si puedes elegir fecha, tenlo en cuenta.</li>\n          <li><strong>Respira.</strong> Contener la respiración y tensar la zona empeora todo. Respiración lenta y músculo relajado.</li>\n        </ul>\n        <p>Sobre las cremas anestésicas: existen, pero <strong>consúltalo con el estudio antes de usar ninguna</strong>. Algunas alteran la textura de la piel y dificultan que la tinta asiente, así que no todos los tatuadores trabajan con ellas.</p>"
+    },
+    {
+      "id": "mareo",
+      "titulo": "Si te mareas",
+      "toc": "Si te mareas",
+      "html": "        <p>Pasa con relativa frecuencia y no tiene ninguna importancia. Las señales: sudor frío, visión borrosa o con puntos, oídos taponados, náusea, sensación de calor repentino.</p>\n        <p><strong>Dilo en ese momento.</strong> No esperes a ver si se pasa. Se para la sesión, te tumbas con las piernas en alto, bebes algo azucarado y en cinco o diez minutos se continúa con normalidad.</p>\n        <p>Ningún tatuador se va a molestar. Es una respuesta fisiológica normal, no tiene nada que ver con ser valiente, y quien lleva años tatuando lo ha visto cientos de veces.</p>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "¿Es tu primera vez?",
+    "texto": "Te contamos qué vas a notar en la zona que tengas pensada y planificamos la sesión con las pausas que necesites. Sin prisa.",
+    "btn1": { "label": "Reservar una valoración", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+  },
+  "faq": [
+    {
+      "q": "¿Cuál es la zona que menos duele al tatuarse?",
+      "a": "La cara externa del antebrazo y del brazo superior, el gemelo y el muslo. Hay músculo y grasa que amortiguan, y pocas terminaciones nerviosas."
+    },
+    {
+      "q": "¿Cuál es la zona que más duele?",
+      "a": "Costillas, esternón, columna, manos y dedos, pies, cuello, codo y rodilla. Todas tienen piel fina directamente sobre hueso, muchas terminaciones nerviosas o ambas cosas."
+    },
+    {
+      "q": "¿La línea fina duele menos que otros estilos?",
+      "a": "Ni más ni menos. Usa agujas de pocas puntas y no requiere pasadas repetidas de relleno, pero el dolor depende esencialmente de la zona del cuerpo, no de la técnica."
+    },
+    {
+      "q": "¿Puedo usar crema anestésica?",
+      "a": "Consúltalo con el estudio antes de aplicarte nada. Algunas cremas alteran la textura de la piel y dificultan que la tinta asiente, así que no todos los tatuadores trabajan con ellas."
+    }
+  ],
+  "cierre": "Cruza esta información con <a href=\"tatuajes-discretos-para-el-trabajo.html\">las zonas que se tapan con la ropa</a> y tendrás casi decidida la ubicación. El resto de la preparación está en <a href=\"primer-tatuaje-linea-fina-consejos.html\">tu primer tatuaje</a>.",
+  "tarjetaLateral": {
+    "titulo": "Sin prisa",
+    "texto": "Planificamos la sesión con las pausas que necesites. Parar un momento es completamente normal.",
+    "label": "Pedir cita",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": ["primer-tatuaje-linea-fina-consejos", "cuanto-se-tarda-en-hacer-un-tatuaje", "tatuajes-discretos-para-el-trabajo"]
+}

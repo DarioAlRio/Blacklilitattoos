@@ -1,0 +1,109 @@
+{
+  "slug": "estudio-tatuajes-madrid-normativa-higiene",
+  "titulo": "Cómo saber si un estudio de tatuajes cumple de verdad",
+  "tituloCorto": "Cómo saber si un estudio cumple de verdad",
+  "migaCorta": "Higiene y normativa de un estudio",
+  "titleTag": "Cómo saber si un estudio de tatuajes cumple | BlackLili",
+  "descripcion": "Qué debe cumplir un estudio de tatuaje en Madrid: registro sanitario, material de un solo uso, esterilización y consentimiento informado. Señales de alarma.",
+  "ogDescripcion": "Registro sanitario, material desechable, esterilización y consentimiento: lo que puedes exigir a cualquier estudio.",
+  "eyebrow": "Higiene",
+  "lead": "Un tatuaje es una herida controlada. Todo lo que rodea a esa herida está regulado, y como cliente tienes derecho a verlo. Esto es lo que deberías comprobar sin pedir permiso a nadie.",
+  "minutos": 6,
+  "contexto": "Madrid",
+  "fecha": "2026-08-08",
+  "tema": "Higiene en estudios de tatuaje",
+  "lugar": "Madrid",
+  "categoria": "vallecas",
+  "orden": 3,
+  "resumenTarjeta": "Registro sanitario, material desechable, esterilización y consentimiento informado: lo que puedes exigir.",
+  "resumenTitulo": "Lo mínimo exigible",
+  "resumen": [
+    "El estudio debe estar <strong>registrado</strong> ante la autoridad sanitaria de su comunidad.",
+    "Agujas y cartuchos siempre de un solo uso, abiertos delante de ti.",
+    "Tinta servida en recipientes individuales que se tiran al terminar.",
+    "Consentimiento informado por escrito antes de empezar."
+  ],
+  "intro": "        <p>Tatuarse implica perforar la piel varios miles de veces. Hecho bien, el riesgo es mínimo. Hecho mal, la lista de posibles problemas incluye infecciones bacterianas, reacciones a la tinta y, en el peor de los casos, transmisión de virus por sangre.</p>\n\n        <p>La buena noticia es que casi todo lo que separa un estudio seguro de uno peligroso <strong>se ve a simple vista</strong>. No hace falta ser sanitario para valorarlo. Esta es la lista.</p>",
+  "secciones": [
+    {
+      "id": "registro",
+      "titulo": "Registro sanitario: el requisito de partida",
+      "toc": "El registro sanitario",
+      "html": "        <p>En España, los establecimientos de tatuaje, micropigmentación y piercing están regulados por normativa autonómica. En la Comunidad de Madrid eso implica, entre otras cosas, estar inscrito en el registro correspondiente, disponer de instalaciones que cumplan unos requisitos concretos y que el personal aplicador tenga formación higiénico-sanitaria acreditada.</p>\n        <p>No tienes que investigar nada por tu cuenta: basta con preguntar. Un estudio en regla te responde sin incomodarse, igual que un restaurante te enseña su licencia. Si la pregunta molesta, eso ya es información.</p>"
+    },
+    {
+      "id": "material",
+      "titulo": "Material de un solo uso: lo que debes ver abrirse",
+      "toc": "Material de un solo uso",
+      "html": "        <p>Este es el punto que más peso tiene y el más fácil de comprobar. Delante de ti, y antes de empezar, deberían abrirse:</p>\n        <ul>\n          <li><strong>Agujas o cartuchos estériles</strong>, en su blíster sellado. Si el blíster ya estaba abierto, mal.</li>\n          <li><strong>Fundas desechables</strong> para la máquina, el cable y el pedal.</li>\n          <li><strong>Guantes nuevos</strong>, y cambio de guantes cada vez que el tatuador toca algo fuera del campo limpio: el móvil, un cajón, su propia cara.</li>\n          <li><strong>Tinta en recipientes individuales</strong>, servida para tu sesión y desechada al terminar. Nunca se devuelve tinta sobrante al bote.</li>\n          <li><strong>Papel film o barrera</strong> sobre la camilla, la mesa auxiliar y cualquier superficie que se vaya a tocar.</li>\n        </ul>\n        <p class=\"pullquote\">Si tienes que preguntar si la aguja es nueva, ya has visto algo que no deberías haber tenido que preguntar.</p>"
+    },
+    {
+      "id": "esterilizacion",
+      "titulo": "Qué se esteriliza y qué se tira",
+      "toc": "Esterilización",
+      "html": "        <p>Lo desechable se tira; lo reutilizable se esteriliza. Los instrumentos que no son de un solo uso —algunos <em>grips</em> metálicos, por ejemplo— deben pasar por autoclave, y ese autoclave debe tener controles periódicos que demuestren que funciona.</p>\n        <p>Es perfectamente razonable preguntar \"¿esto es desechable o va a autoclave?\". La respuesta correcta es concreta y rápida.</p>\n        <p>Las agujas usadas, por su parte, tienen que acabar en un contenedor rígido de residuos punzantes, no en una papelera normal. Si ves ese contenedor amarillo en la cabina, buena señal.</p>"
+    },
+    {
+      "id": "consentimiento",
+      "titulo": "Consentimiento informado y ficha de cliente",
+      "toc": "Consentimiento informado",
+      "html": "        <p>Antes de tatuarte deberías firmar un documento donde se te informa de los riesgos, se recogen tus antecedentes relevantes —alergias, tratamientos, problemas de coagulación, embarazo— y se acredita tu mayoría de edad.</p>\n        <p>No es burocracia vacía. Ese papel es el motivo por el que el tatuador te va a preguntar si tomas anticoagulantes o si eres alérgica a algo, y esas preguntas cambian decisiones reales durante la sesión.</p>\n        <p>Si nadie te hace firmar nada y nadie te pregunta nada, no es que sean simpáticos: es que se están saltando un paso.</p>"
+    },
+    {
+      "id": "alarma",
+      "titulo": "Señales de alarma",
+      "toc": "Señales de alarma",
+      "html": "        <p>Cualquiera de estas, por sí sola, es motivo suficiente para levantarse e irse:</p>\n        <ul>\n          <li>Tatuar fuera de un local habilitado: en una casa, en un bar, en la trastienda de otro negocio.</li>\n          <li>Material ya preparado y abierto cuando llegas.</li>\n          <li>Tinta reutilizada de una sesión anterior.</li>\n          <li>Que no te pidan documentación ni te hagan firmar nada.</li>\n          <li>Que te tatúen habiendo bebido, o que el propio tatuador haya bebido.</li>\n          <li>Precios muy por debajo de todo lo demás sin explicación.</li>\n        </ul>\n        <p>Y una que se pasa por alto: el estudio debería estar limpio también <em>fuera</em> de la cabina. La higiene no es una función que se activa al empezar la sesión.</p>"
+    },
+    {
+      "id": "despues",
+      "titulo": "Qué pasa si algo va mal",
+      "toc": "Si algo va mal",
+      "html": "        <p>Un poco de enrojecimiento, calor e hinchazón las primeras 48 horas es normal. Lo que no es normal es dolor que aumenta pasados los primeros días, un enrojecimiento que se extiende más allá del tatuaje, supuración amarillenta o verdosa, o fiebre.</p>\n        <p>Ante cualquiera de esas señales, la respuesta correcta es acudir a un profesional sanitario, no esperar a ver. Avisa también al estudio: necesitan saberlo, y un estudio serio querrá saberlo.</p>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "Pregúntanos lo que quieras del estudio",
+    "texto": "Puedes pasarte a ver la cabina antes de reservar nada. Enseñamos el material, el proceso y resolvemos cualquier duda sin compromiso.",
+    "btn1": {
+      "label": "Ver horarios y dirección",
+      "href": "contacto-tatuajes-puente-vallecas.html"
+    },
+    "btn2": {
+      "label": "Escribir por Instagram",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    }
+  },
+  "faq": [
+    {
+      "q": "¿Puedo pedir ver el material antes de que me tatúen?",
+      "a": "Sí, y deberías. Todo el material estéril se abre delante del cliente. Cualquier estudio en regla lo hace por norma, sin que haga falta pedirlo."
+    },
+    {
+      "q": "¿Es obligatorio firmar un consentimiento informado?",
+      "a": "Sí. Antes de tatuarte debes recibir información sobre los riesgos y firmar un documento donde se recogen tus antecedentes relevantes y se acredita tu mayoría de edad."
+    },
+    {
+      "q": "¿Puedo tatuarme si estoy embarazada o dando el pecho?",
+      "a": "Lo habitual es posponerlo. No es una prohibición legal, pero los estudios serios lo desaconsejan por prudencia, y es una de las preguntas que aparecen en la ficha previa."
+    },
+    {
+      "q": "¿Y si tomo medicación?",
+      "a": "Díselo al estudio antes de reservar. Los anticoagulantes, los tratamientos con isotretinoína y algunos inmunosupresores afectan al sangrado o a la cicatrización, y pueden obligar a aplazar la sesión."
+    }
+  ],
+  "cierre": "Si vas a tatuarte en el barrio, en la guía de <a href=\"tatuajes-en-vallecas-donde-tatuarse.html\">tatuajes en Vallecas</a> tienes el resto de criterios para elegir estudio, y en <a href=\"preguntas-frecuentes-tatuaje-linea-fina.html\">preguntas frecuentes</a> las dudas más habituales.",
+  "tarjetaLateral": {
+    "titulo": "Puedes venir a verlo",
+    "texto": "Enseñamos la cabina y el material antes de que reserves nada. Es lo normal, no un favor.",
+    "label": "Cómo llegar al estudio",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": [
+    "tatuajes-en-vallecas-donde-tatuarse",
+    "tatuador-linea-fina-puente-vallecas",
+    "cuidados-tatuaje-linea-fina"
+  ]
+}

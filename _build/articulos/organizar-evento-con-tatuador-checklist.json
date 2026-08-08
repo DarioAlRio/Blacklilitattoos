@@ -1,0 +1,102 @@
+{
+  "slug": "organizar-evento-con-tatuador-checklist",
+  "titulo": "Checklist para organizar un evento con tatuador",
+  "tituloCorto": "Checklist para organizar un evento con tatuador",
+  "migaCorta": "Checklist de organización",
+  "titleTag": "Checklist: organizar un evento con tatuador | BlackLili",
+  "descripcion": "Lista de comprobación completa para organizar un evento con tatuador: qué preguntar al contratar, qué preparar en el espacio, timing del día y plan B.",
+  "ogDescripcion": "Qué preguntar al contratar, qué preparar en el espacio, el timing del día y el plan B.",
+  "eyebrow": "Eventos",
+  "lead": "Todo lo que hay que tener resuelto antes de que llegue el día, ordenado por momentos. Sirve igual para una boda, un cumpleaños o un evento de empresa.",
+  "minutos": 5,
+  "contexto": "Organización",
+  "fecha": "2026-08-08",
+  "tema": "Organización de eventos con tatuador",
+  "categoria": "eventos",
+  "orden": 5,
+  "resumenTarjeta": "Qué preguntar al contratar, qué preparar en el espacio, el timing del día y el plan B.",
+  "resumenTitulo": "Los cuatro bloques",
+  "resumen": [
+    "Al contratar: formato, horas, aforo real y qué incluye el precio.",
+    "Un mes antes: catálogo cerrado y comunicación a los asistentes.",
+    "La semana de antes: espacio confirmado, luz, enchufe y plan B de lluvia.",
+    "El día: montaje con margen, horario antes del alcohol, cuidados por escrito."
+  ],
+  "intro": "        <p>Casi todos los problemas de un evento con tatuador vienen de cosas que se dan por supuestas: que habrá luz, que habrá enchufe, que dará tiempo a todos. Esta lista existe para que ninguna de esas se dé por supuesta.</p>\n\n        <p>Está ordenada por momento, no por importancia.</p>",
+  "secciones": [
+    {
+      "id": "contratar",
+      "titulo": "Al contratar",
+      "toc": "Al contratar",
+      "html": "        <ul>\n          <li><strong>¿Permanente o temporal?</strong> Primera decisión, y condiciona todo lo demás.</li>\n          <li><strong>¿Cuántas horas de servicio?</strong> Y cuántas de montaje y desmontaje aparte.</li>\n          <li><strong>¿Cuántas personas entran de verdad en ese tiempo?</strong> Si la respuesta es vaga o demasiado optimista, mala señal.</li>\n          <li><strong>¿Qué incluye el precio?</strong> Diseño del catálogo, material, desplazamiento, montaje, consentimientos.</li>\n          <li><strong>¿Cómo se factura?</strong> Bloque cerrado o por persona con mínimo garantizado.</li>\n          <li><strong>¿Hay seguro de responsabilidad civil?</strong> Y acreditación higiénico-sanitaria.</li>\n          <li><strong>¿Qué pasa si se aplaza el evento?</strong> Que esté por escrito.</li>\n          <li><strong>¿Hace falta un segundo tatuador?</strong> Es la única forma real de doblar el aforo.</li>\n        </ul>"
+    },
+    {
+      "id": "mes-antes",
+      "titulo": "Un mes antes",
+      "toc": "Un mes antes",
+      "html": "        <ul>\n          <li><strong>Catálogo de diseños cerrado.</strong> Dibujado, revisado y aprobado. Nada de decidirlo la semana de antes.</li>\n          <li><strong>Catálogo impreso a tamaño real.</strong> En papel se elige mucho más rápido que en pantalla.</li>\n          <li><strong>Comunicación a los asistentes.</strong> Avisad de que habrá tatuajes y de si son permanentes o temporales. Quien se lo esté pensando llega con la idea medio hecha.</li>\n          <li><strong>Decidid el formato de acceso:</strong> abierto por orden de llegada o lista cerrada.</li>\n          <li><strong>Si es lista cerrada,</strong> avisad individualmente a quienes estén invitados a participar.</li>\n        </ul>\n        <p>Para el catálogo, tenéis el detalle en <a href=\"disenos-flash-tatuajes-boda.html\">cómo elegir los diseños flash</a>.</p>"
+    },
+    {
+      "id": "semana",
+      "titulo": "La semana de antes",
+      "toc": "La semana de antes",
+      "html": "        <p>Todo esto se confirma con el espacio, no con el organizador:</p>\n        <ul>\n          <li><strong>Ubicación exacta de la estación</strong> dentro del recinto. Ir a verla si se puede.</li>\n          <li><strong>Luz.</strong> ¿Hay luz natural a esa hora? ¿Se puede colocar un foco? ¿Hay dónde enchufarlo?</li>\n          <li><strong>Enchufe confirmado</strong> y a qué distancia está.</li>\n          <li><strong>Mesa y dos sillas</strong> comprometidas por el espacio, o las lleva el tatuador.</li>\n          <li><strong>Punto de agua</strong> más cercano.</li>\n          <li><strong>Plan B de lluvia</strong> si la estación iba al aire libre. Sin techo no se tatúa: no es una preferencia, es que el material estéril no puede mojarse.</li>\n          <li><strong>Hora de acceso al recinto</strong> para montar, y a quién preguntar al llegar.</li>\n          <li><strong>Aparcamiento o zona de carga.</strong> El material pesa.</li>\n        </ul>\n        <p class=\"pullquote\">La pregunta que más veces se olvida y más veces da problemas: ¿dónde está el enchufe?</p>"
+    },
+    {
+      "id": "dia",
+      "titulo": "El día del evento",
+      "toc": "El día del evento",
+      "html": "        <ul>\n          <li><strong>Montaje con 45-60 minutos de margen</strong> antes de la hora de inicio.</li>\n          <li><strong>El servicio empieza antes del alcohol.</strong> Cóctel o sobremesa temprana, no después del baile.</li>\n          <li><strong>Hoja de inscripción visible</strong> con turnos por hora, para que nadie espere de pie.</li>\n          <li><strong>Cartel con el formato:</strong> permanente o temporal, y a partir de qué edad.</li>\n          <li><strong>DNI:</strong> recordadlo en la comunicación previa si el formato es permanente.</li>\n          <li><strong>Consentimientos firmados</strong> por cada persona antes de sentarse.</li>\n          <li><strong>Instrucciones de cuidado por escrito</strong> para cada tatuado. Nadie retiene nada en una fiesta.</li>\n          <li><strong>Alguien de contacto</strong> del evento localizable durante todo el servicio.</li>\n        </ul>"
+    },
+    {
+      "id": "errores",
+      "titulo": "Los cinco errores que más se repiten",
+      "toc": "Errores frecuentes",
+      "html": "        <ul>\n          <li><strong>Prometer tatuajes para todos</strong> en un evento de 150 personas. No da el tiempo, y la decepción es peor que no haberlo ofrecido.</li>\n          <li><strong>Colocar la estación en el centro de la pista.</strong> Ruido, tránsito y cero concentración.</li>\n          <li><strong>Dejar el catálogo para el último momento.</strong> Se nota, y ralentiza todo el servicio.</li>\n          <li><strong>Programar el tatuador después de la cena.</strong> A esas alturas se va a decir que no a la mitad de la gente.</li>\n          <li><strong>No tener plan B de lluvia.</strong> Es la causa número uno de servicios cancelados en el sitio.</li>\n        </ul>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "Os lo montamos de principio a fin",
+    "texto": "Catálogo, material, montaje, consentimientos e instrucciones de cuidado. Vosotros ponéis la fecha y el sitio; del resto nos ocupamos nosotros.",
+    "btn1": {
+      "label": "Pedir propuesta",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver servicio de eventos",
+      "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+    }
+  },
+  "faq": [
+    {
+      "q": "¿Cuánto tiempo antes hay que contratar al tatuador?",
+      "a": "Para bodas y eventos con fecha fija, cuanto antes mejor: el catálogo de diseños necesita semanas de trabajo previo. Un mes y medio es un margen cómodo; menos de tres semanas complica el diseño a medida."
+    },
+    {
+      "q": "¿Qué pasa si el día del evento llueve?",
+      "a": "Sin espacio cubierto no se puede tatuar: el material estéril no puede mojarse y el viento y la luz lo hacen inviable. Tiene que haber un plan B a cubierto acordado por escrito."
+    },
+    {
+      "q": "¿Quién pone la mesa y las sillas?",
+      "a": "Depende del acuerdo, y por eso hay que dejarlo claro por escrito. Algunos estudios llevan su propio mobiliario; otros cuentan con que lo aporte el espacio."
+    },
+    {
+      "q": "¿Hace falta avisar a los asistentes con antelación?",
+      "a": "Sí, y mejora mucho el resultado. Quien se lo esté planteando llega con la zona pensada, sin crema ni bronceador encima y con el DNI, y eso agiliza todo el servicio."
+    }
+  ],
+  "cierre": "Según el tipo de evento, tenéis el detalle en <a href=\"tatuajes-para-bodas-estacion-tatuaje.html\">bodas</a>, <a href=\"tatuador-eventos-empresa-madrid.html\">eventos de empresa</a> y <a href=\"tatuajes-activaciones-marca-ferias.html\">ferias y activaciones</a>.",
+  "tarjetaLateral": {
+    "titulo": "Llave en mano",
+    "texto": "Nos ocupamos del catálogo, el material, el montaje y la documentación. Vosotros, de la fiesta.",
+    "label": "Consultar disponibilidad",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": [
+    "tatuajes-para-bodas-estacion-tatuaje",
+    "tatuador-eventos-empresa-madrid",
+    "tatuajes-activaciones-marca-ferias"
+  ]
+}

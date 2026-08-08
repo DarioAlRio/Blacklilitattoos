@@ -1,0 +1,91 @@
+{
+  "slug": "cuanto-se-tarda-en-hacer-un-tatuaje",
+  "titulo": "Cuánto se tarda en hacer un tatuaje",
+  "tituloCorto": "Cuánto se tarda en hacer un tatuaje",
+  "migaCorta": "Duración de la sesión",
+  "titleTag": "Cuánto se tarda en hacer un tatuaje | BlackLili Tattoos",
+  "descripcion": "Cuánto dura una sesión de tatuaje según tamaño y estilo, qué parte del tiempo no es tatuar, cuándo hacen falta varias sesiones y cómo planificar el día.",
+  "ogDescripcion": "Duración por tipo de pieza, qué parte del tiempo no es tatuar y cuándo hacen falta varias sesiones.",
+  "eyebrow": "Antes de tatuarte",
+  "lead": "Una cita de \"un tatuaje pequeño\" rara vez son quince minutos. Entre que entras y sales pasan más cosas de las que parece, y conviene saberlo para organizar el día.",
+  "minutos": 5,
+  "contexto": "Antes de tatuarte",
+  "fecha": "2026-08-08",
+  "tema": "Duración de una sesión de tatuaje",
+  "categoria": "practico",
+  "orden": 5,
+  "resumenTarjeta": "Duración por tipo de pieza, qué parte del tiempo no es tatuar y cuándo hacen falta varias sesiones.",
+  "resumenTitulo": "Cálculo rápido",
+  "resumen": [
+    "Pieza pequeña de línea fina: <strong>30 a 60 minutos</strong> en total.",
+    "Pieza mediana con detalle: <strong>2 a 4 horas</strong>.",
+    "Alrededor de <strong>un tercio del tiempo</strong> no es tatuar: es preparar y ajustar.",
+    "A partir de 4 o 5 horas seguidas, la piel deja de responder bien."
+  ],
+  "intro": "        <p>Calcular mal la duración es lo que hace que la gente llegue con prisa, se ponga nerviosa a mitad de sesión o tenga que irse antes de terminar. Merece la pena reservar la tarde entera aunque la pieza sea pequeña.</p>\n\n        <p>Estos son los tiempos reales.</p>",
+  "secciones": [
+    {
+      "id": "por-tipo",
+      "titulo": "Cuánto dura según el tipo de pieza",
+      "toc": "Duración por pieza",
+      "html": "        <p>Tiempos totales de cita, no solo de aguja:</p>\n        <ul>\n          <li><strong>Símbolo pequeño de línea fina (3-5 cm):</strong> de 30 a 60 minutos.</li>\n          <li><strong>Pieza pequeña con algo de detalle (5-8 cm):</strong> de 1 a 2 horas.</li>\n          <li><strong>Pieza mediana, tipo ramillete o composición (10-15 cm):</strong> de 2 a 4 horas.</li>\n          <li><strong>Frase o lettering:</strong> de 1 a 3 horas según longitud y tamaño.</li>\n          <li><strong>Pieza grande con sombreado:</strong> a partir de 4 horas, y con frecuencia varias sesiones.</li>\n          <li><strong>Manga o espalda completa:</strong> se cuenta en sesiones, no en horas.</li>\n        </ul>\n        <p>El factor que más mueve estos números no es el tamaño: es el <strong>nivel de detalle</strong>. Dos piezas del mismo diámetro pueden llevar una hora o cuatro.</p>"
+    },
+    {
+      "id": "no-es-tatuar",
+      "titulo": "La parte del tiempo que no es tatuar",
+      "toc": "Lo que no es tatuar",
+      "html": "        <p>Suele ser alrededor de un tercio de la cita, y es tiempo bien invertido:</p>\n        <ul>\n          <li><strong>Revisar el diseño y ajustar el tamaño:</strong> 10-20 minutos.</li>\n          <li><strong>Preparar la zona</strong> —limpiar, rasurar si hace falta—: 5 minutos.</li>\n          <li><strong>Colocar la plantilla y mirarla en el espejo:</strong> 5-15 minutos. Aquí no hay que correr nunca.</li>\n          <li><strong>Montar el campo estéril</strong> y preparar el material: 10 minutos.</li>\n          <li><strong>Limpiar, envolver y explicar los cuidados</strong> al terminar: 10 minutos.</li>\n        </ul>\n        <p class=\"pullquote\">El rato de la plantilla frente al espejo es el más barato de toda la sesión y el que más disgustos evita.</p>"
+    },
+    {
+      "id": "varias",
+      "titulo": "Cuándo hacen falta varias sesiones",
+      "toc": "Varias sesiones",
+      "html": "        <p>Se divide una pieza en sesiones por dos motivos, y ninguno es capricho:</p>\n        <ul>\n          <li><strong>Aguante de la piel.</strong> A partir de cuatro o cinco horas seguidas, la zona se irrita, se inflama y deja de aceptar bien la tinta. Insistir a partir de ahí empeora el resultado.</li>\n          <li><strong>Aguante tuyo.</strong> Estar quieto y con molestia continuada durante horas cansa mucho más de lo que la gente calcula.</li>\n        </ul>\n        <p>Entre sesiones hay que dejar que la zona cicatrice, normalmente <strong>tres o cuatro semanas</strong>. No se puede tatuar sobre piel que todavía está pelando.</p>\n        <p>Si tu pieza va a necesitar varias, pregúntalo al pedir presupuesto: cambia la planificación y el coste total.</p>"
+    },
+    {
+      "id": "planificar",
+      "titulo": "Cómo planificar el día",
+      "toc": "Planificar el día",
+      "html": "        <ul>\n          <li><strong>No metas la cita con prisa entre dos cosas.</strong> Deja margen: los ajustes de diseño alargan más de lo previsto.</li>\n          <li><strong>Come antes,</strong> y si la sesión pasa de dos horas, lleva algo de picar y agua.</li>\n          <li><strong>Ropa cómoda</strong> que deje la zona accesible sin que tengas que estar en una postura incómoda.</li>\n          <li><strong>Auriculares o un libro</strong> si te ayuda a desconectar. En sesiones largas se agradece.</li>\n          <li><strong>Nada importante después.</strong> Vas a salir con la zona envuelta, algo hinchada y con ganas de no hacer nada.</li>\n        </ul>"
+    },
+    {
+      "id": "grupos",
+      "titulo": "Si vais en grupo",
+      "toc": "Si vais en grupo",
+      "html": "        <p>Los tiempos no se suman de forma lineal, se suman con fricción. Entre persona y persona hay que limpiar, montar material nuevo y elegir el siguiente diseño.</p>\n        <p>Cálculo realista con piezas pequeñas: entre <strong>20 y 30 minutos por persona</strong>. Un grupo de seis son entre dos y tres horas.</p>\n        <p>Lo que más acorta ese total es llevar <strong>los diseños decididos de antemano</strong>. Elegir sobre la marcha, en grupo y con opiniones cruzadas, puede comerse una hora entera. Lo detallamos en <a href=\"tatuajes-despedida-de-soltera.html\">tatuajes en una despedida de soltera</a>.</p>"
+    }
+  ],
+  "ctaTras": 2,
+  "cta": {
+    "titulo": "¿Cuánto va a durar lo tuyo?",
+    "texto": "Mándanos la referencia, la zona y el tamaño, y te decimos cuánto tiempo reservar y si hace falta más de una sesión.",
+    "btn1": { "label": "Consultar mi pieza", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+  },
+  "faq": [
+    {
+      "q": "¿Cuánto se tarda en hacer un tatuaje pequeño?",
+      "a": "Entre 30 y 60 minutos de cita completa para una pieza de línea fina de 3 a 5 cm, contando la revisión del diseño, la plantilla, el tatuaje y la limpieza final."
+    },
+    {
+      "q": "¿Cuánto puede durar una sesión seguida?",
+      "a": "Cuatro o cinco horas es el límite práctico. A partir de ahí la piel se irrita, deja de aceptar bien la tinta y el resultado empeora, así que conviene dividir en varias sesiones."
+    },
+    {
+      "q": "¿Cuánto hay que esperar entre sesiones?",
+      "a": "Entre tres y cuatro semanas, hasta que la zona esté cicatrizada. No se puede tatuar sobre piel que todavía está pelando."
+    },
+    {
+      "q": "¿Por qué tarda más de lo que dura tatuar?",
+      "a": "Porque alrededor de un tercio de la cita es preparación: revisar el diseño, ajustar el tamaño, colocar la plantilla, montar el campo estéril y explicar los cuidados al terminar."
+    }
+  ],
+  "cierre": "Para calcular el coste asociado a esos tiempos, tienes <a href=\"precio-tatuaje-linea-fina-madrid.html\">qué determina el precio de un tatuaje</a>, y para preparar bien el día, <a href=\"primer-tatuaje-linea-fina-consejos.html\">tu primer tatuaje</a>.",
+  "tarjetaLateral": {
+    "titulo": "Reserva la tarde",
+    "texto": "Trabajamos con cita previa y sin solapar clientes, para que nadie vaya con prisa.",
+    "label": "Ver horarios",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": ["precio-tatuaje-linea-fina-madrid", "duele-tatuarse-mapa-dolor", "reservar-cita-tatuaje-madrid"]
+}
