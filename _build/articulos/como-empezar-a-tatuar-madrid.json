@@ -1,0 +1,109 @@
+{
+  "slug": "como-empezar-a-tatuar-madrid",
+  "titulo": "Cómo empezar a tatuar: qué necesitas de verdad",
+  "tituloCorto": "Cómo empezar a tatuar",
+  "migaCorta": "Empezar a tatuar",
+  "titleTag": "Cómo empezar a tatuar: qué necesitas | BlackLili Tattoos",
+  "descripcion": "Qué hace falta para empezar a tatuar: formación higiénico-sanitaria, dibujo, material y qué exigirle a un curso de tatuaje en Madrid.",
+  "ogDescripcion": "Formación obligatoria, dibujo, material, práctica y qué exigirle a un curso de tatuaje.",
+  "eyebrow": "Formación",
+  "lead": "Se puede aprender. Lo que no se puede es aprender en un fin de semana, ni con un kit de internet, ni practicando sobre la piel de tus amigos. Esto es lo que hace falta de verdad.",
+  "minutos": 6,
+  "contexto": "Madrid",
+  "fecha": "2026-08-08",
+  "tema": "Formación en tatuaje",
+  "lugar": "Madrid",
+  "categoria": "formacion",
+  "orden": 1,
+  "resumenTarjeta": "Formación obligatoria, dibujo, material, práctica y qué deberías exigirle a un curso de tatuaje.",
+  "resumenTitulo": "Los cuatro pilares",
+  "resumen": [
+    "<strong>Formación higiénico-sanitaria</strong> acreditada: no es opcional, es requisito legal.",
+    "Dibujo. Es la base y la que más gente se salta.",
+    "Cientos de horas de <strong>piel sintética</strong> antes de tocar piel real.",
+    "Un curso serio te enseña bioseguridad antes que técnica."
+  ],
+  "intro": "        <p>El tatuaje se ha llenado de gente que quiere aprender, y eso está bien. Lo que no está bien es la cantidad de atajos que se venden: kits baratos, cursos exprés de dos días, tutoriales que empiezan directamente por la máquina.</p>\n\n        <p>Aprender a tatuar bien lleva tiempo y tiene un orden. Este es ese orden.</p>",
+  "secciones": [
+    {
+      "id": "legal",
+      "titulo": "Lo primero: la formación higiénico-sanitaria",
+      "toc": "Formación obligatoria",
+      "html": "        <p>En España, para ejercer como aplicador de tatuaje hace falta <strong>formación higiénico-sanitaria acreditada</strong>, según la normativa de cada comunidad autónoma. En la Comunidad de Madrid es un requisito para poder trabajar legalmente en un establecimiento registrado.</p>\n        <p>Ese curso no enseña a tatuar. Enseña lo que hay debajo: cadena de transmisión de infecciones, esterilización, gestión de residuos, primeros auxilios y protocolo ante accidentes con material punzante.</p>\n        <p>Es aburrido comparado con dibujar, y es exactamente lo que separa a un profesional de alguien peligroso. Cualquier curso de tatuaje que no te hable de esto desde el primer día no es un curso serio.</p>"
+    },
+    {
+      "id": "dibujo",
+      "titulo": "El dibujo va antes que la máquina",
+      "toc": "El dibujo",
+      "html": "        <p>Es el punto que más gente se salta y el que más limita después. Tatuar es dibujar con una herramienta difícil sobre un soporte que se mueve. Si no sabes dibujar, la máquina no lo va a arreglar.</p>\n        <p>Lo que hay que trabajar antes de tocar una máquina:</p>\n        <ul>\n          <li><strong>Línea continua y control del pulso.</strong> Trazos largos sin temblar y sin levantar la mano.</li>\n          <li><strong>Composición.</strong> Cómo se distribuye un dibujo en un espacio.</li>\n          <li><strong>Anatomía básica</strong> y cómo se deforma un diseño sobre una superficie curva.</li>\n          <li><strong>Simplificación.</strong> Saber qué quitar de una referencia para que funcione tatuada.</li>\n        </ul>\n        <p class=\"pullquote\">La máquina amplifica lo que sabes dibujar. Si no hay nada debajo, amplifica el vacío.</p>"
+    },
+    {
+      "id": "material",
+      "titulo": "Material: lo mínimo razonable",
+      "toc": "El material",
+      "html": "        <p>Aquí es donde más dinero se tira. El error clásico: comprar un kit completo barato de internet, con máquina, tintas y agujas incluidas.</p>\n        <p>Esos kits tienen dos problemas. Las máquinas suelen ser irregulares, y una máquina que no responde igual siempre hace imposible aprender —no sabes si el fallo es tuyo o de la herramienta—. Y las <strong>tintas de origen desconocido</strong> no deberían acercarse a ninguna piel: la tinta de tatuaje está regulada y debe tener composición declarada y trazabilidad.</p>\n        <p>Lo razonable para empezar:</p>\n        <ul>\n          <li>Una máquina de marca reconocida, aunque sea de gama de entrada.</li>\n          <li>Cartuchos estériles de marca, desechables.</li>\n          <li>Tinta negra de un fabricante con composición declarada y conforme a la normativa europea.</li>\n          <li>Mucha <strong>piel sintética</strong>. Muchísima.</li>\n          <li>Guantes, barreras, desinfectante y contenedor de punzantes desde el primer día, aunque practiques sobre sintético.</li>\n        </ul>"
+    },
+    {
+      "id": "practica",
+      "titulo": "Piel sintética: más horas de las que crees",
+      "toc": "La práctica",
+      "html": "        <p>La piel sintética es donde se aprende. Y no hablamos de unas cuantas tardes: hablamos de <strong>cientos de horas</strong> antes de acercarse a piel real.</p>\n        <p>Lo que se entrena ahí:</p>\n        <ul>\n          <li>Profundidad constante. El error número uno del principiante: entrar demasiado o demasiado poco.</li>\n          <li>Velocidad de mano coordinada con la máquina.</li>\n          <li>Ángulo de entrada de la aguja.</li>\n          <li>Tensión de la superficie con la mano libre.</li>\n          <li>Líneas largas sin cortes ni temblores.</li>\n        </ul>\n        <p>Y algo que no se practica en sintético y hay que aprender con supervisión: la piel real sangra, se hincha, se mueve y responde distinto según la zona y la persona. Por eso el paso de sintético a piel real debería hacerse <strong>siempre con alguien con experiencia al lado</strong>, nunca por tu cuenta con un amigo voluntario.</p>"
+    },
+    {
+      "id": "curso",
+      "titulo": "Qué exigirle a un curso de tatuaje",
+      "toc": "Elegir un curso",
+      "html": "        <p>Hay cursos excelentes y hay cursos que son una venta de material con clase incluida. Cómo distinguirlos:</p>\n        <ul>\n          <li><strong>Grupos reducidos.</strong> Aprender a tatuar requiere que alguien te corrija la mano. En un grupo de veinte eso no pasa.</li>\n          <li><strong>Quién imparte.</strong> Que sea alguien que tatúa a diario, con portfolio propio y visible, no un comercial.</li>\n          <li><strong>Bioseguridad desde el día uno.</strong> Si el temario empieza por \"tipos de máquina\", mala señal.</li>\n          <li><strong>Horas reales de práctica</strong> incluidas, no una demostración.</li>\n          <li><strong>Seguimiento después del curso.</strong> Las dudas de verdad aparecen semanas más tarde.</li>\n          <li><strong>Que te digan la verdad sobre los plazos.</strong> Quien te prometa que en un fin de semana vas a tatuar a clientes te está vendiendo humo.</li>\n        </ul>\n        <p>En BlackLili Tattoos, Lidia imparte <a href=\"cursos-tatuaje-linea-fina-madrid.html\">formación en línea fina</a> en el propio estudio y en grupos reducidos, con ese orden: primero bioseguridad y criterio, después técnica.</p>"
+    },
+    {
+      "id": "camino",
+      "titulo": "El camino realista",
+      "toc": "El camino realista",
+      "html": "        <p>Sin fechas exactas, porque depende mucho de cada persona y de las horas que le eches, pero el orden es siempre este:</p>\n        <ul>\n          <li>Dibujo, de forma continuada y desde ya.</li>\n          <li>Formación higiénico-sanitaria acreditada.</li>\n          <li>Formación técnica con alguien que tatúe de verdad.</li>\n          <li>Muchísimas horas de piel sintética.</li>\n          <li>Primeras piezas en piel real, siempre supervisadas.</li>\n          <li>Y a partir de ahí, años. Como cualquier oficio manual.</li>\n        </ul>\n        <p>La parte buena: es un oficio que se puede aprender de verdad si se hace en orden. La parte incómoda: los atajos se pagan, y en este caso los paga la piel de otra persona.</p>"
+    }
+  ],
+  "ctaTras": 4,
+  "cta": {
+    "titulo": "¿Quieres aprender línea fina?",
+    "texto": "Lidia imparte formación en el propio estudio, en grupos reducidos y con seguimiento personal en cada ejercicio. Escríbenos y te contamos cómo funciona.",
+    "btn1": {
+      "label": "Pedir información del curso",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver la formación",
+      "href": "cursos-tatuaje-linea-fina-madrid.html"
+    }
+  },
+  "faq": [
+    {
+      "q": "¿Hace falta algún título para tatuar en España?",
+      "a": "Hace falta formación higiénico-sanitaria acreditada según la normativa de cada comunidad autónoma, y trabajar en un establecimiento registrado. No existe un título artístico obligatorio, pero sin esa formación sanitaria no se puede ejercer legalmente."
+    },
+    {
+      "q": "¿Puedo aprender a tatuar por mi cuenta con un kit de internet?",
+      "a": "No es recomendable. Esas máquinas suelen ser irregulares, lo que hace imposible saber si el fallo es tuyo o de la herramienta, y las tintas de origen desconocido no deberían tocar ninguna piel."
+    },
+    {
+      "q": "¿Cuánto tiempo se tarda en aprender a tatuar?",
+      "a": "No hay un plazo fijo, pero cualquiera que te prometa tatuar clientes tras un fin de semana te está vendiendo humo. Antes de piel real hacen falta cientos de horas de piel sintética."
+    },
+    {
+      "q": "¿Se puede practicar tatuando a amigos?",
+      "a": "Es la peor idea posible. El paso de piel sintética a piel real debe hacerse con alguien experimentado al lado, en un entorno con las condiciones higiénicas adecuadas y con consentimiento informado."
+    }
+  ],
+  "cierre": "Si quieres ver cómo trabajamos antes de decidirte, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid.html\">portfolio del estudio</a> y el detalle de la <a href=\"cursos-tatuaje-linea-fina-madrid.html\">formación en línea fina</a>.",
+  "tarjetaLateral": {
+    "titulo": "Formación en el estudio",
+    "texto": "Grupos reducidos, técnica de línea fina paso a paso y bioseguridad desde el primer día.",
+    "label": "Ver los cursos",
+    "href": "cursos-tatuaje-linea-fina-madrid.html"
+  },
+  "relacionados": [
+    "estudio-tatuajes-madrid-normativa-higiene",
+    "tatuajes-en-vallecas-donde-tatuarse",
+    "disenos-tatuajes-linea-fina-ideas"
+  ]
+}

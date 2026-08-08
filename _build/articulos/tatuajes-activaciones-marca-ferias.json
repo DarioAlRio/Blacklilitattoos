@@ -1,0 +1,92 @@
+{
+  "slug": "tatuajes-activaciones-marca-ferias",
+  "titulo": "Tatuajes en ferias y activaciones de marca",
+  "tituloCorto": "Tatuajes en ferias y activaciones de marca",
+  "migaCorta": "Ferias y activaciones",
+  "titleTag": "Tatuajes en ferias y activaciones de marca | BlackLili Tattoos",
+  "descripcion": "Cómo funciona una activación de marca con tatuador: permanente o temporal, aforo real, diseño ligado a la marca, montaje del stand y métricas que sí importan.",
+  "ogDescripcion": "Permanente o temporal, aforo real, diseño de marca y montaje del stand en una activación.",
+  "eyebrow": "Eventos",
+  "lead": "Un tatuador en un stand genera cola desde el primer minuto. El problema es que la cola es finita y la expectativa no, así que el diseño de la activación importa más que el del tatuaje.",
+  "minutos": 5,
+  "contexto": "Madrid",
+  "fecha": "2026-08-08",
+  "tema": "Activaciones de marca con tatuador",
+  "lugar": "Madrid",
+  "categoria": "eventos",
+  "orden": 4,
+  "resumenTarjeta": "Permanente o temporal, aforo real, diseño ligado a la marca y montaje del stand.",
+  "resumenTitulo": "Lo que hay que decidir primero",
+  "resumen": [
+    "En ferias abiertas al público, lo habitual y lo sensato es <strong>temporal</strong>.",
+    "El aforo real es de 3 a 6 personas por hora y tatuador. Planifica con ese número.",
+    "El diseño debe funcionar como pieza, no como logotipo pegado.",
+    "Sistema de turnos con hora, no cola de pie."
+  ],
+  "intro": "        <p>El tatuaje funciona muy bien como activación porque es lo contrario de lo que suele haber en una feria: no es un folleto, no es una pantalla, es algo que requiere tiempo, contacto y una decisión. Genera atención inmediata.</p>\n\n        <p>Y precisamente por eso hay que dimensionarlo bien, porque la demanda supera siempre la capacidad.</p>",
+  "secciones": [
+    {
+      "id": "formato",
+      "titulo": "Permanente o temporal: en ferias, casi siempre temporal",
+      "toc": "Permanente o temporal",
+      "html": "        <p>En un evento abierto al público general, el formato <strong>temporal</strong> —jagua o transferible de calidad— resuelve casi todo:</p>\n        <ul>\n          <li>No hay decisión permanente tomada en una feria.</li>\n          <li>Se puede hacer a cualquier hora y a mucha más gente.</li>\n          <li>El aforo por hora se multiplica.</li>\n          <li>Desaparece toda la fricción de consentimientos, edad y alcohol.</li>\n        </ul>\n        <p>El <strong>permanente</strong> tiene sentido en activaciones muy concretas: comunidades de marca con vínculo fuerte, eventos de nicho, convenciones donde el tatuaje es el propio tema. Ahí funciona y es memorable. En una feria generalista, no.</p>\n        <p>Sea cual sea la decisión, la comunicación tiene que ser inequívoca desde el cartel. Que nadie llegue a la silla creyendo una cosa distinta.</p>"
+    },
+    {
+      "id": "aforo",
+      "titulo": "El aforo real, sin optimismo",
+      "toc": "El aforo real",
+      "html": "        <p>Con tatuaje permanente: entre <strong>3 y 6 personas por hora</strong> y por tatuador. Con temporal, bastante más, según técnica y tamaño.</p>\n        <p>Traducido a una jornada de feria de ocho horas, con un solo tatuador y permanente, hablamos de 25 a 45 personas. Si la marca espera impactar a 400 visitantes, o hay varios tatuadores, o el formato es temporal, o la activación se plantea como algo distinto.</p>\n        <p class=\"pullquote\">La foto de la cola es buena para la marca. La cola de verdad, con gente esperando de pie 40 minutos, no lo es.</p>\n        <p>La solución práctica: <strong>turnos con hora asignada</strong>. La persona se apunta, recibe una hora, se va a ver el resto de la feria y vuelve. Se convierte en un segundo impacto de marca en vez de en una espera.</p>"
+    },
+    {
+      "id": "diseno",
+      "titulo": "El diseño: pieza primero, marca después",
+      "toc": "El diseño de marca",
+      "html": "        <p>Aquí está el error más común de las activaciones: convertir el logotipo en tatuaje. Casi nadie quiere llevar un logotipo puesto, ni siquiera temporalmente, y menos aún permanentemente.</p>\n        <p>Lo que sí funciona es traducir la marca a un <strong>lenguaje visual</strong>:</p>\n        <ul>\n          <li>Un símbolo del universo de la marca, no su identidad corporativa.</li>\n          <li>Un motivo del producto o de su origen: una planta, una herramienta, un animal.</li>\n          <li>Una pieza que remita al valor que se comunica, no al nombre.</li>\n          <li>Una colección pequeña de 8 a 15 diseños en un estilo coherente.</li>\n        </ul>\n        <p>La prueba del algodón: si el diseño solo tiene sentido para quien conoce la marca, no es una buena pieza. Si funciona como tatuaje bonito por sí mismo y además evoca la marca, has acertado.</p>"
+    },
+    {
+      "id": "stand",
+      "titulo": "Montaje del stand",
+      "toc": "El montaje",
+      "html": "        <p>Las condiciones no cambian por ser una feria:</p>\n        <ul>\n          <li><strong>Luz propia y potente.</strong> La iluminación de pabellón nunca es suficiente para trabajar.</li>\n          <li><strong>Enchufe con potencia estable</strong> y alargador propio.</li>\n          <li><strong>Superficie firme</strong> para montar el campo estéril.</li>\n          <li><strong>Zona algo aislada del ruido</strong>, aunque sea con un panel.</li>\n          <li><strong>Acceso a agua</strong> razonablemente cerca.</li>\n          <li><strong>Contenedor de residuos punzantes</strong> si el formato es permanente.</li>\n        </ul>\n        <p>Y algo puramente escenográfico que funciona muy bien: dejar que se vea el proceso. El catálogo colgado, la mesa visible, el tatuador trabajando a la vista. Es la parte que genera el corrillo.</p>"
+    },
+    {
+      "id": "metricas",
+      "titulo": "Qué medir después",
+      "toc": "Qué medir",
+      "html": "        <p>Si la activación tiene que justificarse, el número de tatuajes hechos es la métrica menos interesante. Lo que de verdad mide el impacto:</p>\n        <ul>\n          <li><strong>Tiempo de permanencia</strong> en el stand, propio y de los espectadores.</li>\n          <li><strong>Contenido generado</strong>: la gente fotografía el proceso y el resultado casi siempre.</li>\n          <li><strong>Conversaciones cualificadas</strong>: alguien que espera veinte minutos está dispuesto a escuchar.</li>\n          <li><strong>Recuerdo a largo plazo</strong>, que en el caso del permanente es literal.</li>\n        </ul>"
+    }
+  ],
+  "ctaTras": 2,
+  "cta": {
+    "titulo": "¿Preparáis una activación?",
+    "texto": "Contadnos la marca, el evento, la duración y el aforo que esperáis. Os proponemos formato, colección de diseños y montaje, con presupuesto desglosado.",
+    "btn1": { "label": "Pedir propuesta", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
+    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid.html" }
+  },
+  "faq": [
+    {
+      "q": "¿En una feria conviene tatuaje permanente o temporal?",
+      "a": "En eventos abiertos al público general, temporal. Multiplica el aforo, elimina la fricción de consentimientos y edad, y evita que alguien tome una decisión permanente en una feria."
+    },
+    {
+      "q": "¿A cuánta gente se puede tatuar en una jornada de feria?",
+      "a": "Con tatuaje permanente y un solo tatuador, entre 25 y 45 personas en ocho horas. Con formato temporal la cifra sube bastante según técnica y tamaño."
+    },
+    {
+      "q": "¿Se puede tatuar el logotipo de la marca?",
+      "a": "Se puede, pero casi nadie lo quiere. Funciona mucho mejor traducir la marca a un símbolo o un motivo de su universo, que valga como pieza bonita por sí misma y además evoque la marca."
+    },
+    {
+      "q": "¿Qué necesita el stand?",
+      "a": "Luz propia potente, enchufe estable, superficie firme para el campo estéril, cierto aislamiento del ruido y acceso a agua. Si el formato es permanente, también contenedor de residuos punzantes."
+    }
+  ],
+  "cierre": "Si el evento es interno y no de cara al público, mirad <a href=\"tatuador-eventos-empresa-madrid.html\">tatuador para eventos de empresa</a>, y la logística completa en <a href=\"organizar-evento-con-tatuador-checklist.html\">el checklist para organizar un evento con tatuador</a>.",
+  "tarjetaLateral": {
+    "titulo": "Activaciones de marca",
+    "texto": "Colección de diseños en línea fina traducida del universo de vuestra marca, no del logotipo.",
+    "label": "Hablar del proyecto",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": ["tatuador-eventos-empresa-madrid", "organizar-evento-con-tatuador-checklist", "tatuajes-cumpleanos-fiestas-privadas"]
+}

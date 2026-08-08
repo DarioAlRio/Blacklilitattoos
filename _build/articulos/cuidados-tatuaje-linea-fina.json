@@ -1,0 +1,101 @@
+{
+  "slug": "cuidados-tatuaje-linea-fina",
+  "titulo": "Cuidados de un tatuaje de línea fina, semana a semana",
+  "tituloCorto": "Cuidados de un tatuaje, semana a semana",
+  "migaCorta": "Cuidados de un tatuaje de línea fina",
+  "titleTag": "Cuidados de un tatuaje, semana a semana | BlackLili",
+  "descripcion": "Cómo cuidar un tatuaje de línea fina desde el primer día hasta el mes: lavado, hidratación, sol, piscina y qué es normal durante la cicatrización.",
+  "ogDescripcion": "Lavado, hidratación, sol y piscina: la guía de cicatrización de un tatuaje de línea fina, día a día.",
+  "eyebrow": "Cuidados",
+  "lead": "En línea fina, la cicatrización es la mitad del trabajo. El trazo lo pone el tatuador; que ese trazo siga siendo nítido dentro de cinco años depende bastante de lo que hagas el primer mes.",
+  "minutos": 6,
+  "contexto": "Guía de cicatrización",
+  "fecha": "2026-08-08",
+  "tema": "Cuidados de un tatuaje",
+  "categoria": "practico",
+  "orden": 3,
+  "resumenTarjeta": "Lavado, hidratación, pelado, sol y piscina. Qué es normal durante la cicatrización y cuándo valorar un retoque.",
+  "resumenTitulo": "Lo esencial",
+  "resumen": [
+    "Lavar con agua templada y jabón neutro, secar sin frotar, hidratar en capa fina.",
+    "Nada de piscina, mar, bañera ni sauna hasta que la piel esté cerrada.",
+    "No rascar ni arrancar la piel cuando pele: ahí se pierden líneas.",
+    "Protección solar alta a partir del mes, y para siempre."
+  ],
+  "intro": "        <p>La línea fina es más sensible que otros estilos a una mala cicatrización, y por una razón sencilla: hay menos tinta depositada. Un trazo grueso puede perder algo de pigmento y seguir viéndose bien; una línea de medio milímetro que pierde pigmento en un tramo se ve como un corte en el dibujo.</p>\n        <p>La buena noticia es que cuidar un tatuaje no tiene misterio. Es constancia durante unas semanas, y sobre todo no hacer un par de cosas concretas.</p>",
+  "secciones": [
+    {
+      "id": "dia-uno",
+      "titulo": "Las primeras 24 horas",
+      "html": "\n        <p>Sales del estudio con el tatuaje protegido. Si llevas <strong>film o apósito clásico</strong>, se retira a las pocas horas siguiendo las indicaciones que te demos en la cita. Si llevas un <strong>apósito de segunda piel</strong>, puede quedarse puesto varios días, y es normal que debajo se acumule un líquido entre transparente y rojizo: es plasma y tinta sobrante, no es que se esté saliendo el tatuaje.</p>\n        <p>En cuanto lo destapes:</p>\n        <ul>\n          <li>Lávate bien las manos antes de tocar la zona.</li>\n          <li>Lava el tatuaje con agua templada, nunca caliente, y jabón neutro sin perfume.</li>\n          <li>Retira con suavidad los restos de plasma seco con la yema de los dedos. Sin esponja, sin manopla.</li>\n          <li>Seca a toquecitos con papel de cocina o una toalla limpia y exclusiva para eso. No frotes.</li>\n          <li>Deja la piel al aire unos minutos antes de aplicar crema.</li>\n        </ul>"
+    },
+    {
+      "id": "primera-semana",
+      "titulo": "Días 2 a 7: la fase pegajosa",
+      "html": "\n        <p>Esta es la semana que más gente hace mal, casi siempre por exceso. Lo que toca es lavar la zona una o dos veces al día e hidratar en <strong>capa muy fina</strong>, con una crema específica para tatuajes o una emulsión sin perfume ni alcohol.</p>\n        <p>Fina de verdad: si la piel brilla y queda pastosa, has puesto demasiada. Una crema en exceso asfixia la herida, retrasa el cierre y favorece que se formen costras gordas, que es justo lo que no queremos en línea fina.</p>\n        <p>Durante estos días es normal notar la zona caliente, algo hinchada y ligeramente tirante. Lo que no es normal es dolor creciente, un enrojecimiento que se extiende hacia fuera del tatuaje o supuración amarillenta: eso ya es motivo para consultar.</p>\n\n        <h3>Ropa y sueño</h3>\n        <p>Ropa holgada y de algodón sobre la zona. Si te has tatuado en una zona que roza con la costura del pantalón o con la goma del sujetador, planifícalo: unos días de ropa cómoda ahorran muchos disgustos. Para dormir, sábanas limpias y, si el tatuaje está en un lateral o en la espalda, intenta no pasar la noche entera apoyado justo encima.</p>\n\n        <p class=\"pullquote\">Casi todos los tatuajes que se estropean no se estropean por lo que el cliente hizo, sino por lo que se rascó.</p>",
+      "toc": "Días 2 a 7"
+    },
+    {
+      "id": "pelado",
+      "titulo": "Días 7 a 21: el pelado",
+      "html": "\n        <p>A partir de la primera semana la piel empieza a descamarse, como una quemadura solar suave. Se caen escamas finas con restos de color y el tatuaje se ve apagado, seco, incluso un poco gris. Es la fase que más asusta y la más inofensiva, siempre que no la toques.</p>\n        <p><strong>No rasques. No tires de las pieles. No las arranques aunque estén casi sueltas.</strong> Cada trozo que arrancas antes de tiempo se lleva pigmento consigo, y en línea fina eso se traduce en un tramo de línea más claro o directamente interrumpido, que después hay que retocar.</p>\n        <p>Si pica —y suele picar—, la solución es hidratar, no rascar. Una capa fina de crema calma el picor en unos minutos. Un manotazo sobre la ropa también vale; las uñas, nunca.</p>\n        <p>En esta etapa sigue evitando por completo:</p>\n        <ul>\n          <li>Piscina, mar, bañera, jacuzzi y sauna.</li>\n          <li>Sol directo sobre la zona.</li>\n          <li>Deporte intenso, sobre todo si implica mucho sudor o roce en la zona tatuada.</li>\n          <li>Depilación, exfoliantes y cremas con ácidos o perfume en la zona.</li>\n        </ul>",
+      "toc": "El pelado"
+    },
+    {
+      "id": "mes",
+      "titulo": "De la tercera semana al mes",
+      "html": "\n        <p>Cuando termina el pelado, la superficie está cerrada pero las capas profundas siguen trabajando. Es habitual que el tatuaje se vea todavía algo mate o \"lechoso\" durante unos días: hay una capa de piel nueva por encima que aún no es del todo transparente. Se aclara solo.</p>\n        <p>A partir de aquí ya puedes retomar la vida normal: piscina, deporte, depilación. Y empieza lo que de verdad conserva un tatuaje a largo plazo, que es el <strong>protector solar</strong>.</p>\n\n        <h3>El sol es lo que más envejece una línea fina</h3>\n        <p>La radiación ultravioleta degrada el pigmento y lo dispersa. En un tatuaje con relleno se nota tarde; en una línea fina se nota antes, porque hay menos tinta que perder. Factor 50 en la zona siempre que vaya a estar expuesta, y no solo el primer verano: toda la vida del tatuaje. Es, con diferencia, la medida que más diferencia marca a los cinco o diez años.</p>",
+      "toc": "Hasta el primer mes"
+    },
+    {
+      "id": "retoque",
+      "titulo": "Cuándo valorar un retoque",
+      "html": "\n        <p>No todos los tatuajes necesitan retoque, y desde luego no se decide en caliente. Lo correcto es esperar a que el tatuaje esté completamente cicatrizado, más o menos al mes o mes y medio, y valorarlo entonces con luz natural.</p>\n        <p>Motivos razonables para un repaso: un tramo de línea que ha perdido pigmento durante el pelado, o zonas de mucho roce —dedos, manos, pies, codo— donde el asentamiento es más irregular por naturaleza. Si te tatúas con nosotros, este seguimiento entra dentro del trato: lo miramos y te decimos con franqueza si hace falta o no.</p>",
+      "toc": "Cuándo retocar"
+    }
+  ],
+  "cta": {
+    "titulo": "¿Tienes dudas con tu cicatrización?",
+    "texto": "Si algo no te encaja, mándanos una foto por Instagram o pásate por el estudio en Puente de Vallecas. Revisar a tiempo es mucho más fácil que retocar después.",
+    "btn1": {
+      "label": "Escríbenos por Instagram",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver horarios del estudio",
+      "href": "contacto-tatuajes-puente-vallecas.html"
+    }
+  },
+  "ctaTras": 3,
+  "faq": [
+    {
+      "q": "¿Cuánto tarda en cicatrizar del todo?",
+      "a": "La superficie se cierra en dos o tres semanas, pero la cicatrización profunda lleva alrededor de un mes o mes y medio. Hasta entonces el tatuaje puede verse algo apagado, y es normal."
+    },
+    {
+      "q": "¿Cuándo puedo ir a la piscina o a la playa?",
+      "a": "Cuando la piel esté completamente cerrada, unas dos o tres semanas. Sumergir un tatuaje reciente expone una herida abierta a bacterias y puede arruinar el trazo."
+    },
+    {
+      "q": "¿Es normal que se vea más claro al cicatrizar?",
+      "a": "Sí. Durante el pelado se ve apagado porque hay una capa de piel nueva por encima. La nitidez del trazo se recupera cuando esa capa termina de renovarse."
+    },
+    {
+      "q": "¿Puedo hacer deporte después de tatuarme?",
+      "a": "Mejor esperar unos días. El sudor, el roce de la ropa y el estiramiento de la piel en la zona pueden irritar la herida y afectar a cómo asienta la línea."
+    }
+  ],
+  "cierre": "Estas indicaciones son generales. En tu cita en BlackLili Tattoos te damos las instrucciones concretas para tu tatuaje y tu tipo de piel. Puedes consultar el resto de dudas habituales en <a href=\"preguntas-frecuentes-tatuaje-linea-fina.html\">preguntas frecuentes</a> o <a href=\"contacto-tatuajes-puente-vallecas.html\">escribirnos directamente</a>.",
+  "tarjetaLateral": {
+    "titulo": "Revisión sin coste",
+    "texto": "Si te has tatuado en el estudio y algo no te convence al cicatrizar, tráelo y lo valoramos contigo.",
+    "label": "Cómo llegar al estudio",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": [
+    "tatuarse-en-verano-sol-playa",
+    "tatuajes-y-deporte-gimnasio",
+    "primer-tatuaje-linea-fina-consejos"
+  ]
+}

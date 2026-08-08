@@ -1,0 +1,91 @@
+{
+  "slug": "tatuarse-en-verano-sol-playa",
+  "titulo": "Tatuarse en verano: sol, playa y piscina",
+  "tituloCorto": "Tatuarse en verano",
+  "migaCorta": "Tatuarse en verano",
+  "titleTag": "Tatuarse en verano: sol, playa y piscina | BlackLili Tattoos",
+  "descripcion": "Se puede tatuar en verano, pero con condiciones: cuándo puedes bañarte, qué hace el sol a la tinta, protección solar, sudor y qué pasa si estás moreno.",
+  "ogDescripcion": "Cuándo puedes bañarte, qué le hace el sol a la tinta y qué pasa si estás moreno.",
+  "eyebrow": "Antes de tatuarte",
+  "lead": "Sí se puede tatuar en verano. Lo que no se puede es tatuarse el jueves e irse a la playa el sábado. Toda la cuestión es de calendario.",
+  "minutos": 5,
+  "contexto": "Verano",
+  "fecha": "2026-08-08",
+  "tema": "Tatuajes y verano",
+  "categoria": "practico",
+  "orden": 6,
+  "resumenTarjeta": "Cuándo puedes bañarte, qué le hace el sol a la tinta y qué pasa si te tatúas estando moreno.",
+  "resumenTitulo": "Las cuatro reglas del verano",
+  "resumen": [
+    "Nada de mar, piscina ni bañera hasta que la piel esté <strong>cerrada</strong>: 2-3 semanas.",
+    "Cero sol directo las primeras semanas. Después, protección 50 siempre.",
+    "El sol es lo que más envejece un tatuaje, con mucha diferencia.",
+    "Si estás muy moreno, conviene esperar a que la piel vuelva a su tono."
+  ],
+  "intro": "        <p>Existe la idea de que \"no hay que tatuarse en verano\". No es exactamente cierto: se tatúa en verano perfectamente. Lo que pasa es que el verano trae tres enemigos concretos —agua, sol y sudor— y hay que esquivarlos durante unas semanas.</p>\n\n        <p>Si tu plan incluye playa en los próximos quince días, la respuesta es esperar. Si no, adelante.</p>",
+  "secciones": [
+    {
+      "id": "agua",
+      "titulo": "Agua: cuándo puedes bañarte de verdad",
+      "toc": "El agua",
+      "html": "        <p>Un tatuaje reciente es una herida abierta. Sumergirla la expone a bacterias y reblandece las costras, que es justo lo que se lleva el pigmento por delante.</p>\n        <p>Los plazos:</p>\n        <ul>\n          <li><strong>Ducha:</strong> desde el primer día, corta, con agua templada y sin dirigir el chorro sobre la zona.</li>\n          <li><strong>Mar, piscina, bañera, jacuzzi y sauna:</strong> nada hasta que la piel esté completamente cerrada. Entre <strong>dos y tres semanas</strong>.</li>\n        </ul>\n        <p>La piscina merece mención aparte: el cloro es especialmente agresivo con una herida en cicatrización, y el mar tiene su propia carga bacteriana. Ninguno de los dos es una buena idea antes de tiempo, por mucho que \"solo te metas un momento\".</p>"
+    },
+    {
+      "id": "sol",
+      "titulo": "El sol es lo que más envejece un tatuaje",
+      "toc": "El sol",
+      "html": "        <p>Si tuviéramos que quedarnos con un solo consejo de conservación a largo plazo, sería este. La radiación ultravioleta <strong>degrada el pigmento y lo dispersa</strong>. No en un verano: en diez.</p>\n        <p>Y afecta más a la línea fina que a otros estilos, sencillamente porque hay menos tinta depositada y por tanto menos margen de pérdida.</p>\n        <p>Dos etapas distintas:</p>\n        <ul>\n          <li><strong>Primeras 3-4 semanas:</strong> cero sol directo sobre la zona. Ni protector: taparlo con ropa. El protector solar no se aplica sobre piel que aún está cicatrizando.</li>\n          <li><strong>A partir de ahí y para siempre:</strong> factor 50 en la zona siempre que vaya a estar expuesta.</li>\n        </ul>\n        <p class=\"pullquote\">Un tatuaje de diez años con protección solar y uno de diez años sin ella no se parecen en nada. Es la diferencia más grande que existe.</p>"
+    },
+    {
+      "id": "sudor",
+      "titulo": "Sudor, roce y ropa de verano",
+      "toc": "Sudor y roce",
+      "html": "        <p>El calor trae dos problemas menores pero reales:</p>\n        <ul>\n          <li><strong>Sudor.</strong> Irrita la herida y favorece que se acumule suciedad. Conviene limpiar la zona con más frecuencia y secar bien a toquecitos.</li>\n          <li><strong>Roce.</strong> Tirantes de mochila, bandoleras, gomas de bañador, sandalias nuevas. Todo lo que roce sobre un tatuaje reciente lo irrita y puede arrastrar costras.</li>\n        </ul>\n        <p>Ropa holgada de algodón sobre la zona, y planifica: si te tatúas el empeine en julio, cuenta con dos semanas de calzado que no roce.</p>\n        <p>Y el deporte al aire libre: mejor esperar unos días. Lo detallamos en <a href=\"tatuajes-y-deporte-gimnasio.html\">tatuajes y deporte</a>.</p>"
+    },
+    {
+      "id": "moreno",
+      "titulo": "¿Y si estoy moreno?",
+      "toc": "Si estás moreno",
+      "html": "        <p>Dos cuestiones distintas.</p>\n        <p><strong>Si estás quemado</strong> —piel roja, caliente o pelando— no se tatúa. Es piel dañada, la sesión duele mucho más y la tinta no asienta bien. Hay que esperar a la recuperación completa.</p>\n        <p><strong>Si estás bronceado pero sano</strong> sí se puede, con un matiz que conviene conocer: cuando el moreno baje, el contraste del tatuaje cambiará ligeramente respecto a como lo viste el primer día. Sobre piel más clara, el negro se ve algo más marcado.</p>\n        <p>No es un problema estético grave, pero si tienes previsto un tatuaje grande y visible, muchos tatuadores recomiendan hacerlo sobre el tono de piel habitual, no sobre el de agosto.</p>"
+    },
+    {
+      "id": "planificar",
+      "titulo": "Cómo planificar el verano",
+      "toc": "Planificar el verano",
+      "html": "        <p>Cuentas sencillas según tus planes:</p>\n        <ul>\n          <li><strong>Vacaciones en tres semanas o menos:</strong> espera a la vuelta. No merece la pena pasarse el viaje sin bañarse.</li>\n          <li><strong>Vacaciones en más de un mes:</strong> adelante, con protección solar estricta cuando llegue el momento.</li>\n          <li><strong>Sin plan de playa:</strong> el verano es tan buen momento como cualquiera.</li>\n          <li><strong>Boda o evento en verano:</strong> calcula desde el evento, no desde hoy. Los plazos están en <a href=\"tatuarse-antes-de-la-boda-plazos.html\">tatuarse antes de la boda</a>.</li>\n        </ul>\n        <p>Y una alternativa que funciona muy bien: si te mueres de ganas y tienes viaje cerca, elige una <strong>zona que quede tapada por la ropa</strong> —costado, muslo, espalda alta— y podrás protegerla del sol sin renunciar a nada.</p>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "¿Te tatúas antes o después del viaje?",
+    "texto": "Cuéntanos tus fechas y te decimos qué margen necesitas para llegar con el tatuaje cicatrizado y poder bañarte tranquilo.",
+    "btn1": { "label": "Consultar fechas", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+  },
+  "faq": [
+    {
+      "q": "¿Cuándo puedo bañarme después de tatuarme?",
+      "a": "Cuando la piel esté completamente cerrada, entre dos y tres semanas. Antes de eso, ni mar, ni piscina, ni bañera, ni jacuzzi, ni sauna. Ducha corta sí, desde el primer día."
+    },
+    {
+      "q": "¿Puedo tomar el sol con un tatuaje nuevo?",
+      "a": "No durante las primeras tres o cuatro semanas: hay que taparlo con ropa, no con protector, porque el protector no se aplica sobre piel en cicatrización. Después, factor 50 siempre que vaya a estar expuesto."
+    },
+    {
+      "q": "¿Puedo tatuarme estando moreno?",
+      "a": "Sí, si la piel está sana. Si estás quemado o pelando, hay que esperar. Ten en cuenta que al bajar el bronceado el contraste cambiará ligeramente respecto a como lo viste el primer día."
+    },
+    {
+      "q": "¿Es mala idea tatuarse en verano?",
+      "a": "No, siempre que no tengas playa o piscina en las siguientes tres semanas. Si tu viaje es en menos de ese plazo, compensa esperar a la vuelta."
+    }
+  ],
+  "cierre": "La rutina completa de cicatrización, día a día, está en <a href=\"cuidados-tatuaje-linea-fina.html\">cuidados de un tatuaje semana a semana</a>.",
+  "tarjetaLateral": {
+    "titulo": "Calculamos tus fechas",
+    "texto": "Dinos cuándo te vas de viaje y te decimos si compensa tatuarte antes o a la vuelta.",
+    "label": "Consultar",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": ["cuidados-tatuaje-linea-fina", "tatuajes-y-deporte-gimnasio", "tatuarse-antes-de-la-boda-plazos"]
+}
