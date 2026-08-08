@@ -1,0 +1,42 @@
+# Direcciones limpias, sin .html a la vista.
+#
+# Solo hace falta en hosting Apache (el clásico de FTP: cPanel, Plesk, la
+# mayoría de los compartidos españoles). La web está en Vercel, y allí manda
+# vercel.json; esto queda por si algún día se muda a un compartido.
+
+Options -MultiViews
+RewriteEngine On
+
+# 0. Direcciones antiguas, antes de que las páginas tuvieran nombre de buscador.
+RewriteRule ^servicios/?$ /diseno-web [R=301,L]
+RewriteRule ^portfolio/?$ /trabajos [R=301,L]
+RewriteRule ^metodo/?$ /como-trabajo [R=301,L]
+RewriteRule ^estudio/?$ /sobre-mi [R=301,L]
+RewriteRule ^contacto/?$ /presupuesto [R=301,L]
+
+# 1. Si alguien entra con .html, se le manda a la dirección limpia (301).
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# 2. Y por dentro se sirve el archivo .html que corresponde.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+ErrorDocument 404 /404.html
+
+# Compresión y caché, que no cuesta nada.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blacklilitattoos.com/sitemap.xml
+Sitemap: https://elescaparateweb.com/sitemap.xml
