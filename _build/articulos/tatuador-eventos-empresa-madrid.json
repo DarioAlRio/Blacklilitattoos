@@ -1,0 +1,92 @@
+{
+  "slug": "tatuador-eventos-empresa-madrid",
+  "titulo": "Tatuador para eventos de empresa en Madrid",
+  "tituloCorto": "Tatuador para eventos de empresa",
+  "migaCorta": "Eventos de empresa",
+  "titleTag": "Tatuador para eventos de empresa en Madrid | BlackLili Tattoos",
+  "descripcion": "Cómo funciona contratar un tatuador para un evento corporativo en Madrid: formatos, espacio, tiempos, permanente o temporal, seguros y consentimientos.",
+  "ogDescripcion": "Formatos, espacio, tiempos y la decisión clave: tatuaje permanente o temporal en un evento de empresa.",
+  "eyebrow": "Eventos",
+  "lead": "En un contexto corporativo hay una decisión que va antes que todas las demás: si el tatuaje es permanente o no. De esa respuesta depende absolutamente todo lo demás.",
+  "minutos": 6,
+  "contexto": "Madrid",
+  "fecha": "2026-08-08",
+  "tema": "Tatuadores para eventos corporativos",
+  "lugar": "Madrid",
+  "categoria": "eventos",
+  "orden": 1,
+  "resumenTarjeta": "Formatos, espacio, tiempos y la decisión clave: permanente o temporal en un contexto corporativo.",
+  "resumenTitulo": "Lo primero de todo",
+  "resumen": [
+    "Decidid antes de nada si el tatuaje será <strong>permanente o temporal</strong>.",
+    "En eventos con alcohol y con relación laboral de por medio, lo prudente es temporal.",
+    "Si es permanente: consentimiento firmado, DNI y cero excepciones con quien haya bebido.",
+    "Calculad entre 10 y 20 minutos por persona, sea cual sea el formato."
+  ],
+  "intro": "        <p>Un tatuador en un evento de empresa funciona muy bien: es diferente, genera conversación y deja algo que la gente se lleva. Pero un evento corporativo tiene una capa que una boda no tiene: hay una <strong>relación laboral</strong> de por medio, y eso cambia cómo hay que plantearlo.</p>\n\n        <p>Vamos por partes.</p>",
+  "secciones": [
+    {
+      "id": "permanente",
+      "titulo": "Permanente o temporal: la decisión que lo cambia todo",
+      "toc": "Permanente o temporal",
+      "html": "        <p>Son dos servicios distintos, no dos versiones del mismo.</p>\n        <h3>Tatuaje permanente</h3>\n        <p>Es un tatuaje real. Requiere consentimiento informado firmado, DNI, material estéril y una norma inflexible: no se tatúa a nadie que haya bebido. Encaja bien en eventos de equipo pequeños, en celebraciones de aniversario de empresa o cuando hay un vínculo emocional fuerte con la marca.</p>\n        <h3>Tatuaje temporal o de jagua</h3>\n        <p>Dura entre unos días y un par de semanas. Elimina toda la fricción: se puede hacer a cualquier hora, a cualquier persona, y nadie se lleva una decisión permanente tomada en una fiesta de empresa.</p>\n        <p>Nuestra recomendación honesta para la mayoría de eventos corporativos con barra libre: <strong>temporal</strong>. Para eventos de equipo reducido, sin alcohol y con la gente decidida de antemano: permanente funciona bien.</p>"
+    },
+    {
+      "id": "formatos",
+      "titulo": "Formatos que funcionan",
+      "toc": "Formatos",
+      "html": "        <ul>\n          <li><strong>Estación abierta durante el cóctel.</strong> La gente pasa, elige del catálogo y se apunta. El formato más habitual.</li>\n          <li><strong>Cita por turnos.</strong> Se reparten franjas horarias con antelación. Ideal si el equipo es pequeño y se quiere garantizar que entra todo el mundo.</li>\n          <li><strong>Diseño ligado a la marca.</strong> Un catálogo dibujado a partir de la identidad de la empresa, del proyecto que se celebra o del aniversario.</li>\n          <li><strong>Demostración en directo.</strong> El tatuador trabaja sobre piel sintética explicando el proceso. Cero compromiso para el asistente y mucho atractivo visual.</li>\n        </ul>"
+    },
+    {
+      "id": "espacio",
+      "titulo": "Qué necesita el espacio",
+      "toc": "El espacio",
+      "html": "        <p>Es donde más suelen fallar los eventos corporativos, porque los espacios de oficina o los hoteles no están pensados para esto:</p>\n        <ul>\n          <li><strong>Luz directa y buena.</strong> El punto crítico. La iluminación ambiente de un evento no sirve; hay que poder poner un foco propio.</li>\n          <li><strong>Enchufe accesible</strong> o permiso para alargador.</li>\n          <li><strong>Mesa firme y dos sillas</strong> a altura de trabajo.</li>\n          <li><strong>Un rincón razonablemente tranquilo</strong>, lejos del altavoz principal.</li>\n          <li><strong>Acceso a un punto de agua</strong> cerca.</li>\n          <li><strong>Interior o zona cubierta.</strong> Al aire libre solo con carpa, sin sol directo ni viento.</li>\n        </ul>\n        <p class=\"pullquote\">Un salón de hotel precioso con iluminación tenue es, para tatuar, un mal sitio. La luz manda.</p>"
+    },
+    {
+      "id": "tiempos",
+      "titulo": "Cuánta gente entra por hora",
+      "toc": "Tiempos y aforo",
+      "html": "        <p>Entre <strong>10 y 20 minutos por persona</strong>, contando elección de diseño, colocación, ejecución, limpieza y preparación del siguiente. Es decir, entre 3 y 6 personas por hora y por tatuador.</p>\n        <p>Si el evento tiene 200 asistentes y queréis que sea una actividad para todos, hacen falta varios tatuadores o hay que asumir que es una actividad para una parte. Las dos opciones son válidas; lo que no lo es es prometer lo primero y ejecutar lo segundo.</p>\n        <p>Un truco que funciona: sistema de <strong>apuntarse en lista con hora aproximada</strong>, para que nadie esté de pie haciendo cola mientras se pierde el evento.</p>"
+    },
+    {
+      "id": "legal",
+      "titulo": "Consentimientos, seguros y responsabilidad",
+      "toc": "Consentimientos y seguros",
+      "html": "        <p>Si el tatuaje es permanente, esto no es negociable:</p>\n        <ul>\n          <li><strong>Consentimiento informado firmado</strong> por cada persona, con sus antecedentes relevantes.</li>\n          <li><strong>Documento identificativo</strong> para acreditar la mayoría de edad.</li>\n          <li><strong>Material estéril de un solo uso</strong> y contenedor de residuos punzantes.</li>\n          <li><strong>Nadie que haya bebido.</strong> Sin excepciones, aunque insista, aunque sea el director general.</li>\n        </ul>\n        <p>Desde el lado de la empresa, pedid al proveedor la documentación habitual: alta como profesional, seguro de responsabilidad civil y acreditación higiénico-sanitaria. Cualquier estudio que trabaje eventos la tiene a mano.</p>\n        <p>Y un consejo de convivencia: dejad claro en la comunicación interna que participar es <strong>totalmente voluntario</strong>. Nadie debería sentir que su equipo espera que se tatúe.</p>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "¿Organizáis un evento en Madrid?",
+    "texto": "Contadnos formato, fecha, número de asistentes y espacio disponible, y os proponemos el montaje que mejor encaja, con presupuesto desglosado.",
+    "btn1": { "label": "Pedir propuesta", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
+    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid.html" }
+  },
+  "faq": [
+    {
+      "q": "¿Los tatuajes de un evento de empresa son permanentes?",
+      "a": "Pueden ser lo uno o lo otro, y es la primera decisión a tomar. En eventos con barra libre lo prudente suele ser el formato temporal; el permanente encaja mejor en equipos pequeños y con la gente decidida de antemano."
+    },
+    {
+      "q": "¿Cuántos asistentes se pueden tatuar por hora?",
+      "a": "Entre 3 y 6 personas por hora y por tatuador, contando la elección del diseño, la ejecución y la limpieza entre personas. Para grupos grandes hacen falta varios tatuadores."
+    },
+    {
+      "q": "¿Qué necesita el espacio del evento?",
+      "a": "Luz directa y buena —el factor crítico—, un enchufe accesible, mesa firme, dos sillas, un rincón tranquilo y acceso a agua. Al aire libre, solo bajo carpa y sin sol directo ni viento."
+    },
+    {
+      "q": "¿Qué documentación conviene pedir al proveedor?",
+      "a": "Alta como profesional, seguro de responsabilidad civil y acreditación de formación higiénico-sanitaria. Si el servicio es de tatuaje permanente, además consentimiento informado por asistente."
+    }
+  ],
+  "cierre": "Si el evento es una feria o una activación de marca, el planteamiento cambia bastante: lo tenéis en <a href=\"tatuajes-activaciones-marca-ferias.html\">tatuajes en ferias y activaciones de marca</a>.",
+  "tarjetaLateral": {
+    "titulo": "Eventos corporativos",
+    "texto": "Estación de tatuaje para empresas en Madrid, con catálogo a medida de vuestra marca o del motivo del evento.",
+    "label": "Ver el servicio",
+    "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+  },
+  "relacionados": ["tatuajes-activaciones-marca-ferias", "organizar-evento-con-tatuador-checklist", "tatuajes-cumpleanos-fiestas-privadas"]
+}

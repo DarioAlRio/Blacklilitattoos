@@ -1,0 +1,102 @@
+{
+  "slug": "lettering-frases-tatuadas",
+  "titulo": "Frases y lettering: tipografías que envejecen bien",
+  "tituloCorto": "Frases y lettering tatuados",
+  "migaCorta": "Lettering y frases",
+  "titleTag": "Frases tatuadas: tipografías que duran | BlackLili",
+  "descripcion": "Cómo elegir la tipografía de una frase tatuada: qué letras aguantan el paso del tiempo, tamaño mínimo, idiomas, ubicación y errores que no se pueden corregir.",
+  "ogDescripcion": "Qué tipografías aguantan, tamaño mínimo, dónde colocarlas y los errores que no tienen arreglo.",
+  "eyebrow": "Estilos",
+  "lead": "Una frase tatuada es el único diseño donde un error es literalmente ilegible. Y también donde la elección de tipografía decide, más que en ningún otro estilo, cómo se verá en veinte años.",
+  "minutos": 5,
+  "contexto": "Estilos de tatuaje",
+  "fecha": "2026-08-08",
+  "tema": "Lettering y frases tatuadas",
+  "categoria": "diseno",
+  "orden": 6,
+  "resumenTarjeta": "Qué tipografías aguantan, tamaño mínimo, dónde colocarlas y los errores que no tienen arreglo.",
+  "resumenTitulo": "Lo esencial",
+  "resumen": [
+    "Tipografías de <strong>trazo uniforme</strong>. Los remates finos son lo primero que se pierde.",
+    "Cuanto más corta la frase, mejor. Tres palabras leen mejor que quince.",
+    "Revisa la ortografía tres veces, y que la revise alguien más.",
+    "El texto sigue la curva del cuerpo: la colocación es la mitad del trabajo."
+  ],
+  "intro": "        <p>Las frases tatuadas tienen una particularidad que ningún otro diseño comparte: <strong>se leen</strong>. Un dibujo que envejece pierde detalle y sigue siendo bonito. Un texto que envejece mal deja de entenderse, y eso es otra categoría de problema.</p>\n\n        <p>La buena noticia es que las decisiones que hacen que un lettering dure son pocas y muy concretas.</p>",
+  "secciones": [
+    {
+      "id": "tipografia",
+      "titulo": "Qué tipografías aguantan y cuáles no",
+      "toc": "La tipografía",
+      "html": "        <p>Todo depende de una sola cosa: el <strong>contraste de trazo</strong>, es decir, la diferencia de grosor entre las partes gruesas y las finas de cada letra.</p>\n        <p><strong>Funcionan bien:</strong></p>\n        <ul>\n          <li><strong>Sans serif de trazo uniforme.</strong> Sin remates, mismo grosor en todo el recorrido. La opción más segura que existe.</li>\n          <li><strong>Manuscritas simples,</strong> tipo escritura a mano natural, sin florituras.</li>\n          <li><strong>Serif robusta,</strong> con remates gruesos y bien definidos.</li>\n        </ul>\n        <p><strong>Dan problemas:</strong></p>\n        <ul>\n          <li><strong>Caligrafía inglesa o <em>copperplate</em>.</strong> Preciosa y con muchísimo contraste: los trazos finos son casi capilares y desaparecen antes que el resto.</li>\n          <li><strong>Serif de remate muy fino</strong> tipo Didot o Bodoni.</li>\n          <li><strong>Góticas muy ornamentadas,</strong> en tamaños pequeños.</li>\n          <li><strong>Cualquier tipografía con adornos, volutas o líneas paralelas cercanas.</strong></li>\n        </ul>\n        <p class=\"pullquote\">Si la letra tiene partes tres veces más finas que otras, esas partes son las que se van a ir primero.</p>"
+    },
+    {
+      "id": "tamano",
+      "titulo": "Tamaño: más grande de lo que crees",
+      "toc": "El tamaño",
+      "html": "        <p>Las letras necesitan más cuerpo del que la gente calcula, porque cada letra tiene contornos interiores —el hueco de la \"a\", el de la \"e\", el de la \"o\"— y esos huecos son lo primero que se rellena solo con el paso de los años.</p>\n        <p>Prueba práctica: escribe la frase al tamaño que quieres, imprímela y <strong>ponla a un metro de distancia</strong>. Si tienes que forzar la vista para leerla ahora, dentro de diez años no se leerá.</p>\n        <p>Y una consecuencia directa: cuanto más larga sea la frase, más grande tiene que ser el conjunto. Por eso las frases cortas son casi siempre la mejor decisión, y no solo por diseño.</p>"
+    },
+    {
+      "id": "que-frase",
+      "titulo": "Elegir la frase",
+      "toc": "Elegir la frase",
+      "html": "        <p>Algunas consideraciones que ahorran arrepentimientos:</p>\n        <ul>\n          <li><strong>Corta gana.</strong> Dos o tres palabras tienen más fuerza visual y aguantan mejor que un párrafo.</li>\n          <li><strong>Cuidado con las letras de canciones.</strong> Lo que te define a los veintitrés no siempre te define a los cuarenta. Si aun así es la tuya, adelante, pero dale un mes.</li>\n          <li><strong>Idiomas que no dominas.</strong> Latín, japonés, árabe, sánscrito. Si no hablas el idioma, contrasta la traducción con alguien que sí, y no con un traductor automático. Los errores en otro alfabeto son especialmente crueles porque tú no puedes detectarlos.</li>\n          <li><strong>La caligrafía de alguien querido.</strong> Una nota manuscrita de tu madre, la firma de tu abuelo. De las ideas más bonitas que existen, y técnicamente funciona bien si el trazo original es de grosor razonablemente constante.</li>\n        </ul>"
+    },
+    {
+      "id": "ortografia",
+      "titulo": "La revisión que no te puedes saltar",
+      "toc": "Revisar la ortografía",
+      "html": "        <p>Parece obvio y sigue pasando: tildes que faltan, una letra doble, una coma mal puesta. Un error ortográfico en un tatuaje no se corrige, se tapa.</p>\n        <p>El protocolo mínimo:</p>\n        <ul>\n          <li>Escribe la frase tú mismo y revísala.</li>\n          <li>Que la revise <strong>otra persona distinta</strong>, sin decirle qué buscas.</li>\n          <li>Revisa la <strong>plantilla ya puesta sobre tu piel</strong>, en el espejo, letra por letra, antes de que empiece la aguja.</li>\n        </ul>\n        <p>Ese último paso es el importante. Es el momento en el que todavía se puede parar todo, y es gratis.</p>"
+    },
+    {
+      "id": "ubicacion",
+      "titulo": "Dónde colocarla",
+      "toc": "Dónde colocarla",
+      "html": "        <p>El texto es el diseño que peor tolera una mala ubicación, porque una línea recta sobre una superficie curva se deforma.</p>\n        <p><strong>Buenas zonas:</strong></p>\n        <ul>\n          <li><strong>Antebrazo, en el sentido del brazo.</strong> Sigue la forma natural y se lee cómodo.</li>\n          <li><strong>Clavícula.</strong> El hueso da una línea guía perfecta.</li>\n          <li><strong>Costado del torso, en vertical.</strong> Mucho espacio para frases largas.</li>\n          <li><strong>Columna vertebral.</strong> Vertical y simétrica por naturaleza.</li>\n          <li><strong>Debajo del pecho o bajo la clavícula,</strong> en horizontal.</li>\n        </ul>\n        <p><strong>Zonas complicadas:</strong> muñeca por la cara interna, dedos, pies y costado del antebrazo, donde la piel se mueve mucho o el roce desgasta antes el trazo.</p>\n        <p>Y una decisión frecuente: ¿para que la leas tú o para que la lean los demás? Si el texto va en el antebrazo interior orientado hacia ti, otra persona lo verá del revés. No hay respuesta correcta, pero conviene elegirla a propósito.</p>"
+    }
+  ],
+  "ctaTras": 3,
+  "cta": {
+    "titulo": "¿Tienes tu frase decidida?",
+    "texto": "Te proponemos la tipografía que mejor va a envejecer, el tamaño que necesita y la colocación que sigue la forma de tu cuerpo. Y la revisamos juntos antes de empezar.",
+    "btn1": {
+      "label": "Consultar mi frase",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver el portfolio",
+      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+    }
+  },
+  "faq": [
+    {
+      "q": "¿Qué tipografía es mejor para un tatuaje?",
+      "a": "Las de trazo uniforme, sin grandes diferencias de grosor dentro de cada letra: sans serif limpias, manuscritas sencillas o serif de remate grueso. Las caligrafías con mucho contraste pierden los trazos finos con los años."
+    },
+    {
+      "q": "¿Cuál es el tamaño mínimo de una frase tatuada?",
+      "a": "El que permita leerla cómodamente a un metro de distancia hoy. Los huecos interiores de las letras se rellenan solos con el tiempo, así que si ya cuesta leerla ahora, no se leerá en diez años."
+    },
+    {
+      "q": "¿Se puede corregir una falta de ortografía en un tatuaje?",
+      "a": "No se corrige, se tapa o se pasa por láser. Por eso hay que revisar el texto por escrito, que lo revise otra persona, y comprobar la plantilla sobre la piel antes de empezar."
+    },
+    {
+      "q": "¿Puedo tatuarme la letra de alguien de mi familia?",
+      "a": "Sí, y es de las ideas más bonitas que hay. Se digitaliza a partir de una nota manuscrita. Funciona especialmente bien si el trazo original tiene un grosor razonablemente constante."
+    }
+  ],
+  "cierre": "Si tu frase es corta y la quieres discreta, revisa antes <a href=\"tatuajes-pequenos-donde-hacerlos.html\">tatuajes pequeños: dónde y qué tamaño</a>, que es donde más se decide el resultado.",
+  "tarjetaLateral": {
+    "titulo": "Revisado dos veces",
+    "texto": "Antes de tatuar comprobamos contigo la plantilla letra por letra. Es el último momento en el que todo tiene arreglo.",
+    "label": "Consultar tu frase",
+    "href": "contacto-tatuajes-puente-vallecas.html"
+  },
+  "relacionados": [
+    "tatuajes-pequenos-donde-hacerlos",
+    "tatuajes-minimalistas-guia",
+    "disenos-tatuajes-linea-fina-ideas"
+  ]
+}
