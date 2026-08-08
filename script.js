@@ -106,9 +106,12 @@ document.querySelectorAll('.faq-question').forEach(btn => {
 });
 
 // scroll reveal
+// se dispara en cuanto el bloque asoma por la parte de abajo. Antes se pedía un 15%
+// del elemento visible, y eso no funciona con bloques más altos que la pantalla:
+// el cuerpo de un artículo nunca llega a ese 15% y se quedaba invisible.
 const io = new IntersectionObserver((entries) => {
   entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-}, { threshold: 0.15 });
+}, { threshold: 0, rootMargin: '0px 0px -80px 0px' });
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // lightbox: click any gallery/portfolio photo to enlarge, with caption + prev/next navigation
