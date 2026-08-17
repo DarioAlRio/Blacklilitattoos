@@ -52,7 +52,7 @@
       "id": "practico",
       "titulo": "Detalles prácticos de la sesión",
       "toc": "La sesión",
-      "html": "        <p>Un par de cosas que ayudan cuando venís los dos:</p>\n        <ul>\n          <li><strong>Reservad tiempo para los dos</strong> avisando desde el primer mensaje. Dos piezas pequeñas son entre 45 minutos y hora y media en total.</li>\n          <li><strong>Comed antes los dos.</strong> Ir en ayunas es la causa número uno de mareos, y verlo en el otro no ayuda.</li>\n          <li><strong>Nada de alcohol</strong> para celebrar antes. Ni una copa: aumenta el sangrado y ningún estudio serio va a tatuar en esas condiciones.</li>\n          <li><strong>Que uno vea al otro tatuarse primero</strong> suele calmar bastante los nervios de quien nunca se ha tatuado.</li>\n        </ul>\n        <p>Si es la primera vez para alguno, la guía de <a href=\"primer-tatuaje-linea-fina-consejos.html\">primer tatuaje</a> cubre todo lo demás.</p>"
+      "html": "        <p>Un par de cosas que ayudan cuando venís los dos:</p>\n        <ul>\n          <li><strong>Reservad tiempo para los dos</strong> avisando desde el primer mensaje. Dos piezas pequeñas son entre 45 minutos y hora y media en total.</li>\n          <li><strong>Comed antes los dos.</strong> Ir en ayunas es la causa número uno de mareos, y verlo en el otro no ayuda.</li>\n          <li><strong>Nada de alcohol</strong> para celebrar antes. Ni una copa: aumenta el sangrado y ningún estudio serio va a tatuar en esas condiciones.</li>\n          <li><strong>Que uno vea al otro tatuarse primero</strong> suele calmar bastante los nervios de quien nunca se ha tatuado.</li>\n        </ul>\n        <p>Si es la primera vez para alguno, la guía de <a href=\"primer-tatuaje-linea-fina-consejos\">primer tatuaje</a> cubre todo lo demás.</p>"
     }
   ],
   "ctaTras": 3,
@@ -60,7 +60,7 @@
     "titulo": "¿Venís los dos?",
     "texto": "Reservamos el tiempo para las dos piezas y las diseñamos con el mismo lenguaje, para que combinen sin que ninguna dependa de la otra.",
     "btn1": { "label": "Reservar para dos", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver el portfolio", "href": "portfolio-tatuajes-linea-fina-madrid.html" }
+    "btn2": { "label": "Ver el portfolio", "href": "portfolio-tatuajes-linea-fina-madrid" }
   },
   "faq": [
     {
@@ -80,12 +80,12 @@
       "a": "Sí. Dos piezas pequeñas suelen ser entre 45 minutos y hora y media en total. Avisad al reservar de que sois dos para que se reserve el tiempo suficiente."
     }
   ],
-  "cierre": "Si lo vuestro es una boda, mirad también <a href=\"alianzas-tatuadas-boda.html\">alianzas tatuadas en vez de anillos</a> antes de decidir la zona.",
+  "cierre": "Si lo vuestro es una boda, mirad también <a href=\"alianzas-tatuadas-boda\">alianzas tatuadas en vez de anillos</a> antes de decidir la zona.",
   "tarjetaLateral": {
     "titulo": "Dos piezas, un lenguaje",
     "texto": "Las diseñamos para que combinen entre sí sin que ninguna dependa de la otra para tener sentido.",
     "label": "Pedir cita para dos",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["alianzas-tatuadas-boda", "tatuajes-minimalistas-guia", "primer-tatuaje-linea-fina-consejos"]
 }

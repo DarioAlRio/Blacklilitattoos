@@ -52,7 +52,7 @@
       "id": "grupos",
       "titulo": "Si vais en grupo",
       "toc": "Si vais en grupo",
-      "html": "        <p>Los tiempos no se suman de forma lineal, se suman con fricción. Entre persona y persona hay que limpiar, montar material nuevo y elegir el siguiente diseño.</p>\n        <p>Cálculo realista con piezas pequeñas: entre <strong>20 y 30 minutos por persona</strong>. Un grupo de seis son entre dos y tres horas.</p>\n        <p>Lo que más acorta ese total es llevar <strong>los diseños decididos de antemano</strong>. Elegir sobre la marcha, en grupo y con opiniones cruzadas, puede comerse una hora entera. Lo detallamos en <a href=\"tatuajes-despedida-de-soltera.html\">tatuajes en una despedida de soltera</a>.</p>"
+      "html": "        <p>Los tiempos no se suman de forma lineal, se suman con fricción. Entre persona y persona hay que limpiar, montar material nuevo y elegir el siguiente diseño.</p>\n        <p>Cálculo realista con piezas pequeñas: entre <strong>20 y 30 minutos por persona</strong>. Un grupo de seis son entre dos y tres horas.</p>\n        <p>Lo que más acorta ese total es llevar <strong>los diseños decididos de antemano</strong>. Elegir sobre la marcha, en grupo y con opiniones cruzadas, puede comerse una hora entera. Lo detallamos en <a href=\"tatuajes-despedida-de-soltera\">tatuajes en una despedida de soltera</a>.</p>"
     }
   ],
   "ctaTras": 2,
@@ -60,7 +60,7 @@
     "titulo": "¿Cuánto va a durar lo tuyo?",
     "texto": "Mándanos la referencia, la zona y el tamaño, y te decimos cuánto tiempo reservar y si hace falta más de una sesión.",
     "btn1": { "label": "Consultar mi pieza", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
   },
   "faq": [
     {
@@ -80,12 +80,12 @@
       "a": "Porque alrededor de un tercio de la cita es preparación: revisar el diseño, ajustar el tamaño, colocar la plantilla, montar el campo estéril y explicar los cuidados al terminar."
     }
   ],
-  "cierre": "Para calcular el coste asociado a esos tiempos, tienes <a href=\"precio-tatuaje-linea-fina-madrid.html\">qué determina el precio de un tatuaje</a>, y para preparar bien el día, <a href=\"primer-tatuaje-linea-fina-consejos.html\">tu primer tatuaje</a>.",
+  "cierre": "Para calcular el coste asociado a esos tiempos, tienes <a href=\"precio-tatuaje-linea-fina-madrid\">qué determina el precio de un tatuaje</a>, y para preparar bien el día, <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>.",
   "tarjetaLateral": {
     "titulo": "Reserva la tarde",
     "texto": "Trabajamos con cita previa y sin solapar clientes, para que nadie vaya con prisa.",
     "label": "Ver horarios",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["precio-tatuaje-linea-fina-madrid", "duele-tatuarse-mapa-dolor", "reservar-cita-tatuaje-madrid"]
 }

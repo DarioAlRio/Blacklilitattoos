@@ -53,7 +53,7 @@
       "id": "curso",
       "titulo": "Qué exigirle a un curso de tatuaje",
       "toc": "Elegir un curso",
-      "html": "        <p>Hay cursos excelentes y hay cursos que son una venta de material con clase incluida. Cómo distinguirlos:</p>\n        <ul>\n          <li><strong>Grupos reducidos.</strong> Aprender a tatuar requiere que alguien te corrija la mano. En un grupo de veinte eso no pasa.</li>\n          <li><strong>Quién imparte.</strong> Que sea alguien que tatúa a diario, con portfolio propio y visible, no un comercial.</li>\n          <li><strong>Bioseguridad desde el día uno.</strong> Si el temario empieza por \"tipos de máquina\", mala señal.</li>\n          <li><strong>Horas reales de práctica</strong> incluidas, no una demostración.</li>\n          <li><strong>Seguimiento después del curso.</strong> Las dudas de verdad aparecen semanas más tarde.</li>\n          <li><strong>Que te digan la verdad sobre los plazos.</strong> Quien te prometa que en un fin de semana vas a tatuar a clientes te está vendiendo humo.</li>\n        </ul>\n        <p>En BlackLili Tattoos, Lidia imparte <a href=\"cursos-tatuaje-linea-fina-madrid.html\">formación en línea fina</a> en el propio estudio y en grupos reducidos, con ese orden: primero bioseguridad y criterio, después técnica.</p>"
+      "html": "        <p>Hay cursos excelentes y hay cursos que son una venta de material con clase incluida. Cómo distinguirlos:</p>\n        <ul>\n          <li><strong>Grupos reducidos.</strong> Aprender a tatuar requiere que alguien te corrija la mano. En un grupo de veinte eso no pasa.</li>\n          <li><strong>Quién imparte.</strong> Que sea alguien que tatúa a diario, con portfolio propio y visible, no un comercial.</li>\n          <li><strong>Bioseguridad desde el día uno.</strong> Si el temario empieza por \"tipos de máquina\", mala señal.</li>\n          <li><strong>Horas reales de práctica</strong> incluidas, no una demostración.</li>\n          <li><strong>Seguimiento después del curso.</strong> Las dudas de verdad aparecen semanas más tarde.</li>\n          <li><strong>Que te digan la verdad sobre los plazos.</strong> Quien te prometa que en un fin de semana vas a tatuar a clientes te está vendiendo humo.</li>\n        </ul>\n        <p>En BlackLili Tattoos, Lidia imparte <a href=\"cursos-tatuaje-linea-fina-madrid\">formación en línea fina</a> en el propio estudio y en grupos reducidos, con ese orden: primero bioseguridad y criterio, después técnica.</p>"
     },
     {
       "id": "camino",
@@ -73,7 +73,7 @@
     },
     "btn2": {
       "label": "Ver la formación",
-      "href": "cursos-tatuaje-linea-fina-madrid.html"
+      "href": "cursos-tatuaje-linea-fina-madrid"
     }
   },
   "faq": [
@@ -94,12 +94,12 @@
       "a": "Es la peor idea posible. El paso de piel sintética a piel real debe hacerse con alguien experimentado al lado, en un entorno con las condiciones higiénicas adecuadas y con consentimiento informado."
     }
   ],
-  "cierre": "Si quieres ver cómo trabajamos antes de decidirte, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid.html\">portfolio del estudio</a> y el detalle de la <a href=\"cursos-tatuaje-linea-fina-madrid.html\">formación en línea fina</a>.",
+  "cierre": "Si quieres ver cómo trabajamos antes de decidirte, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio del estudio</a> y el detalle de la <a href=\"cursos-tatuaje-linea-fina-madrid\">formación en línea fina</a>.",
   "tarjetaLateral": {
     "titulo": "Formación en el estudio",
     "texto": "Grupos reducidos, técnica de línea fina paso a paso y bioseguridad desde el primer día.",
     "label": "Ver los cursos",
-    "href": "cursos-tatuaje-linea-fina-madrid.html"
+    "href": "cursos-tatuaje-linea-fina-madrid"
   },
   "relacionados": [
     "estudio-tatuajes-madrid-normativa-higiene",

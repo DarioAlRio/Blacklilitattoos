@@ -60,7 +60,7 @@
     "titulo": "¿Entrenas en serio?",
     "texto": "Cuéntanos qué deporte haces y cuándo tienes descanso, y planificamos la sesión y la zona para que interfiera lo mínimo.",
     "btn1": { "label": "Consultar fechas", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
   },
   "faq": [
     {
@@ -80,12 +80,12 @@
       "a": "No es buena idea: la zona necesita transpirar. Mejor ropa limpia y transpirable que cubra el tatuaje, y lavarlo en cuanto acabes."
     }
   ],
-  "cierre": "El resto de la rutina de cicatrización está en <a href=\"cuidados-tatuaje-linea-fina.html\">cuidados de un tatuaje semana a semana</a>, y si además es verano, en <a href=\"tatuarse-en-verano-sol-playa.html\">tatuarse en verano</a>.",
+  "cierre": "El resto de la rutina de cicatrización está en <a href=\"cuidados-tatuaje-linea-fina\">cuidados de un tatuaje semana a semana</a>, y si además es verano, en <a href=\"tatuarse-en-verano-sol-playa\">tatuarse en verano</a>.",
   "tarjetaLateral": {
     "titulo": "Lo planificamos",
     "texto": "Si compites o entrenas con un plan, elegimos juntos la fecha y la zona que menos te interfieran.",
     "label": "Hablar con el estudio",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["cuidados-tatuaje-linea-fina", "tatuarse-en-verano-sol-playa", "duele-tatuarse-mapa-dolor"]
 }

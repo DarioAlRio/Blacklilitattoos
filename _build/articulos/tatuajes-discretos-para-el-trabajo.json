@@ -40,7 +40,7 @@
       "id": "visibles",
       "titulo": "Las zonas que no vas a poder esconder",
       "toc": "Zonas siempre visibles",
-      "html": "        <p>Manos, dedos, muñeca por la cara externa, cuello y cualquier cosa por encima de la línea del cuello de la camisa. Son tatuajes que se ven todos los días de tu vida, en todas las situaciones, y esa es exactamente su gracia para quien los quiere.</p>\n        <p>Lo que pedimos siempre es lo mismo: que sea una decisión tomada en frío y no en caliente. Si es tu primer tatuaje y llevas dos semanas con la idea, merece la pena esperar un poco. Si llevas cinco tatuajes y tienes claro tu camino, adelante.</p>\n        <p>Un apunte técnico: en manos y dedos, además de la visibilidad, hay un tema de durabilidad. Son zonas de mucho roce y de renovación celular rápida, y ahí el trazo se desgasta antes. Lo explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas.html\">qué diseños funcionan en línea fina</a>.</p>"
+      "html": "        <p>Manos, dedos, muñeca por la cara externa, cuello y cualquier cosa por encima de la línea del cuello de la camisa. Son tatuajes que se ven todos los días de tu vida, en todas las situaciones, y esa es exactamente su gracia para quien los quiere.</p>\n        <p>Lo que pedimos siempre es lo mismo: que sea una decisión tomada en frío y no en caliente. Si es tu primer tatuaje y llevas dos semanas con la idea, merece la pena esperar un poco. Si llevas cinco tatuajes y tienes claro tu camino, adelante.</p>\n        <p>Un apunte técnico: en manos y dedos, además de la visibilidad, hay un tema de durabilidad. Son zonas de mucho roce y de renovación celular rápida, y ahí el trazo se desgasta antes. Lo explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas\">qué diseños funcionan en línea fina</a>.</p>"
     },
     {
       "id": "tapar",
@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver el portfolio",
-      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+      "href": "portfolio-tatuajes-linea-fina-madrid"
     }
   },
   "faq": [
@@ -83,12 +83,12 @@
       "a": "Es la zona frontera. Se tapa con manga larga, pero en verano y en manga corta está a la vista prácticamente todo el tiempo."
     }
   ],
-  "cierre": "Si estás decidiendo tu primera pieza, la guía de <a href=\"primer-tatuaje-linea-fina-consejos.html\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"duele-tatuarse-mapa-dolor.html\">el mapa de dolor por zonas</a> tienes el otro factor que conviene cruzar con este.",
+  "cierre": "Si estás decidiendo tu primera pieza, la guía de <a href=\"primer-tatuaje-linea-fina-consejos\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"duele-tatuarse-mapa-dolor\">el mapa de dolor por zonas</a> tienes el otro factor que conviene cruzar con este.",
   "tarjetaLateral": {
     "titulo": "Pruébalo antes",
     "texto": "En la cita colocamos la plantilla sobre tu piel y puedes verla en el espejo antes de empezar. Ahí se decide bien.",
     "label": "Pedir cita",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "duele-tatuarse-mapa-dolor",
