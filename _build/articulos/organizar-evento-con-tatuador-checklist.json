@@ -34,7 +34,7 @@
       "id": "mes-antes",
       "titulo": "Un mes antes",
       "toc": "Un mes antes",
-      "html": "        <ul>\n          <li><strong>Catálogo de diseños cerrado.</strong> Dibujado, revisado y aprobado. Nada de decidirlo la semana de antes.</li>\n          <li><strong>Catálogo impreso a tamaño real.</strong> En papel se elige mucho más rápido que en pantalla.</li>\n          <li><strong>Comunicación a los asistentes.</strong> Avisad de que habrá tatuajes y de si son permanentes o temporales. Quien se lo esté pensando llega con la idea medio hecha.</li>\n          <li><strong>Decidid el formato de acceso:</strong> abierto por orden de llegada o lista cerrada.</li>\n          <li><strong>Si es lista cerrada,</strong> avisad individualmente a quienes estén invitados a participar.</li>\n        </ul>\n        <p>Para el catálogo, tenéis el detalle en <a href=\"disenos-flash-tatuajes-boda.html\">cómo elegir los diseños flash</a>.</p>"
+      "html": "        <ul>\n          <li><strong>Catálogo de diseños cerrado.</strong> Dibujado, revisado y aprobado. Nada de decidirlo la semana de antes.</li>\n          <li><strong>Catálogo impreso a tamaño real.</strong> En papel se elige mucho más rápido que en pantalla.</li>\n          <li><strong>Comunicación a los asistentes.</strong> Avisad de que habrá tatuajes y de si son permanentes o temporales. Quien se lo esté pensando llega con la idea medio hecha.</li>\n          <li><strong>Decidid el formato de acceso:</strong> abierto por orden de llegada o lista cerrada.</li>\n          <li><strong>Si es lista cerrada,</strong> avisad individualmente a quienes estén invitados a participar.</li>\n        </ul>\n        <p>Para el catálogo, tenéis el detalle en <a href=\"disenos-flash-tatuajes-boda\">cómo elegir los diseños flash</a>.</p>"
     },
     {
       "id": "semana",
@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver servicio de eventos",
-      "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+      "href": "tatuajes-para-bodas-y-eventos-madrid"
     }
   },
   "faq": [
@@ -87,12 +87,12 @@
       "a": "Sí, y mejora mucho el resultado. Quien se lo esté planteando llega con la zona pensada, sin crema ni bronceador encima y con el DNI, y eso agiliza todo el servicio."
     }
   ],
-  "cierre": "Según el tipo de evento, tenéis el detalle en <a href=\"tatuajes-para-bodas-estacion-tatuaje.html\">bodas</a>, <a href=\"tatuador-eventos-empresa-madrid.html\">eventos de empresa</a> y <a href=\"tatuajes-activaciones-marca-ferias.html\">ferias y activaciones</a>.",
+  "cierre": "Según el tipo de evento, tenéis el detalle en <a href=\"tatuajes-para-bodas-estacion-tatuaje\">bodas</a>, <a href=\"tatuador-eventos-empresa-madrid\">eventos de empresa</a> y <a href=\"tatuajes-activaciones-marca-ferias\">ferias y activaciones</a>.",
   "tarjetaLateral": {
     "titulo": "Llave en mano",
     "texto": "Nos ocupamos del catálogo, el material, el montaje y la documentación. Vosotros, de la fiesta.",
     "label": "Consultar disponibilidad",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuajes-para-bodas-estacion-tatuaje",

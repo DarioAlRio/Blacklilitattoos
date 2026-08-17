@@ -40,7 +40,7 @@
       "id": "sudor",
       "titulo": "Sudor, roce y ropa de verano",
       "toc": "Sudor y roce",
-      "html": "        <p>El calor trae dos problemas menores pero reales:</p>\n        <ul>\n          <li><strong>Sudor.</strong> Irrita la herida y favorece que se acumule suciedad. Conviene limpiar la zona con más frecuencia y secar bien a toquecitos.</li>\n          <li><strong>Roce.</strong> Tirantes de mochila, bandoleras, gomas de bañador, sandalias nuevas. Todo lo que roce sobre un tatuaje reciente lo irrita y puede arrastrar costras.</li>\n        </ul>\n        <p>Ropa holgada de algodón sobre la zona, y planifica: si te tatúas el empeine en julio, cuenta con dos semanas de calzado que no roce.</p>\n        <p>Y el deporte al aire libre: mejor esperar unos días. Lo detallamos en <a href=\"tatuajes-y-deporte-gimnasio.html\">tatuajes y deporte</a>.</p>"
+      "html": "        <p>El calor trae dos problemas menores pero reales:</p>\n        <ul>\n          <li><strong>Sudor.</strong> Irrita la herida y favorece que se acumule suciedad. Conviene limpiar la zona con más frecuencia y secar bien a toquecitos.</li>\n          <li><strong>Roce.</strong> Tirantes de mochila, bandoleras, gomas de bañador, sandalias nuevas. Todo lo que roce sobre un tatuaje reciente lo irrita y puede arrastrar costras.</li>\n        </ul>\n        <p>Ropa holgada de algodón sobre la zona, y planifica: si te tatúas el empeine en julio, cuenta con dos semanas de calzado que no roce.</p>\n        <p>Y el deporte al aire libre: mejor esperar unos días. Lo detallamos en <a href=\"tatuajes-y-deporte-gimnasio\">tatuajes y deporte</a>.</p>"
     },
     {
       "id": "moreno",
@@ -52,7 +52,7 @@
       "id": "planificar",
       "titulo": "Cómo planificar el verano",
       "toc": "Planificar el verano",
-      "html": "        <p>Cuentas sencillas según tus planes:</p>\n        <ul>\n          <li><strong>Vacaciones en tres semanas o menos:</strong> espera a la vuelta. No merece la pena pasarse el viaje sin bañarse.</li>\n          <li><strong>Vacaciones en más de un mes:</strong> adelante, con protección solar estricta cuando llegue el momento.</li>\n          <li><strong>Sin plan de playa:</strong> el verano es tan buen momento como cualquiera.</li>\n          <li><strong>Boda o evento en verano:</strong> calcula desde el evento, no desde hoy. Los plazos están en <a href=\"tatuarse-antes-de-la-boda-plazos.html\">tatuarse antes de la boda</a>.</li>\n        </ul>\n        <p>Y una alternativa que funciona muy bien: si te mueres de ganas y tienes viaje cerca, elige una <strong>zona que quede tapada por la ropa</strong> —costado, muslo, espalda alta— y podrás protegerla del sol sin renunciar a nada.</p>"
+      "html": "        <p>Cuentas sencillas según tus planes:</p>\n        <ul>\n          <li><strong>Vacaciones en tres semanas o menos:</strong> espera a la vuelta. No merece la pena pasarse el viaje sin bañarse.</li>\n          <li><strong>Vacaciones en más de un mes:</strong> adelante, con protección solar estricta cuando llegue el momento.</li>\n          <li><strong>Sin plan de playa:</strong> el verano es tan buen momento como cualquiera.</li>\n          <li><strong>Boda o evento en verano:</strong> calcula desde el evento, no desde hoy. Los plazos están en <a href=\"tatuarse-antes-de-la-boda-plazos\">tatuarse antes de la boda</a>.</li>\n        </ul>\n        <p>Y una alternativa que funciona muy bien: si te mueres de ganas y tienes viaje cerca, elige una <strong>zona que quede tapada por la ropa</strong> —costado, muslo, espalda alta— y podrás protegerla del sol sin renunciar a nada.</p>"
     }
   ],
   "ctaTras": 3,
@@ -60,7 +60,7 @@
     "titulo": "¿Te tatúas antes o después del viaje?",
     "texto": "Cuéntanos tus fechas y te decimos qué margen necesitas para llegar con el tatuaje cicatrizado y poder bañarte tranquilo.",
     "btn1": { "label": "Consultar fechas", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
   },
   "faq": [
     {
@@ -80,12 +80,12 @@
       "a": "No, siempre que no tengas playa o piscina en las siguientes tres semanas. Si tu viaje es en menos de ese plazo, compensa esperar a la vuelta."
     }
   ],
-  "cierre": "La rutina completa de cicatrización, día a día, está en <a href=\"cuidados-tatuaje-linea-fina.html\">cuidados de un tatuaje semana a semana</a>.",
+  "cierre": "La rutina completa de cicatrización, día a día, está en <a href=\"cuidados-tatuaje-linea-fina\">cuidados de un tatuaje semana a semana</a>.",
   "tarjetaLateral": {
     "titulo": "Calculamos tus fechas",
     "texto": "Dinos cuándo te vas de viaje y te decimos si compensa tatuarte antes o a la vuelta.",
     "label": "Consultar",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["cuidados-tatuaje-linea-fina", "tatuajes-y-deporte-gimnasio", "tatuarse-antes-de-la-boda-plazos"]
 }

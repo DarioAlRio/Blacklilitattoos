@@ -46,7 +46,7 @@
       "id": "tamano",
       "titulo": "Tamaño: la trampa del \"lo quiero muy pequeñito\"",
       "toc": "El tamaño",
-      "html": "        <p>Es la petición más frecuente y la que más problemas da. Un diseño minimalista <strong>no necesita ser diminuto</strong>; necesita ser simple. Y hay un suelo por debajo del cual ni siquiera un dibujo simple aguanta.</p>\n        <p>La regla que usamos: dos líneas contiguas tienen que mantener una separación claramente visible a un brazo de distancia. Si al reducir el diseño empiezan a tocarse, o subes el tamaño o quitas elementos.</p>\n        <p>Un minimalista de 8 o 10 cm sigue siendo discreto, y tiene el doble de esperanza de vida que el mismo dibujo a 3 cm. Lo desarrollamos en <a href=\"tatuajes-pequenos-donde-hacerlos.html\">tatuajes pequeños: dónde y con qué tamaño</a>.</p>"
+      "html": "        <p>Es la petición más frecuente y la que más problemas da. Un diseño minimalista <strong>no necesita ser diminuto</strong>; necesita ser simple. Y hay un suelo por debajo del cual ni siquiera un dibujo simple aguanta.</p>\n        <p>La regla que usamos: dos líneas contiguas tienen que mantener una separación claramente visible a un brazo de distancia. Si al reducir el diseño empiezan a tocarse, o subes el tamaño o quitas elementos.</p>\n        <p>Un minimalista de 8 o 10 cm sigue siendo discreto, y tiene el doble de esperanza de vida que el mismo dibujo a 3 cm. Lo desarrollamos en <a href=\"tatuajes-pequenos-donde-hacerlos\">tatuajes pequeños: dónde y con qué tamaño</a>.</p>"
     },
     {
       "id": "errores",
@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver el portfolio",
-      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+      "href": "portfolio-tatuajes-linea-fina-madrid"
     }
   },
   "faq": [
@@ -87,12 +87,12 @@
       "a": "Antebrazo, brazo, gemelo, muslo, omóplato y clavícula: piel estable y poco roce. Conviene evitar dedos, laterales de dedos y pies, donde el trazo se desgasta antes."
     }
   ],
-  "cierre": "Si estás decidiendo tu primera pieza, la guía de <a href=\"primer-tatuaje-linea-fina-consejos.html\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"disenos-tatuajes-linea-fina-ideas.html\">qué diseños funcionan en línea fina</a> tienes los límites técnicos del estilo.",
+  "cierre": "Si estás decidiendo tu primera pieza, la guía de <a href=\"primer-tatuaje-linea-fina-consejos\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"disenos-tatuajes-linea-fina-ideas\">qué diseños funcionan en línea fina</a> tienes los límites técnicos del estilo.",
   "tarjetaLateral": {
     "titulo": "Diseño a medida",
     "texto": "Adaptamos tu referencia al tamaño y la zona donde de verdad va a envejecer bien.",
     "label": "Ver trabajos",
-    "href": "portfolio-tatuajes-linea-fina-madrid.html"
+    "href": "portfolio-tatuajes-linea-fina-madrid"
   },
   "relacionados": [
     "disenos-tatuajes-linea-fina-ideas",

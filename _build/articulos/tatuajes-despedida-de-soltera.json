@@ -41,7 +41,7 @@
       "id": "disenos",
       "titulo": "Diseños de grupo que envejecen bien",
       "toc": "Diseños de grupo",
-      "html": "        <p>La gracia del tatuaje de grupo es el vínculo, no la complejidad. Lo que mejor funciona:</p>\n        <ul>\n          <li><strong>El mismo símbolo pequeño</strong> para todas, en la zona que cada una elija.</li>\n          <li><strong>Piezas de una misma familia</strong>: distintas flores del mismo estilo, distintas fases de la luna, distintas cartas de una baraja.</li>\n          <li><strong>Un elemento de la historia común</strong>: el pueblo donde os conocisteis, un objeto compartido, una palabra vuestra.</li>\n        </ul>\n        <p>Lo que conviene evitar: fechas completas en cuerpo diminuto, la palabra del año, y cualquier chiste privado que dependa de un contexto muy concreto. Lo que hace gracia ese día no siempre la hace en 2040.</p>\n        <p>Y por técnica: piezas pequeñas de trazo limpio, entre 3 y 6 cm. Nada de detalle apretado, por los motivos que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas.html\">qué diseños funcionan en línea fina</a>.</p>"
+      "html": "        <p>La gracia del tatuaje de grupo es el vínculo, no la complejidad. Lo que mejor funciona:</p>\n        <ul>\n          <li><strong>El mismo símbolo pequeño</strong> para todas, en la zona que cada una elija.</li>\n          <li><strong>Piezas de una misma familia</strong>: distintas flores del mismo estilo, distintas fases de la luna, distintas cartas de una baraja.</li>\n          <li><strong>Un elemento de la historia común</strong>: el pueblo donde os conocisteis, un objeto compartido, una palabra vuestra.</li>\n        </ul>\n        <p>Lo que conviene evitar: fechas completas en cuerpo diminuto, la palabra del año, y cualquier chiste privado que dependa de un contexto muy concreto. Lo que hace gracia ese día no siempre la hace en 2040.</p>\n        <p>Y por técnica: piezas pequeñas de trazo limpio, entre 3 y 6 cm. Nada de detalle apretado, por los motivos que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas\">qué diseños funcionan en línea fina</a>.</p>"
     },
     {
       "id": "logistica",
@@ -53,7 +53,7 @@
       "id": "boda",
       "titulo": "Ojo si la boda está cerca",
       "toc": "Si la boda está cerca",
-      "html": "        <p>Las despedidas suelen caer entre dos y seis semanas antes de la boda, que es justo la ventana delicada. Un tatuaje está pelando entre el día 7 y el 21, y ese es el peor aspecto posible para las fotos.</p>\n        <p>Si la novia se va a tatuar en una zona que se verá el día de la boda, necesita al menos <strong>ocho semanas de margen</strong>. Si la despedida es más tarde, mejor elegir una zona que quede tapada por el vestido.</p>\n        <p>Los plazos completos están en <a href=\"tatuarse-antes-de-la-boda-plazos.html\">tatuarse antes de la boda</a>.</p>"
+      "html": "        <p>Las despedidas suelen caer entre dos y seis semanas antes de la boda, que es justo la ventana delicada. Un tatuaje está pelando entre el día 7 y el 21, y ese es el peor aspecto posible para las fotos.</p>\n        <p>Si la novia se va a tatuar en una zona que se verá el día de la boda, necesita al menos <strong>ocho semanas de margen</strong>. Si la despedida es más tarde, mejor elegir una zona que quede tapada por el vestido.</p>\n        <p>Los plazos completos están en <a href=\"tatuarse-antes-de-la-boda-plazos\">tatuarse antes de la boda</a>.</p>"
     }
   ],
   "ctaTras": 3,
@@ -67,7 +67,7 @@
     },
     "btn2": {
       "label": "Ver horarios del estudio",
-      "href": "contacto-tatuajes-puente-vallecas.html"
+      "href": "contacto-tatuajes-puente-vallecas"
     }
   },
   "faq": [
@@ -88,12 +88,12 @@
       "a": "Depende de la zona. Si va a verse en las fotos, hacen falta unas ocho semanas de margen para que llegue asentado. Si queda tapado por el vestido y no roza, con cuatro suele bastar."
     }
   ],
-  "cierre": "Si lo que buscáis es tatuador en la propia fiesta y no en el estudio, mirad <a href=\"tatuajes-cumpleanos-fiestas-privadas.html\">tatuajes en cumpleaños y fiestas privadas</a>.",
+  "cierre": "Si lo que buscáis es tatuador en la propia fiesta y no en el estudio, mirad <a href=\"tatuajes-cumpleanos-fiestas-privadas\">tatuajes en cumpleaños y fiestas privadas</a>.",
   "tarjetaLateral": {
     "titulo": "Grupos por la mañana",
     "texto": "Reservamos franja completa para despedidas, con los diseños cerrados antes de que lleguéis.",
     "label": "Consultar fechas",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuarse-antes-de-la-boda-plazos",

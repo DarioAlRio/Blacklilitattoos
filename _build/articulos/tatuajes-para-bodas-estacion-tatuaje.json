@@ -41,7 +41,7 @@
       "id": "disenos",
       "titulo": "Diseños: por qué un catálogo cerrado funciona mejor",
       "toc": "Los diseños",
-      "html": "        <p>En un estudio, el diseño se habla, se dibuja y se ajusta. En una boda no hay tiempo para eso, y forzarlo produce dos cosas malas: colas y decisiones apresuradas.</p>\n        <p>Lo que sí funciona es un <strong>catálogo flash</strong> preparado con los novios semanas antes: entre 15 y 30 diseños pequeños, coherentes entre sí, ligados a la boda —la fecha, las iniciales, un motivo del ramo, algo del lugar—. El invitado elige de esa carta, y el proceso se vuelve fluido.</p>\n        <p>Lo desarrollamos entero en <a href=\"disenos-flash-tatuajes-boda.html\">cómo elegir los diseños flash para tu boda</a>.</p>"
+      "html": "        <p>En un estudio, el diseño se habla, se dibuja y se ajusta. En una boda no hay tiempo para eso, y forzarlo produce dos cosas malas: colas y decisiones apresuradas.</p>\n        <p>Lo que sí funciona es un <strong>catálogo flash</strong> preparado con los novios semanas antes: entre 15 y 30 diseños pequeños, coherentes entre sí, ligados a la boda —la fecha, las iniciales, un motivo del ramo, algo del lugar—. El invitado elige de esa carta, y el proceso se vuelve fluido.</p>\n        <p>Lo desarrollamos entero en <a href=\"disenos-flash-tatuajes-boda\">cómo elegir los diseños flash para tu boda</a>.</p>"
     },
     {
       "id": "higiene",
@@ -67,7 +67,7 @@
     },
     "btn2": {
       "label": "Ver servicio de eventos",
-      "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+      "href": "tatuajes-para-bodas-y-eventos-madrid"
     }
   },
   "faq": [
@@ -88,12 +88,12 @@
       "a": "Sí, son tatuajes reales con tinta permanente, con el mismo material estéril y el mismo consentimiento que en el estudio. Si lo que buscáis es algo temporal, es otro servicio distinto y conviene aclararlo desde el principio."
     }
   ],
-  "cierre": "Si queréis ver cómo lo montamos, tenéis el detalle del servicio en <a href=\"tatuajes-para-bodas-y-eventos-madrid.html\">tatuajes para bodas y eventos</a>, y los precios explicados en <a href=\"precio-tatuador-boda-madrid.html\">cuánto cuesta llevar un tatuador a tu boda</a>.",
+  "cierre": "Si queréis ver cómo lo montamos, tenéis el detalle del servicio en <a href=\"tatuajes-para-bodas-y-eventos-madrid\">tatuajes para bodas y eventos</a>, y los precios explicados en <a href=\"precio-tatuador-boda-madrid\">cuánto cuesta llevar un tatuador a tu boda</a>.",
   "tarjetaLateral": {
     "titulo": "Bodas en Madrid",
     "texto": "Estación de tatuaje de línea fina con catálogo preparado con vosotros y material estéril de un solo uso.",
     "label": "Ver el servicio",
-    "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+    "href": "tatuajes-para-bodas-y-eventos-madrid"
   },
   "relacionados": [
     "precio-tatuador-boda-madrid",

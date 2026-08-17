@@ -60,13 +60,13 @@ const FOOTER = trozo(molde, '<footer>', '<script src="script.js">', true).trimEn
 const NAV = `<header class="nav" id="siteNav">
   <div class="nav-bg" aria-hidden="true"></div>
   <div class="wrap nav-inner">
-    <a href="index.html" class="wordmark">BlackLili <em>Tattoos</em></a>
+    <a href="/" class="wordmark">BlackLili <em>Tattoos</em></a>
     <nav class="nav-links" id="navLinks">
-      <a href="portfolio-tatuajes-linea-fina-madrid.html">Trabajos</a>
-      <a href="tatuajes-para-bodas-y-eventos-madrid.html">Eventos</a>
-      <a href="cursos-tatuaje-linea-fina-madrid.html">Formación</a>
-      <a href="preguntas-frecuentes-tatuaje-linea-fina.html">Preguntas Frecuentes</a>
-      <a href="contacto-tatuajes-puente-vallecas.html">Contacto</a>
+      <a href="portfolio-tatuajes-linea-fina-madrid">Trabajos</a>
+      <a href="tatuajes-para-bodas-y-eventos-madrid">Eventos</a>
+      <a href="cursos-tatuaje-linea-fina-madrid">Formación</a>
+      <a href="preguntas-frecuentes-tatuaje-linea-fina">Preguntas Frecuentes</a>
+      <a href="contacto-tatuajes-puente-vallecas">Contacto</a>
       <a href="https://www.instagram.com/blacklilitattoos/" target="_blank" rel="noopener" class="nav-cta">Reservar cita</a>
     </nav>
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
@@ -110,7 +110,7 @@ for (const a of nuevos) {
 function tarjeta(slug) {
   const a = registro[slug];
   if (!a) throw new Error('relacionado inexistente: ' + slug);
-  return `      <a class="post-card" href="${a.slug}.html">
+  return `      <a class="post-card" href="${a.slug}">
         <span class="eyebrow">${texto(a.eyebrow)}</span>
         <h3>${texto(a.tituloCorto)}</h3>
         <p>${texto(a.resumen)}</p>
@@ -182,7 +182,7 @@ function bloqueToc(a) {
 /* ---------- JSON-LD ---------- */
 
 function jsonLd(a) {
-  const url = `${DOMINIO}/${a.slug}.html`;
+  const url = `${DOMINIO}/${a.slug}`;
   const bloques = [];
 
   bloques.push(`{
@@ -219,7 +219,7 @@ function jsonLd(a) {
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"${DOMINIO}/"},
-    {"@type":"ListItem","position":2,"name":"Blog","item":"${DOMINIO}/blog-tatuajes-linea-fina.html"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"${DOMINIO}/blog-tatuajes-linea-fina"},
     {"@type":"ListItem","position":3,"name":${json(a.migaCorta || a.tituloCorto || a.titulo)},"item":"${url}"}
   ]
 }`);
@@ -248,7 +248,7 @@ ${preguntas}
 /* ---------- plantilla del artículo ---------- */
 
 function renderArticulo(a) {
-  const url = `${DOMINIO}/${a.slug}.html`;
+  const url = `${DOMINIO}/${a.slug}`;
   const ctaTras = typeof a.ctaTras === 'number' ? a.ctaTras : Math.ceil(a.secciones.length / 2);
 
   let cuerpo = '';
@@ -318,8 +318,8 @@ ${NAV}
     <div class="wrap">
       <nav class="breadcrumb" aria-label="Ruta de navegación">
         <ol>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="blog-tatuajes-linea-fina.html">Blog</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="blog-tatuajes-linea-fina">Blog</a></li>
           <li><span aria-current="page">${texto(a.migaCorta || a.tituloCorto || a.titulo)}</span></li>
         </ol>
       </nav>
@@ -416,7 +416,7 @@ ${arts.map(a => tarjeta(a.slug)).join('\n')}
   const listaLd = todos.map((a, i) => `    {
       "@type": "ListItem",
       "position": ${i + 1},
-      "url": "${DOMINIO}/${a.slug}.html",
+      "url": "${DOMINIO}/${a.slug}",
       "name": ${json(a.tituloCorto)}
     }`).join(',\n');
 
@@ -433,7 +433,7 @@ ${arts.map(a => tarjeta(a.slug)).join('\n')}
 <meta name="geo.placename" content="Madrid">
 <meta name="geo.position" content="40.3930247;-3.6664344">
 <meta name="ICBM" content="40.3930247, -3.6664344">
-<link rel="canonical" href="${DOMINIO}/blog-tatuajes-linea-fina.html">
+<link rel="canonical" href="${DOMINIO}/blog-tatuajes-linea-fina">
 
 <!-- Favicons -->
 ${FAVICONS}
@@ -445,7 +445,7 @@ ${FAVICONS}
 <meta property="og:locale" content="es_ES">
 <meta property="og:title" content="Blog de tatuajes | BlackLili Tattoos">
 <meta property="og:description" content="Guías sobre tatuaje escritas desde el estudio: Vallecas, bodas, eventos, cuidados, precios y diseño.">
-<meta property="og:url" content="${DOMINIO}/blog-tatuajes-linea-fina.html">
+<meta property="og:url" content="${DOMINIO}/blog-tatuajes-linea-fina">
 <meta property="og:image" content="${DOMINIO}/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -469,7 +469,7 @@ ${FAVICONS}
   "name": "Blog de BlackLili Tattoos",
   "description": "Guías sobre tatuaje escritas desde el estudio de BlackLili Tattoos, en Puente de Vallecas, Madrid.",
   "inLanguage": "es-ES",
-  "url": "${DOMINIO}/blog-tatuajes-linea-fina.html",
+  "url": "${DOMINIO}/blog-tatuajes-linea-fina",
   "publisher": {
     "@type": "Organization",
     "name": "BlackLili Tattoos",
@@ -494,7 +494,7 @@ ${listaLd}
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"${DOMINIO}/"},
-    {"@type":"ListItem","position":2,"name":"Blog","item":"${DOMINIO}/blog-tatuajes-linea-fina.html"}
+    {"@type":"ListItem","position":2,"name":"Blog","item":"${DOMINIO}/blog-tatuajes-linea-fina"}
   ]
 }
 </script>
@@ -528,7 +528,7 @@ ${secciones}    </div>
       <p>Cuéntanosla. Valoramos el diseño, la zona y el tamaño contigo, y te damos presupuesto antes de reservar.</p>
       <div class="hero-ctas">
         <a href="https://www.instagram.com/blacklilitattoos/" target="_blank" rel="noopener" class="btn btn-solid">Reservar cita</a>
-        <a href="contacto-tatuajes-puente-vallecas.html" class="btn btn-ghost">Ver horarios y dirección</a>
+        <a href="contacto-tatuajes-puente-vallecas" class="btn btn-ghost">Ver horarios y dirección</a>
       </div>
     </div>
   </section>
@@ -547,17 +547,17 @@ ${FOOTER}
 
 const PAGINAS_FIJAS = [
   { loc: DOMINIO + '/', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/portfolio-tatuajes-linea-fina-madrid.html', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/tatuajes-para-bodas-y-eventos-madrid.html', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/cursos-tatuaje-linea-fina-madrid.html', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/preguntas-frecuentes-tatuaje-linea-fina.html', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/contacto-tatuajes-puente-vallecas.html', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/blog-tatuajes-linea-fina.html', fecha: '2026-08-08' }
+  { loc: DOMINIO + '/portfolio-tatuajes-linea-fina-madrid', fecha: '2026-07-17' },
+  { loc: DOMINIO + '/tatuajes-para-bodas-y-eventos-madrid', fecha: '2026-07-17' },
+  { loc: DOMINIO + '/cursos-tatuaje-linea-fina-madrid', fecha: '2026-07-17' },
+  { loc: DOMINIO + '/preguntas-frecuentes-tatuaje-linea-fina', fecha: '2026-07-17' },
+  { loc: DOMINIO + '/contacto-tatuajes-puente-vallecas', fecha: '2026-07-17' },
+  { loc: DOMINIO + '/blog-tatuajes-linea-fina', fecha: '2026-08-08' }
 ];
 
 function renderSitemap() {
   const urls = PAGINAS_FIJAS.concat(
-    Object.values(registro).map(a => ({ loc: `${DOMINIO}/${a.slug}.html`, fecha: a.fecha }))
+    Object.values(registro).map(a => ({ loc: `${DOMINIO}/${a.slug}`, fecha: a.fecha }))
   );
   const cuerpo = urls.map(u => `  <url>
     <loc>${u.loc}</loc>

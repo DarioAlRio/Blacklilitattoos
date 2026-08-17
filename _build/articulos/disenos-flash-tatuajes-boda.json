@@ -60,7 +60,7 @@
     "titulo": "Preparamos el catálogo con vosotros",
     "texto": "Partimos de vuestra historia, el lugar y el estilo de la boda, y dibujamos una carta de diseños que es solo vuestra.",
     "btn1": { "label": "Consultar para nuestra boda", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver servicio de bodas", "href": "tatuajes-para-bodas-y-eventos-madrid.html" }
+    "btn2": { "label": "Ver servicio de bodas", "href": "tatuajes-para-bodas-y-eventos-madrid" }
   },
   "faq": [
     {
@@ -80,12 +80,12 @@
       "a": "Sí, y es de lo más bonito que pasa: acaba habiendo cuatro personas con la misma pieza pequeña del día. Si preferís que cada uno sea único, hay que decirlo al preparar el catálogo."
     }
   ],
-  "cierre": "Para calcular bien cuántas horas necesitáis según el catálogo que elijáis, mirad <a href=\"tatuajes-para-bodas-estacion-tatuaje.html\">cómo funciona una estación de tatuajes en una boda</a>.",
+  "cierre": "Para calcular bien cuántas horas necesitáis según el catálogo que elijáis, mirad <a href=\"tatuajes-para-bodas-estacion-tatuaje\">cómo funciona una estación de tatuajes en una boda</a>.",
   "tarjetaLateral": {
     "titulo": "Catálogo a medida",
     "texto": "De 15 a 30 piezas dibujadas para vuestra boda, a partir del lugar, el ramo y vuestra historia.",
     "label": "Pedir propuesta",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["tatuajes-para-bodas-estacion-tatuaje", "precio-tatuador-boda-madrid", "tatuajes-boda-recuerdo-invitados"]
 }

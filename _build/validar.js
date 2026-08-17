@@ -42,9 +42,9 @@ for (const p of paginas) {
     if (desc.length > 160) avisos.push(`${p}: description de ${desc.length} caracteres (se corta sobre 155)`);
   }
 
-  // --- canonical coherente con el nombre del archivo ---
+  // --- canonical coherente con el nombre del archivo (URLs limpias, sin .html) ---
   const canonical = uno(html, /rel="canonical" href="([^"]+)"/);
-  const esperado = p === 'index.html' ? `${DOMINIO}/` : `${DOMINIO}/${p}`;
+  const esperado = p === 'index.html' ? `${DOMINIO}/` : `${DOMINIO}/${p.replace(/\.html$/, '')}`;
   if (!canonical) errores.push(`${p}: sin canonical`);
   else if (canonical !== esperado) errores.push(`${p}: canonical apunta a ${canonical}, se esperaba ${esperado}`);
 
@@ -58,11 +58,12 @@ for (const p of paginas) {
     catch (e) { errores.push(`${p}: JSON-LD nº${i + 1} inválido — ${e.message}`); }
   });
 
-  // --- enlaces internos ---
+  // --- enlaces internos (URLs limpias: el archivo real sigue teniendo .html) ---
   todos(html, /href="((?!https?:|tel:|mailto:|#|data:)[^"]+)"/g).forEach(href => {
     const destino = href.split('#')[0];
-    if (!destino) return;
-    if (!fs.existsSync(path.join(RAIZ, destino))) {
+    if (!destino || destino === '/') return;
+    const archivo = destino.endsWith('.html') ? destino : destino + '.html';
+    if (!fs.existsSync(path.join(RAIZ, archivo)) && !fs.existsSync(path.join(RAIZ, destino))) {
       errores.push(`${p}: enlace roto a ${destino}`);
     }
   });
@@ -84,11 +85,11 @@ for (const p of paginas) {
 const sitemap = fs.readFileSync(path.join(RAIZ, 'sitemap.xml'), 'utf8');
 const locs = todos(sitemap, /<loc>([^<]+)<\/loc>/g);
 for (const p of paginas) {
-  const url = p === 'index.html' ? `${DOMINIO}/` : `${DOMINIO}/${p}`;
+  const url = p === 'index.html' ? `${DOMINIO}/` : `${DOMINIO}/${p.replace(/\.html$/, '')}`;
   if (!locs.includes(url)) errores.push(`sitemap: falta ${p}`);
 }
 for (const l of locs) {
-  const f = l === `${DOMINIO}/` ? 'index.html' : l.replace(DOMINIO + '/', '');
+  const f = l === `${DOMINIO}/` ? 'index.html' : l.replace(DOMINIO + '/', '') + '.html';
   if (!paginas.includes(f)) errores.push(`sitemap: ${l} no corresponde a ningún archivo`);
 }
 

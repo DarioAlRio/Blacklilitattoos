@@ -40,7 +40,7 @@
       "id": "disenos",
       "titulo": "Qué diseños aguantan mejor",
       "toc": "Diseños que aguantan",
-      "html": "        <p>La regla es simple: <strong>cuanto más sencillo, mejor</strong>. Lo que sobrevive razonablemente:</p>\n        <ul>\n          <li>Una banda lisa, con trazo algo más grueso de lo que pedirías en el brazo.</li>\n          <li>Un símbolo pequeño y muy limpio: un corazón, un punto, un guiño entre vosotros.</li>\n          <li>Iniciales de una sola letra, con tipografía de trazo uniforme y sin remates finos.</li>\n        </ul>\n        <p>Lo que no sobrevive: fechas completas en números pequeños, filigranas, sombreados, cualquier cosa con líneas paralelas cercanas. Todo eso se cierra y se convierte en una mancha. Es la misma lógica que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas.html\">qué diseños funcionan en línea fina</a>, solo que amplificada.</p>"
+      "html": "        <p>La regla es simple: <strong>cuanto más sencillo, mejor</strong>. Lo que sobrevive razonablemente:</p>\n        <ul>\n          <li>Una banda lisa, con trazo algo más grueso de lo que pedirías en el brazo.</li>\n          <li>Un símbolo pequeño y muy limpio: un corazón, un punto, un guiño entre vosotros.</li>\n          <li>Iniciales de una sola letra, con tipografía de trazo uniforme y sin remates finos.</li>\n        </ul>\n        <p>Lo que no sobrevive: fechas completas en números pequeños, filigranas, sombreados, cualquier cosa con líneas paralelas cercanas. Todo eso se cierra y se convierte en una mancha. Es la misma lógica que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas\">qué diseños funcionan en línea fina</a>, solo que amplificada.</p>"
     },
     {
       "id": "retoques",
@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver el portfolio",
-      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+      "href": "portfolio-tatuajes-linea-fina-madrid"
     }
   },
   "faq": [
@@ -87,12 +87,12 @@
       "a": "Es mejor no hacerlo. Un tatuaje recién hecho supura algo las primeras horas, no puede mojarse ni tomar el sol, y las manos son justo lo que más se usa ese día. Con unas semanas de margen queda mucho mejor."
     }
   ],
-  "cierre": "Si vais a tatuaros antes del día, mirad los plazos en <a href=\"tatuarse-antes-de-la-boda-plazos.html\">tatuarse antes de la boda</a> para que llegue bien cicatrizado a las fotos.",
+  "cierre": "Si vais a tatuaros antes del día, mirad los plazos en <a href=\"tatuarse-antes-de-la-boda-plazos\">tatuarse antes de la boda</a> para que llegue bien cicatrizado a las fotos.",
   "tarjetaLateral": {
     "titulo": "Decidirlo bien",
     "texto": "Preferimos explicaros cómo va a envejecer antes que hacer un trabajo que os decepcione en dos años.",
     "label": "Hablar con el estudio",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuarse-antes-de-la-boda-plazos",

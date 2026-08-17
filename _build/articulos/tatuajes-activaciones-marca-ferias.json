@@ -61,7 +61,7 @@
     "titulo": "¿Preparáis una activación?",
     "texto": "Contadnos la marca, el evento, la duración y el aforo que esperáis. Os proponemos formato, colección de diseños y montaje, con presupuesto desglosado.",
     "btn1": { "label": "Pedir propuesta", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid.html" }
+    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid" }
   },
   "faq": [
     {
@@ -81,12 +81,12 @@
       "a": "Luz propia potente, enchufe estable, superficie firme para el campo estéril, cierto aislamiento del ruido y acceso a agua. Si el formato es permanente, también contenedor de residuos punzantes."
     }
   ],
-  "cierre": "Si el evento es interno y no de cara al público, mirad <a href=\"tatuador-eventos-empresa-madrid.html\">tatuador para eventos de empresa</a>, y la logística completa en <a href=\"organizar-evento-con-tatuador-checklist.html\">el checklist para organizar un evento con tatuador</a>.",
+  "cierre": "Si el evento es interno y no de cara al público, mirad <a href=\"tatuador-eventos-empresa-madrid\">tatuador para eventos de empresa</a>, y la logística completa en <a href=\"organizar-evento-con-tatuador-checklist\">el checklist para organizar un evento con tatuador</a>.",
   "tarjetaLateral": {
     "titulo": "Activaciones de marca",
     "texto": "Colección de diseños en línea fina traducida del universo de vuestra marca, no del logotipo.",
     "label": "Hablar del proyecto",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["tatuador-eventos-empresa-madrid", "organizar-evento-con-tatuador-checklist", "tatuajes-cumpleanos-fiestas-privadas"]
 }
