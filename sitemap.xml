@@ -1,189 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://blacklilitattoos.com/</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Página de Inicio  -->
+<url>
+<loc>https://blacklilitattoos.com/</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/portfolio-tatuajes-linea-fina-madrid</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Portfolio  -->
+<url>
+<loc>https://blacklilitattoos.com/portfolio-tatuajes-linea-fina-madrid</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-para-bodas-y-eventos-madrid</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Tatuajes para Bodas y Eventos  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-para-bodas-y-eventos-madrid</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/cursos-tatuaje-linea-fina-madrid</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Cursos de Tatuaje Línea Fina  -->
+<url>
+<loc>https://blacklilitattoos.com/cursos-tatuaje-linea-fina-madrid</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/preguntas-frecuentes-tatuaje-linea-fina</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Preguntas Frecuentes  -->
+<url>
+<loc>https://blacklilitattoos.com/preguntas-frecuentes-tatuaje-linea-fina</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/contacto-tatuajes-puente-vallecas</loc>
-    <lastmod>2026-07-17</lastmod>
-  </url>
+<!--  Contacto  -->
+<url>
+<loc>https://blacklilitattoos.com/contacto-tatuajes-puente-vallecas</loc>
+<lastmod>2026-07-17</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/blog-tatuajes-linea-fina</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Índice  -->
+<url>
+<loc>https://blacklilitattoos.com/blog-tatuajes-linea-fina</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/alianzas-tatuadas-boda</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Alianzas Tatuadas para Boda  -->
+<url>
+<loc>https://blacklilitattoos.com/alianzas-tatuadas-boda</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/como-empezar-a-tatuar-madrid</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Cómo Empezar a Tatuar en Madrid  -->
+<url>
+<loc>https://blacklilitattoos.com/como-empezar-a-tatuar-madrid</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/cuanto-se-tarda-en-hacer-un-tatuaje</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Cuánto se Tarda en Hacer un Tatuaje  -->
+<url>
+<loc>https://blacklilitattoos.com/cuanto-se-tarda-en-hacer-un-tatuaje</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/cuidados-tatuaje-linea-fina</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Cuidados del Tatuaje Línea Fina  -->
+<url>
+<loc>https://blacklilitattoos.com/cuidados-tatuaje-linea-fina</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/disenos-flash-tatuajes-boda</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Diseños Flash para Boda  -->
+<url>
+<loc>https://blacklilitattoos.com/disenos-flash-tatuajes-boda</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/disenos-tatuajes-linea-fina-ideas</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Diseños de Tatuajes Línea Fina, Ideas  -->
+<url>
+<loc>https://blacklilitattoos.com/disenos-tatuajes-linea-fina-ideas</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/duele-tatuarse-mapa-dolor</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Duele Tatuarse, Mapa del Dolor  -->
+<url>
+<loc>https://blacklilitattoos.com/duele-tatuarse-mapa-dolor</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/estudio-tatuajes-madrid-normativa-higiene</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Normativa e Higiene del Estudio  -->
+<url>
+<loc>https://blacklilitattoos.com/estudio-tatuajes-madrid-normativa-higiene</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/lettering-frases-tatuadas</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Lettering y Frases Tatuadas  -->
+<url>
+<loc>https://blacklilitattoos.com/lettering-frases-tatuadas</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/organizar-evento-con-tatuador-checklist</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Checklist para Organizar un Evento con Tatuador  -->
+<url>
+<loc>https://blacklilitattoos.com/organizar-evento-con-tatuador-checklist</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/precio-tatuador-boda-madrid</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Precio Tatuador para Boda  -->
+<url>
+<loc>https://blacklilitattoos.com/precio-tatuador-boda-madrid</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/precio-tatuaje-linea-fina-madrid</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Precio Tatuaje Línea Fina  -->
+<url>
+<loc>https://blacklilitattoos.com/precio-tatuaje-linea-fina-madrid</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/primer-tatuaje-linea-fina-consejos</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Primer Tatuaje Línea Fina, Consejos  -->
+<url>
+<loc>https://blacklilitattoos.com/primer-tatuaje-linea-fina-consejos</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/reservar-cita-tatuaje-madrid</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Reservar Cita  -->
+<url>
+<loc>https://blacklilitattoos.com/reservar-cita-tatuaje-madrid</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuador-eventos-empresa-madrid</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Tatuador para Eventos de Empresa  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuador-eventos-empresa-madrid</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuador-linea-fina-puente-vallecas</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Tatuador Línea Fina en Puente de Vallecas  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuador-linea-fina-puente-vallecas</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-activaciones-marca-ferias</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Activaciones de Marca en Ferias  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-activaciones-marca-ferias</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-boda-recuerdo-invitados</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes como Recuerdo para Invitados de Boda  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-boda-recuerdo-invitados</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-cumpleanos-fiestas-privadas</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes para Cumpleaños y Fiestas Privadas  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-cumpleanos-fiestas-privadas</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-de-pareja-ideas</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes de Pareja, Ideas  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-de-pareja-ideas</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-despedida-de-soltera</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes para Despedida de Soltera  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-despedida-de-soltera</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-discretos-para-el-trabajo</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes Discretos para el Trabajo  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-discretos-para-el-trabajo</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-en-vallecas-donde-tatuarse</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes en Vallecas, Dónde Tatuarse  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-en-vallecas-donde-tatuarse</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-florales-linea-fina</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes Florales Línea Fina  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-florales-linea-fina</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-minimalistas-guia</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Guía de Tatuajes Minimalistas  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-minimalistas-guia</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-para-bodas-estacion-tatuaje</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes para Bodas, Estación de Tatuaje  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-para-bodas-estacion-tatuaje</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-pequenos-donde-hacerlos</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes Pequeños, Dónde Hacerlos  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-pequenos-donde-hacerlos</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuajes-y-deporte-gimnasio</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuajes y Deporte, Gimnasio  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuajes-y-deporte-gimnasio</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuarse-antes-de-la-boda-plazos</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuarse Antes de la Boda, Plazos  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuarse-antes-de-la-boda-plazos</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
-  <url>
-    <loc>https://blacklilitattoos.com/tatuarse-en-verano-sol-playa</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<!--  Blog: Tatuarse en Verano, Sol y Playa  -->
+<url>
+<loc>https://blacklilitattoos.com/tatuarse-en-verano-sol-playa</loc>
+<lastmod>2026-08-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
 
 </urlset>
