@@ -47,13 +47,13 @@
       "id": "precio",
       "titulo": "Cuánto cuesta tatuarse en Vallecas",
       "toc": "El precio en el barrio",
-      "html": "        <p>No hay tarifa de barrio. Lo que sí hay es una forma bastante estándar de calcular: se cobra por <strong>tiempo y dificultad</strong>, no por centímetros. Un símbolo de cuatro trazos y un ramillete floral del mismo diámetro no tienen nada que ver en horas de trabajo.</p>\n        <p>Casi todos los estudios tienen además un importe mínimo por sesión, que cubre el material desechable, la esterilización y el hueco de agenda. Por eso una pieza diminuta no cuesta la décima parte que una grande, y por eso agrupar varias piezas pequeñas en una misma cita suele salir mejor.</p>\n        <p>Lo desarrollamos entero en la guía sobre <a href=\"precio-tatuaje-linea-fina-madrid.html\">qué determina el precio de un tatuaje en Madrid</a>.</p>"
+      "html": "        <p>No hay tarifa de barrio. Lo que sí hay es una forma bastante estándar de calcular: se cobra por <strong>tiempo y dificultad</strong>, no por centímetros. Un símbolo de cuatro trazos y un ramillete floral del mismo diámetro no tienen nada que ver en horas de trabajo.</p>\n        <p>Casi todos los estudios tienen además un importe mínimo por sesión, que cubre el material desechable, la esterilización y el hueco de agenda. Por eso una pieza diminuta no cuesta la décima parte que una grande, y por eso agrupar varias piezas pequeñas en una misma cita suele salir mejor.</p>\n        <p>Lo desarrollamos entero en la guía sobre <a href=\"precio-tatuaje-linea-fina-madrid\">qué determina el precio de un tatuaje en Madrid</a>.</p>"
     },
     {
       "id": "cerca",
       "titulo": "Por qué importa tatuarte cerca de casa",
       "toc": "Tatuarte cerca de casa",
-      "html": "        <p>Un tatuaje no termina el día de la sesión. Hay entre dos y seis semanas de cicatrización, y a veces una revisión o un pequeño retoque después.</p>\n        <p>Si el estudio te pilla a mano, pasarte a que le echen un vistazo es un recado de veinte minutos. Si está en la otra punta de Madrid, acabas no yendo, y un retoque que se hace a tiempo es mucho más sencillo que uno que se deja correr un año.</p>\n        <p>Nuestro estudio está en <strong>Calle del Monte Perdido, 92</strong>, en Puente de Vallecas, a pie desde Portazgo y Buenos Aires. Puedes ver horarios y cómo llegar en la <a href=\"contacto-tatuajes-puente-vallecas.html\">página de contacto</a>.</p>"
+      "html": "        <p>Un tatuaje no termina el día de la sesión. Hay entre dos y seis semanas de cicatrización, y a veces una revisión o un pequeño retoque después.</p>\n        <p>Si el estudio te pilla a mano, pasarte a que le echen un vistazo es un recado de veinte minutos. Si está en la otra punta de Madrid, acabas no yendo, y un retoque que se hace a tiempo es mucho más sencillo que uno que se deja correr un año.</p>\n        <p>Nuestro estudio está en <strong>Calle del Monte Perdido, 92</strong>, en Puente de Vallecas, a pie desde Portazgo y Buenos Aires. Puedes ver horarios y cómo llegar en la <a href=\"contacto-tatuajes-puente-vallecas\">página de contacto</a>.</p>"
     }
   ],
   "ctaTras": 3,
@@ -84,12 +84,12 @@
       "a": "El DNI o un documento identificativo, porque hay que acreditar la mayoría de edad. En la Comunidad de Madrid, quien no la ha alcanzado necesita autorización expresa de quien ejerce su tutela legal."
     }
   ],
-  "cierre": "Si quieres ver trabajos hechos aquí mismo, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid.html\">portfolio del estudio</a>, y las dudas más habituales resueltas en <a href=\"preguntas-frecuentes-tatuaje-linea-fina.html\">preguntas frecuentes</a>.",
+  "cierre": "Si quieres ver trabajos hechos aquí mismo, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio del estudio</a>, y las dudas más habituales resueltas en <a href=\"preguntas-frecuentes-tatuaje-linea-fina\">preguntas frecuentes</a>.",
   "tarjetaLateral": {
     "titulo": "En Puente de Vallecas",
     "texto": "Calle del Monte Perdido, 92. Cita previa, diseño a medida y presupuesto cerrado antes de empezar.",
     "label": "Ver cómo llegar",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuador-linea-fina-puente-vallecas",

@@ -61,7 +61,7 @@
     "titulo": "¿Organizáis un evento en Madrid?",
     "texto": "Contadnos formato, fecha, número de asistentes y espacio disponible, y os proponemos el montaje que mejor encaja, con presupuesto desglosado.",
     "btn1": { "label": "Pedir propuesta", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid.html" }
+    "btn2": { "label": "Ver servicio de eventos", "href": "tatuajes-para-bodas-y-eventos-madrid" }
   },
   "faq": [
     {
@@ -81,12 +81,12 @@
       "a": "Alta como profesional, seguro de responsabilidad civil y acreditación de formación higiénico-sanitaria. Si el servicio es de tatuaje permanente, además consentimiento informado por asistente."
     }
   ],
-  "cierre": "Si el evento es una feria o una activación de marca, el planteamiento cambia bastante: lo tenéis en <a href=\"tatuajes-activaciones-marca-ferias.html\">tatuajes en ferias y activaciones de marca</a>.",
+  "cierre": "Si el evento es una feria o una activación de marca, el planteamiento cambia bastante: lo tenéis en <a href=\"tatuajes-activaciones-marca-ferias\">tatuajes en ferias y activaciones de marca</a>.",
   "tarjetaLateral": {
     "titulo": "Eventos corporativos",
     "texto": "Estación de tatuaje para empresas en Madrid, con catálogo a medida de vuestra marca o del motivo del evento.",
     "label": "Ver el servicio",
-    "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+    "href": "tatuajes-para-bodas-y-eventos-madrid"
   },
   "relacionados": ["tatuajes-activaciones-marca-ferias", "organizar-evento-con-tatuador-checklist", "tatuajes-cumpleanos-fiestas-privadas"]
 }

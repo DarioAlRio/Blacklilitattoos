@@ -68,7 +68,7 @@
     "texto": "Puedes pasarte a ver la cabina antes de reservar nada. Enseñamos el material, el proceso y resolvemos cualquier duda sin compromiso.",
     "btn1": {
       "label": "Ver horarios y dirección",
-      "href": "contacto-tatuajes-puente-vallecas.html"
+      "href": "contacto-tatuajes-puente-vallecas"
     },
     "btn2": {
       "label": "Escribir por Instagram",
@@ -94,12 +94,12 @@
       "a": "Díselo al estudio antes de reservar. Los anticoagulantes, los tratamientos con isotretinoína y algunos inmunosupresores afectan al sangrado o a la cicatrización, y pueden obligar a aplazar la sesión."
     }
   ],
-  "cierre": "Si vas a tatuarte en el barrio, en la guía de <a href=\"tatuajes-en-vallecas-donde-tatuarse.html\">tatuajes en Vallecas</a> tienes el resto de criterios para elegir estudio, y en <a href=\"preguntas-frecuentes-tatuaje-linea-fina.html\">preguntas frecuentes</a> las dudas más habituales.",
+  "cierre": "Si vas a tatuarte en el barrio, en la guía de <a href=\"tatuajes-en-vallecas-donde-tatuarse\">tatuajes en Vallecas</a> tienes el resto de criterios para elegir estudio, y en <a href=\"preguntas-frecuentes-tatuaje-linea-fina\">preguntas frecuentes</a> las dudas más habituales.",
   "tarjetaLateral": {
     "titulo": "Puedes venir a verlo",
     "texto": "Enseñamos la cabina y el material antes de que reserves nada. Es lo normal, no un favor.",
     "label": "Cómo llegar al estudio",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuajes-en-vallecas-donde-tatuarse",

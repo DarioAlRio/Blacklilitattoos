@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver el portfolio",
-      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+      "href": "portfolio-tatuajes-linea-fina-madrid"
     }
   },
   "faq": [
@@ -87,12 +87,12 @@
       "a": "Sí, y es de las ideas más bonitas que hay. Se digitaliza a partir de una nota manuscrita. Funciona especialmente bien si el trazo original tiene un grosor razonablemente constante."
     }
   ],
-  "cierre": "Si tu frase es corta y la quieres discreta, revisa antes <a href=\"tatuajes-pequenos-donde-hacerlos.html\">tatuajes pequeños: dónde y qué tamaño</a>, que es donde más se decide el resultado.",
+  "cierre": "Si tu frase es corta y la quieres discreta, revisa antes <a href=\"tatuajes-pequenos-donde-hacerlos\">tatuajes pequeños: dónde y qué tamaño</a>, que es donde más se decide el resultado.",
   "tarjetaLateral": {
     "titulo": "Revisado dos veces",
     "texto": "Antes de tatuar comprobamos contigo la plantilla letra por letra. Es el último momento en el que todo tiene arreglo.",
     "label": "Consultar tu frase",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuajes-pequenos-donde-hacerlos",

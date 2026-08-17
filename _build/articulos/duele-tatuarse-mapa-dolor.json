@@ -66,7 +66,7 @@
     "titulo": "¿Es tu primera vez?",
     "texto": "Te contamos qué vas a notar en la zona que tengas pensada y planificamos la sesión con las pausas que necesites. Sin prisa.",
     "btn1": { "label": "Reservar una valoración", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas.html" }
+    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
   },
   "faq": [
     {
@@ -86,12 +86,12 @@
       "a": "Consúltalo con el estudio antes de aplicarte nada. Algunas cremas alteran la textura de la piel y dificultan que la tinta asiente, así que no todos los tatuadores trabajan con ellas."
     }
   ],
-  "cierre": "Cruza esta información con <a href=\"tatuajes-discretos-para-el-trabajo.html\">las zonas que se tapan con la ropa</a> y tendrás casi decidida la ubicación. El resto de la preparación está en <a href=\"primer-tatuaje-linea-fina-consejos.html\">tu primer tatuaje</a>.",
+  "cierre": "Cruza esta información con <a href=\"tatuajes-discretos-para-el-trabajo\">las zonas que se tapan con la ropa</a> y tendrás casi decidida la ubicación. El resto de la preparación está en <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>.",
   "tarjetaLateral": {
     "titulo": "Sin prisa",
     "texto": "Planificamos la sesión con las pausas que necesites. Parar un momento es completamente normal.",
     "label": "Pedir cita",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["primer-tatuaje-linea-fina-consejos", "cuanto-se-tarda-en-hacer-un-tatuaje", "tatuajes-discretos-para-el-trabajo"]
 }

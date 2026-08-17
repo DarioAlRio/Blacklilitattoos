@@ -28,7 +28,7 @@
       "id": "regla",
       "titulo": "Por qué no hay un tamaño mínimo universal",
       "toc": "El tamaño mínimo",
-      "html": "        <p>Te habrán dicho \"mínimo 5 centímetros\" y es una simplificación. El mínimo depende por completo de <strong>cuántas líneas tiene el dibujo y cómo de juntas quedan</strong>.</p>\n        <p>Un símbolo de tres trazos puede funcionar perfectamente a 2 cm. Un mandala con cuarenta líneas no funciona ni a 10 cm.</p>\n        <p>La regla práctica que usamos, y que puedes aplicar tú mismo con cualquier referencia:</p>\n        <p class=\"pullquote\">Dos líneas contiguas del dibujo deben verse claramente separadas a un brazo de distancia. Si se tocan o se leen como una sola, hay que agrandar o simplificar.</p>\n        <p>Es la misma prueba que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas.html\">qué diseños funcionan en línea fina</a>, y es infalible.</p>"
+      "html": "        <p>Te habrán dicho \"mínimo 5 centímetros\" y es una simplificación. El mínimo depende por completo de <strong>cuántas líneas tiene el dibujo y cómo de juntas quedan</strong>.</p>\n        <p>Un símbolo de tres trazos puede funcionar perfectamente a 2 cm. Un mandala con cuarenta líneas no funciona ni a 10 cm.</p>\n        <p>La regla práctica que usamos, y que puedes aplicar tú mismo con cualquier referencia:</p>\n        <p class=\"pullquote\">Dos líneas contiguas del dibujo deben verse claramente separadas a un brazo de distancia. Si se tocan o se leen como una sola, hay que agrandar o simplificar.</p>\n        <p>Es la misma prueba que explicamos en <a href=\"disenos-tatuajes-linea-fina-ideas\">qué diseños funcionan en línea fina</a>, y es infalible.</p>"
     },
     {
       "id": "por-que",
@@ -66,7 +66,7 @@
     },
     "btn2": {
       "label": "Ver el portfolio",
-      "href": "portfolio-tatuajes-linea-fina-madrid.html"
+      "href": "portfolio-tatuajes-linea-fina-madrid"
     }
   },
   "faq": [
@@ -87,12 +87,12 @@
       "a": "Duele lo mismo por segundo, pero dura mucho menos, que en la práctica es lo que importa. Una pieza pequeña puede resolverse en veinte o treinta minutos."
     }
   ],
-  "cierre": "Si es tu primera vez, la guía de <a href=\"primer-tatuaje-linea-fina-consejos.html\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"duele-tatuarse-mapa-dolor.html\">el mapa de dolor por zonas</a> tienes el otro factor a cruzar con la elección de sitio.",
+  "cierre": "Si es tu primera vez, la guía de <a href=\"primer-tatuaje-linea-fina-consejos\">primer tatuaje</a> cubre el resto de decisiones, y en <a href=\"duele-tatuarse-mapa-dolor\">el mapa de dolor por zonas</a> tienes el otro factor a cruzar con la elección de sitio.",
   "tarjetaLateral": {
     "titulo": "Te lo decimos claro",
     "texto": "Si tu idea no aguanta al tamaño que quieres, preferimos decírtelo antes que hacerte un trabajo que se estropee.",
     "label": "Consultar el diseño",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuajes-minimalistas-guia",

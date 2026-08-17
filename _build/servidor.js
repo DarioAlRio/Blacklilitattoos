@@ -23,9 +23,16 @@ const TIPOS = {
   '.mp4': 'video/mp4',
 };
 
+// imita las cleanUrls de Vercel: sirve /foo desde foo.html y redirige foo.html -> foo
 http.createServer((req, res) => {
   let rel = decodeURIComponent(req.url.split('?')[0]);
   if (rel === '/') rel = '/index.html';
+  else if (rel.endsWith('.html')) {
+    res.writeHead(308, { Location: rel.slice(0, -'.html'.length) }).end();
+    return;
+  } else if (!path.extname(rel)) {
+    rel += '.html';
+  }
   const destino = path.join(RAIZ, rel);
   // no salir de la carpeta del proyecto
   if (!destino.startsWith(RAIZ)) { res.writeHead(403).end(); return; }

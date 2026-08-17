@@ -35,7 +35,7 @@
       "id": "presupuesto",
       "titulo": "El presupuesto: horquilla primero, cifra después",
       "toc": "El presupuesto",
-      "html": "        <p>Lo normal es recibir primero una horquilla, porque el precio depende del diseño final y ese diseño todavía no existe. Una vez el dibujo está cerrado, la cifra se concreta y a partir de ahí <strong>no debería moverse</strong>.</p>\n        <p>Si un estudio te da un precio y al terminar la sesión te cobra más sin que tú hayas cambiado nada, eso no es un imprevisto: es una mala práctica. Puedes leer qué hay detrás de cada presupuesto en <a href=\"precio-tatuaje-linea-fina-madrid.html\">cuánto cuesta un tatuaje</a>.</p>"
+      "html": "        <p>Lo normal es recibir primero una horquilla, porque el precio depende del diseño final y ese diseño todavía no existe. Una vez el dibujo está cerrado, la cifra se concreta y a partir de ahí <strong>no debería moverse</strong>.</p>\n        <p>Si un estudio te da un precio y al terminar la sesión te cobra más sin que tú hayas cambiado nada, eso no es un imprevisto: es una mala práctica. Puedes leer qué hay detrás de cada presupuesto en <a href=\"precio-tatuaje-linea-fina-madrid\">cuánto cuesta un tatuaje</a>.</p>"
     },
     {
       "id": "senal",
@@ -53,13 +53,13 @@
       "id": "plazos",
       "titulo": "Cuánto se tarda en tener hueco",
       "toc": "Los plazos",
-      "html": "        <p>Depende del estudio y de la época. Hay dos picos claros en el año: los meses antes del verano y las semanas previas a Navidad. Fuera de ahí, los plazos se relajan bastante.</p>\n        <p>Si tienes una fecha límite —una boda, un viaje, un evento—, dilo en el primer mensaje. Cambia la planificación por completo, sobre todo porque un tatuaje necesita semanas de cicatrización antes de poder exponerse al sol o al agua. Lo detallamos en <a href=\"tatuarse-antes-de-la-boda-plazos.html\">tatuarse antes de la boda</a>.</p>"
+      "html": "        <p>Depende del estudio y de la época. Hay dos picos claros en el año: los meses antes del verano y las semanas previas a Navidad. Fuera de ahí, los plazos se relajan bastante.</p>\n        <p>Si tienes una fecha límite —una boda, un viaje, un evento—, dilo en el primer mensaje. Cambia la planificación por completo, sobre todo porque un tatuaje necesita semanas de cicatrización antes de poder exponerse al sol o al agua. Lo detallamos en <a href=\"tatuarse-antes-de-la-boda-plazos\">tatuarse antes de la boda</a>.</p>"
     },
     {
       "id": "dia",
       "titulo": "El día de la cita",
       "toc": "El día de la cita",
-      "html": "        <p>Lleva el DNI, come antes y ve descansado. Nada de alcohol la noche anterior. Ropa cómoda que deje la zona accesible sin que tengas que estar incómodo dos horas.</p>\n        <p>Se revisa el diseño, se coloca la plantilla y —esto es importante— <strong>te levantas y te miras en el espejo</strong> antes de empezar. Es el momento de pedir que se suba dos centímetros o se gire un poco. Una vez arranca la aguja ya no hay marcha atrás.</p>\n        <p>Lo tienes todo desglosado en la guía de <a href=\"primer-tatuaje-linea-fina-consejos.html\">tu primer tatuaje</a>.</p>"
+      "html": "        <p>Lleva el DNI, come antes y ve descansado. Nada de alcohol la noche anterior. Ropa cómoda que deje la zona accesible sin que tengas que estar incómodo dos horas.</p>\n        <p>Se revisa el diseño, se coloca la plantilla y —esto es importante— <strong>te levantas y te miras en el espejo</strong> antes de empezar. Es el momento de pedir que se suba dos centímetros o se gire un poco. Una vez arranca la aguja ya no hay marcha atrás.</p>\n        <p>Lo tienes todo desglosado en la guía de <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>.</p>"
     }
   ],
   "ctaTras": 3,
@@ -87,12 +87,12 @@
       "a": "Fuera de temporada alta, con unos días o un par de semanas suele bastar. Antes del verano y en las semanas previas a Navidad conviene calcularlo con bastante más margen."
     }
   ],
-  "cierre": "Puedes ver los horarios y la dirección del estudio en <a href=\"contacto-tatuajes-puente-vallecas.html\">contacto</a>, y trabajos reales en el <a href=\"portfolio-tatuajes-linea-fina-madrid.html\">portfolio</a>.",
+  "cierre": "Puedes ver los horarios y la dirección del estudio en <a href=\"contacto-tatuajes-puente-vallecas\">contacto</a>, y trabajos reales en el <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio</a>.",
   "tarjetaLateral": {
     "titulo": "Cita previa",
     "texto": "Trabajamos siempre con cita para dedicarle a cada pieza el tiempo que necesita, diseño incluido.",
     "label": "Ver horarios",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": ["precio-tatuaje-linea-fina-madrid", "primer-tatuaje-linea-fina-consejos", "cuanto-se-tarda-en-hacer-un-tatuaje"]
 }

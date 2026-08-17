@@ -27,7 +27,7 @@
     {
       "id": "diseno",
       "titulo": "Elegir el diseño",
-      "html": "\n        <p>Lo primero: <strong>lleva imágenes</strong>. Describir un tatuaje con palabras funciona fatal. Tres o cuatro referencias visuales —aunque sean de estilos distintos— le dicen al tatuador mucho más que un párrafo, porque muestran el peso de línea, el nivel de detalle y el aire que buscas.</p>\n        <p>Segundo: no hace falta que el diseño tenga un significado profundo. Es una idea muy extendida y nada obligatoria. Un tatuaje puede gustarte, sin más.</p>\n        <p>Y tercero: cuenta con que el diseño va a cambiar un poco. Un buen tatuador adapta la referencia a tu anatomía, al tamaño real y a lo que aguanta la técnica. Ese ajuste no es un capricho: es lo que hace que la pieza siga siendo legible dentro de diez años. Puedes ver piezas ya adaptadas en nuestro <a href=\"portfolio-tatuajes-linea-fina-madrid.html\">portfolio de línea fina</a>.</p>"
+      "html": "\n        <p>Lo primero: <strong>lleva imágenes</strong>. Describir un tatuaje con palabras funciona fatal. Tres o cuatro referencias visuales —aunque sean de estilos distintos— le dicen al tatuador mucho más que un párrafo, porque muestran el peso de línea, el nivel de detalle y el aire que buscas.</p>\n        <p>Segundo: no hace falta que el diseño tenga un significado profundo. Es una idea muy extendida y nada obligatoria. Un tatuaje puede gustarte, sin más.</p>\n        <p>Y tercero: cuenta con que el diseño va a cambiar un poco. Un buen tatuador adapta la referencia a tu anatomía, al tamaño real y a lo que aguanta la técnica. Ese ajuste no es un capricho: es lo que hace que la pieza siga siendo legible dentro de diez años. Puedes ver piezas ya adaptadas en nuestro <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio de línea fina</a>.</p>"
     },
     {
       "id": "zona",
@@ -49,7 +49,7 @@
     {
       "id": "despues",
       "titulo": "Al salir del estudio",
-      "html": "\n        <p>Sales con la zona protegida y con instrucciones concretas. Las dos primeras semanas son las que deciden cómo queda el trazo: lavado suave, hidratación en capa fina, nada de piscina ni sol directo y, sobre todo, no rascar cuando empiece a pelar.</p>\n        <p>Lo tienes detallado día a día en la <a href=\"cuidados-tatuaje-linea-fina.html\">guía de cuidados de un tatuaje de línea fina</a>, que conviene leer <em>antes</em> de la cita y no cuando ya te está picando.</p>"
+      "html": "\n        <p>Sales con la zona protegida y con instrucciones concretas. Las dos primeras semanas son las que deciden cómo queda el trazo: lavado suave, hidratación en capa fina, nada de piscina ni sol directo y, sobre todo, no rascar cuando empiece a pelar.</p>\n        <p>Lo tienes detallado día a día en la <a href=\"cuidados-tatuaje-linea-fina\">guía de cuidados de un tatuaje de línea fina</a>, que conviene leer <em>antes</em> de la cita y no cuando ya te está picando.</p>"
     },
     {
       "id": "errores",
@@ -68,7 +68,7 @@
     },
     "btn2": {
       "label": "Ver horarios y dirección",
-      "href": "contacto-tatuajes-puente-vallecas.html"
+      "href": "contacto-tatuajes-puente-vallecas"
     }
   },
   "ctaTras": 4,
@@ -90,12 +90,12 @@
       "a": "En la Comunidad de Madrid se exige ser mayor de edad o presentar autorización expresa de quien ejerce la tutela legal, junto a la documentación identificativa. Consúltalo con el estudio antes de reservar."
     }
   ],
-  "cierre": "Si te queda alguna duda concreta, la tenemos recogida en <a href=\"preguntas-frecuentes-tatuaje-linea-fina.html\">preguntas frecuentes</a>, o puedes <a href=\"contacto-tatuajes-puente-vallecas.html\">escribirnos directamente al estudio</a>.",
+  "cierre": "Si te queda alguna duda concreta, la tenemos recogida en <a href=\"preguntas-frecuentes-tatuaje-linea-fina\">preguntas frecuentes</a>, o puedes <a href=\"contacto-tatuajes-puente-vallecas\">escribirnos directamente al estudio</a>.",
   "tarjetaLateral": {
     "titulo": "Primera vez, sin prisa",
     "texto": "Trabajamos con cita previa para dedicarle el tiempo que necesites, diseño incluido.",
     "label": "Pedir cita en Vallecas",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "duele-tatuarse-mapa-dolor",

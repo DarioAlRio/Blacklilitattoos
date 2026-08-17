@@ -53,7 +53,7 @@
       "id": "cuidados",
       "titulo": "Que nadie se vaya sin instrucciones",
       "toc": "Cuidados después",
-      "html": "        <p>En una fiesta, la parte de los cuidados se olvida con facilidad. Y las primeras horas son justo las de la celebración: gente sudando, bailando, con la piel recién tatuada al aire.</p>\n        <p>Lo que hay que asegurar:</p>\n        <ul>\n          <li>Instrucciones <strong>por escrito</strong> a cada persona. A las once de la noche nadie retiene nada.</li>\n          <li>Nada de piscina ni jacuzzi esa noche ni al día siguiente.</li>\n          <li>Ropa que no roce sobre la zona.</li>\n          <li>Si la fiesta es en verano y hay terraza, cero sol directo sobre el tatuaje.</li>\n        </ul>\n        <p>La guía completa está en <a href=\"cuidados-tatuaje-linea-fina.html\">cuidados de un tatuaje, semana a semana</a>.</p>"
+      "html": "        <p>En una fiesta, la parte de los cuidados se olvida con facilidad. Y las primeras horas son justo las de la celebración: gente sudando, bailando, con la piel recién tatuada al aire.</p>\n        <p>Lo que hay que asegurar:</p>\n        <ul>\n          <li>Instrucciones <strong>por escrito</strong> a cada persona. A las once de la noche nadie retiene nada.</li>\n          <li>Nada de piscina ni jacuzzi esa noche ni al día siguiente.</li>\n          <li>Ropa que no roce sobre la zona.</li>\n          <li>Si la fiesta es en verano y hay terraza, cero sol directo sobre el tatuaje.</li>\n        </ul>\n        <p>La guía completa está en <a href=\"cuidados-tatuaje-linea-fina\">cuidados de un tatuaje, semana a semana</a>.</p>"
     }
   ],
   "ctaTras": 3,
@@ -67,7 +67,7 @@
     },
     "btn2": {
       "label": "Ver servicio de eventos",
-      "href": "tatuajes-para-bodas-y-eventos-madrid.html"
+      "href": "tatuajes-para-bodas-y-eventos-madrid"
     }
   },
   "faq": [
@@ -88,12 +88,12 @@
       "a": "Sí, pero regala la sesión y no el diseño. El dibujo y la zona debe elegirlos la persona que se lo va a llevar puesto, y debe poder decidir hacerlo otro día."
     }
   ],
-  "cierre": "Si es un evento de empresa y no una fiesta privada, el planteamiento cambia: lo tenéis en <a href=\"tatuador-eventos-empresa-madrid.html\">tatuador para eventos de empresa</a>.",
+  "cierre": "Si es un evento de empresa y no una fiesta privada, el planteamiento cambia: lo tenéis en <a href=\"tatuador-eventos-empresa-madrid\">tatuador para eventos de empresa</a>.",
   "tarjetaLateral": {
     "titulo": "También en el estudio",
     "texto": "Reservamos franja completa para grupos en Puente de Vallecas, que muchas veces sale mejor que el desplazamiento.",
     "label": "Ver horarios",
-    "href": "contacto-tatuajes-puente-vallecas.html"
+    "href": "contacto-tatuajes-puente-vallecas"
   },
   "relacionados": [
     "tatuador-eventos-empresa-madrid",
