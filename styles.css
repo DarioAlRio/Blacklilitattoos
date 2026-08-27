@@ -200,7 +200,14 @@
   }
 
   a{color:inherit;text-decoration:none;}
-  img{max-width:100%;display:block;}
+  /* height:auto es obligatorio desde que las imágenes declaran width y height
+     en el HTML: esos atributos llegan al CSS como pista de presentación, y una
+     regla que solo fija el ancho deja la altura clavada en los píxeles del
+     archivo, deformando la imagen. Con auto se conserva la proporción y el
+     navegador sigue reservando el hueco antes de descargarla.
+     Las reglas que ponen height:100% (galerías, portfolio, hero) son más
+     específicas y siguen mandando sobre esta. */
+  img{max-width:100%; height:auto; display:block;}
   section{position:relative;}
   .wrap{max-width:var(--maxw); margin:0 auto; padding:0 32px;}
   @media (max-width:640px){ .wrap{padding:0 22px;} }
