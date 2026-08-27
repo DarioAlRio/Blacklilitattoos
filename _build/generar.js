@@ -114,6 +114,20 @@ for (const a of nuevos) {
 
 /* ---------- piezas de plantilla ---------- */
 
+// Quien firma los artículos. Va aquí y no en cada JSON porque los escribe
+// siempre la misma persona; el día en que haya más de una, esto pasa a ser
+// un campo más de _build/articulos/*.json.
+const AUTORA = 'Lidia Domínguez García';
+
+const MESES = ['enero','febrero','marzo','abril','mayo','junio',
+               'julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+// '2026-07-14' -> '14 de julio de 2026'
+function fechaLarga(iso) {
+  const [anio, mes, dia] = iso.split('-').map(Number);
+  return `${dia} de ${MESES[mes - 1]} de ${anio}`;
+}
+
 function tarjeta(slug) {
   const a = registro[slug];
   if (!a) throw new Error('relacionado inexistente: ' + slug);
@@ -199,9 +213,14 @@ function jsonLd(a) {
   "description": ${json(a.descripcion)},
   "inLanguage": "es-ES",
   "author": {
-    "@type": "Organization",
-    "name": "BlackLili Tattoos",
-    "url": "${DOMINIO}/"
+    "@type": "Person",
+    "name": "${AUTORA}",
+    "jobTitle": "Tatuadora",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "BlackLili Tattoos",
+      "url": "${DOMINIO}/"
+    }
   },
   "publisher": {
     "@type": "Organization",
@@ -346,7 +365,9 @@ ${NAV}
       <p class="article-lead">${a.lead}</p>
 
       <div class="article-meta">
-        <span>Actualizado agosto 2026</span>
+        <span>Por ${AUTORA}</span>
+        <span class="sep">·</span>
+        <time datetime="${a.fecha}">${fechaLarga(a.fecha)}</time>
         <span class="sep">·</span>
         <span>${a.minutos} min de lectura</span>
         <span class="sep">·</span>
@@ -572,24 +593,69 @@ ${FOOTER}
 
 /* ---------- sitemap ---------- */
 
+// El sitemap no es solo una lista de URLs: el changefreq, el priority y el
+// comentario de cada línea son decisiones editoriales. Viven aquí para que
+// regenerar no las borre. Lo único que sale de los datos es el lastmod.
 const PAGINAS_FIJAS = [
-  { loc: DOMINIO + '/', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/portfolio-tatuajes-linea-fina-madrid', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/tatuajes-para-bodas-y-eventos-madrid', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/cursos-tatuaje-linea-fina-madrid', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/preguntas-frecuentes-tatuaje-linea-fina', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/contacto-tatuajes-puente-vallecas', fecha: '2026-07-17' },
-  { loc: DOMINIO + '/blog-tatuajes-linea-fina', fecha: '2026-08-08' }
+  { ruta: '/', fecha: '2026-07-17', freq: 'weekly', pri: '1.0', com: 'Página de Inicio' },
+  { ruta: '/portfolio-tatuajes-linea-fina-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Portfolio' },
+  { ruta: '/tatuajes-para-bodas-y-eventos-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Tatuajes para Bodas y Eventos' },
+  { ruta: '/cursos-tatuaje-linea-fina-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Cursos de Tatuaje Línea Fina' },
+  { ruta: '/preguntas-frecuentes-tatuaje-linea-fina', fecha: '2026-07-17', freq: 'monthly', pri: '0.7', com: 'Preguntas Frecuentes' },
+  { ruta: '/contacto-tatuajes-puente-vallecas', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Contacto' },
+  { ruta: '/blog-tatuajes-linea-fina', fecha: '2026-08-08', freq: 'weekly', pri: '0.8', com: 'Blog: Índice' }
 ];
 
+const SITEMAP_ARTICULOS = {
+  'alianzas-tatuadas-boda': { freq: 'monthly', pri: '0.6', com: 'Blog: Alianzas Tatuadas para Boda' },
+  'como-empezar-a-tatuar-madrid': { freq: 'monthly', pri: '0.6', com: 'Blog: Cómo Empezar a Tatuar en Madrid' },
+  'cuanto-se-tarda-en-hacer-un-tatuaje': { freq: 'monthly', pri: '0.6', com: 'Blog: Cuánto se Tarda en Hacer un Tatuaje' },
+  'cuidados-tatuaje-linea-fina': { freq: 'monthly', pri: '0.6', com: 'Blog: Cuidados del Tatuaje Línea Fina' },
+  'disenos-flash-tatuajes-boda': { freq: 'monthly', pri: '0.6', com: 'Blog: Diseños Flash para Boda' },
+  'disenos-tatuajes-linea-fina-ideas': { freq: 'monthly', pri: '0.6', com: 'Blog: Diseños de Tatuajes Línea Fina, Ideas' },
+  'duele-tatuarse-mapa-dolor': { freq: 'monthly', pri: '0.6', com: 'Blog: Duele Tatuarse, Mapa del Dolor' },
+  'estudio-tatuajes-madrid-normativa-higiene': { freq: 'monthly', pri: '0.6', com: 'Blog: Normativa e Higiene del Estudio' },
+  'lettering-frases-tatuadas': { freq: 'monthly', pri: '0.6', com: 'Blog: Lettering y Frases Tatuadas' },
+  'organizar-evento-con-tatuador-checklist': { freq: 'monthly', pri: '0.6', com: 'Blog: Checklist para Organizar un Evento con Tatuador' },
+  'precio-tatuador-boda-madrid': { freq: 'monthly', pri: '0.8', com: 'Precio Tatuador para Boda' },
+  'precio-tatuaje-linea-fina-madrid': { freq: 'monthly', pri: '0.8', com: 'Precio Tatuaje Línea Fina' },
+  'primer-tatuaje-linea-fina-consejos': { freq: 'monthly', pri: '0.6', com: 'Blog: Primer Tatuaje Línea Fina, Consejos' },
+  'reservar-cita-tatuaje-madrid': { freq: 'monthly', pri: '0.9', com: 'Reservar Cita' },
+  'tatuador-eventos-empresa-madrid': { freq: 'monthly', pri: '0.8', com: 'Tatuador para Eventos de Empresa' },
+  'tatuador-linea-fina-puente-vallecas': { freq: 'monthly', pri: '0.8', com: 'Tatuador Línea Fina en Puente de Vallecas' },
+  'tatuajes-activaciones-marca-ferias': { freq: 'monthly', pri: '0.6', com: 'Blog: Activaciones de Marca en Ferias' },
+  'tatuajes-boda-recuerdo-invitados': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes como Recuerdo para Invitados de Boda' },
+  'tatuajes-cumpleanos-fiestas-privadas': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes para Cumpleaños y Fiestas Privadas' },
+  'tatuajes-de-pareja-ideas': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes de Pareja, Ideas' },
+  'tatuajes-despedida-de-soltera': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes para Despedida de Soltera' },
+  'tatuajes-discretos-para-el-trabajo': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes Discretos para el Trabajo' },
+  'tatuajes-en-vallecas-donde-tatuarse': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes en Vallecas, Dónde Tatuarse' },
+  'tatuajes-florales-linea-fina': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes Florales Línea Fina' },
+  'tatuajes-minimalistas-guia': { freq: 'monthly', pri: '0.6', com: 'Blog: Guía de Tatuajes Minimalistas' },
+  'tatuajes-para-bodas-estacion-tatuaje': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes para Bodas, Estación de Tatuaje' },
+  'tatuajes-pequenos-donde-hacerlos': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes Pequeños, Dónde Hacerlos' },
+  'tatuajes-y-deporte-gimnasio': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuajes y Deporte, Gimnasio' },
+  'tatuarse-antes-de-la-boda-plazos': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuarse Antes de la Boda, Plazos' },
+  'tatuarse-en-verano-sol-playa': { freq: 'monthly', pri: '0.6', com: 'Blog: Tatuarse en Verano, Sol y Playa' }
+};
+
 function renderSitemap() {
-  const urls = PAGINAS_FIJAS.concat(
-    Object.values(registro).map(a => ({ loc: `${DOMINIO}/${a.slug}`, fecha: a.fecha }))
-  );
-  const cuerpo = urls.map(u => `  <url>
-    <loc>${u.loc}</loc>
-    <lastmod>${u.fecha}</lastmod>
-  </url>`).join('\n\n');
+  const urls = PAGINAS_FIJAS.map(p => ({ loc: DOMINIO + p.ruta, ...p }));
+
+  for (const a of Object.values(registro)) {
+    const meta = SITEMAP_ARTICULOS[a.slug];
+    if (!meta) throw new Error('artículo sin entrada en SITEMAP_ARTICULOS: ' + a.slug);
+    urls.push({ loc: `${DOMINIO}/${a.slug}`, fecha: a.fecha, ...meta });
+  }
+
+  const cuerpo = urls.map(u => `<!--  ${u.com}  -->
+<url>
+<loc>${u.loc}</loc>
+<lastmod>${u.fecha}</lastmod>
+<changefreq>${u.freq}</changefreq>
+<priority>${u.pri}</priority>
+</url>`).join('\n\n');
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
