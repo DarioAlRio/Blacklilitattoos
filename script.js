@@ -1,3 +1,14 @@
+// RED DE SEGURIDAD. Va lo primero del archivo a propósito: si cualquier cosa de más
+// abajo lanza un error, esta parte ya se ha ejecutado y sigue en pie. Sin ella, un fallo
+// dejaría el contenido invisible (.reveal es opacity:0) y la portada bloqueada por el splash.
+setTimeout(function(){
+  if (window.__blOk) return; // el archivo llegó hasta el final: no hace falta tocar nada
+  document.documentElement.classList.remove('preload');
+  var splash = document.getElementById('splash');
+  if (splash) splash.remove();
+  document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+}, 3000);
+
 // splash screen: show the logo briefly, then reveal the site (index.html only)
 (function(){
   const splash = document.getElementById('splash');
@@ -105,6 +116,26 @@ document.querySelectorAll('.faq-question').forEach(btn => {
   });
 });
 
+// vídeo de eventos: el HTML lo deja en preload="none" y sin autoplay, así que no se
+// descarga hasta que asoma por la pantalla. Quien no baja hasta él no paga los 3,9 MB.
+const eventoVideo = document.querySelector('.events-video video');
+if (eventoVideo) {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    eventoVideo.controls = true; // que decida quien mira, no la página
+  } else {
+    const videoIO = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        eventoVideo.preload = 'auto';
+        // si el navegador rechaza la reproducción automática, al menos que se pueda dar al play
+        eventoVideo.play().catch(() => { eventoVideo.controls = true; });
+        videoIO.unobserve(e.target);
+      });
+    }, { rootMargin: '200px' });
+    videoIO.observe(eventoVideo);
+  }
+}
+
 // scroll reveal
 // se dispara en cuanto el bloque asoma por la parte de abajo. Antes se pedía un 15%
 // del elemento visible, y eso no funciona con bloques más altos que la pantalla:
@@ -150,7 +181,9 @@ if (lightbox) {
 
     function paint(){
       currentIndex = nextIndex;
-      lightboxImg.src = img.src;
+      // la miniatura de la rejilla puede ser una versión pequeña del srcset:
+      // para ampliar se usa el archivo grande que lleva anotado cada foto
+      lightboxImg.src = img.dataset.full || img.currentSrc || img.src;
       lightboxImg.alt = img.alt || '';
       lightboxName.textContent = name;
       lightboxDesc.textContent = desc;
@@ -242,3 +275,7 @@ if (lightbox) {
     }
   });
 }
+
+// llegar hasta aqui significa que el archivo se ha ejecutado entero: la red de
+// seguridad de arriba se desactiva sola y las animaciones siguen su curso normal.
+window.__blOk = true;
