@@ -610,7 +610,13 @@
     display:grid; grid-template-rows:minmax(0,0fr);
     transition:grid-template-rows .4s cubic-bezier(.22,.61,.36,1);
   }
-  .faq-answer > *{overflow:hidden; min-height:0;}
+  /* visibility:hidden saca la respuesta plegada del árbol de accesibilidad.
+     Recortarla a cero no bastaba: medía cero de alto pero un lector de
+     pantalla la leía igual, así que se oían las siete respuestas seguidas
+     con el acordeón cerrado. El retardo de .4s es para que no desaparezca
+     de golpe mientras se cierra; al abrir entra sin esperar. */
+  .faq-answer > *{overflow:hidden; min-height:0; visibility:hidden; transition:visibility 0s .4s;}
+  .faq-item.open .faq-answer > *{visibility:visible; transition:visibility 0s;}
   .faq-answer p{padding:0 4px 26px; font-size:15px; max-width:640px;}
   .faq-item.open .faq-answer{grid-template-rows:minmax(0,1fr);}
 
