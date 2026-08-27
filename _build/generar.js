@@ -52,10 +52,16 @@ function trozo(texto, inicio, fin, incluirInicio) {
 
 /* ---------- cáscara compartida ---------- */
 
+// Versión de los estáticos: styles.css, script.js y logo.png se sirven con caché
+// de un año (ver vercel.json), así que al cambiar cualquiera de los tres hay que
+// subir este número aquí Y en las 7 páginas escritas a mano.
+const V = '?v=1';
+
 const molde = leer(PAGINA_MOLDE);
 const FAVICONS = trozo(molde, '<link rel="icon"', '<meta name="theme-color"', true).trimEnd();
 const WATERMARK = trozo(molde, '<div class="watermark" aria-hidden="true">', '</div>', false).trim();
-const FOOTER = trozo(molde, '<footer>', '<script src="script.js">', true).trimEnd();
+// el cierre se busca sin la versión, para que subir ?v= no rompa el generador
+const FOOTER = trozo(molde, '<footer>', '<script src="script.js', true).trimEnd();
 
 const NAV = `<header class="nav" id="siteNav">
   <div class="nav-bg" aria-hidden="true"></div>
@@ -65,6 +71,7 @@ const NAV = `<header class="nav" id="siteNav">
       <a href="portfolio-tatuajes-linea-fina-madrid">Trabajos</a>
       <a href="tatuajes-para-bodas-y-eventos-madrid">Eventos</a>
       <a href="cursos-tatuaje-linea-fina-madrid">Formación</a>
+      <a href="blog-tatuajes-linea-fina">Blog</a>
       <a href="preguntas-frecuentes-tatuaje-linea-fina">Preguntas Frecuentes</a>
       <a href="contacto-tatuajes-puente-vallecas">Contacto</a>
       <a href="https://www.instagram.com/blacklilitattoos/" target="_blank" rel="noopener" class="nav-cta">Reservar cita</a>
@@ -201,7 +208,7 @@ function jsonLd(a) {
     "name": "BlackLili Tattoos",
     "logo": {
       "@type": "ImageObject",
-      "url": "${DOMINIO}/og-image.jpg"
+      "url": "${DOMINIO}/icon-512.png"
     }
   },
   "datePublished": "${a.fecha}",
@@ -295,11 +302,21 @@ ${FAVICONS}
 <meta name="twitter:description" content="${attr(a.ogDescripcion || a.descripcion)}">
 <meta name="twitter:image" content="${DOMINIO}/og-image.jpg">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- las dos únicas fuentes que se ven en el primer pintado -->
+<link rel="preload" as="font" type="font/woff2" href="fonts/cormorant-500-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-400-latin.woff2" crossorigin>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css${V}">
+
+<noscript>
+  <style>
+    /* Sin JavaScript nadie añade la clase .in, así que el contenido se quedaría
+       invisible y la portada bloqueada tras el splash. Aquí se deshace todo eso. */
+    .reveal{opacity:1 !important; transform:none !important;}
+    html.preload, html.preload body{overflow:visible !important; height:auto !important;}
+    .splash{display:none !important;}
+  </style>
+</noscript>
 
 ${jsonLd(a)}
 </head>
@@ -374,7 +391,7 @@ ${bloqueRelacionados(a.relacionados)}
 
 ${FOOTER}
 
-<script src="script.js"></script>
+<script src="script.js${V}"></script>
 </body>
 </html>
 `;
@@ -456,11 +473,21 @@ ${FAVICONS}
 <meta name="twitter:description" content="Guías sobre tatuaje escritas desde el estudio: Vallecas, bodas, eventos, cuidados, precios y diseño.">
 <meta name="twitter:image" content="${DOMINIO}/og-image.jpg">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- las dos únicas fuentes que se ven en el primer pintado -->
+<link rel="preload" as="font" type="font/woff2" href="fonts/cormorant-500-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-400-latin.woff2" crossorigin>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css${V}">
+
+<noscript>
+  <style>
+    /* Sin JavaScript nadie añade la clase .in, así que el contenido se quedaría
+       invisible y la portada bloqueada tras el splash. Aquí se deshace todo eso. */
+    .reveal{opacity:1 !important; transform:none !important;}
+    html.preload, html.preload body{overflow:visible !important; height:auto !important;}
+    .splash{display:none !important;}
+  </style>
+</noscript>
 
 <script type="application/ld+json">
 {
@@ -475,7 +502,7 @@ ${FAVICONS}
     "name": "BlackLili Tattoos",
     "logo": {
       "@type": "ImageObject",
-      "url": "${DOMINIO}/og-image.jpg"
+      "url": "${DOMINIO}/icon-512.png"
     }
   },
   "mainEntity": {
@@ -512,7 +539,7 @@ ${NAV}
   <section class="page-head">
     <div class="wrap">
       <span class="eyebrow">Blog del estudio</span>
-      <h1>Todo lo que deberías saber<br>antes de tatuarte.</h1>
+      <h1><span class="sr-only">Blog sobre tatuajes de línea fina en Madrid. </span>Todo lo que deberías saber<br>antes de tatuarte.</h1>
       <p style="max-width:580px; margin:26px auto 0; font-size:17px;">${todos.length} guías escritas desde la cabina, no desde un manual. Lo que preguntan de verdad quienes vienen a tatuarse a Puente de Vallecas.</p>
     </div>
   </section>
@@ -537,7 +564,7 @@ ${secciones}    </div>
 
 ${FOOTER}
 
-<script src="script.js"></script>
+<script src="script.js${V}"></script>
 </body>
 </html>
 `;
