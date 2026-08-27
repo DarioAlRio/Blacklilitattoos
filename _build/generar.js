@@ -162,10 +162,15 @@ ${slugs.map(tarjeta).join('\n')}
 
 function bloqueFaq(faq) {
   if (!faq || !faq.length) return '';
-  const items = faq.map(f => `          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">${texto(f.q)}<span class="plus"></span></button>
-            <div class="faq-answer"><p>${f.a}</p></div>
-          </div>`).join('\n');
+  // cada pregunta es un h3 de verdad (cuelga del h2 "Preguntas frecuentes"):
+  // así se puede saltar de pregunta en pregunta con un lector de pantalla
+  const items = faq.map((f, i) => {
+    const id = `faq-${i + 1}`;
+    return `          <div class="faq-item">
+            <h3 class="faq-heading"><button class="faq-question" id="${id}" aria-expanded="false" aria-controls="${id}-r">${texto(f.q)}<span class="plus"></span></button></h3>
+            <div class="faq-answer" id="${id}-r" role="region" aria-labelledby="${id}"><p>${f.a}</p></div>
+          </div>`;
+  }).join('\n');
   return `        <h2 id="preguntas">Preguntas frecuentes</h2>
         <div class="article-faq">
 ${items}

@@ -583,6 +583,9 @@
     .faq-photo{height:340px;}
   }
   .faq-item{border-bottom:1px solid var(--line);}
+  /* El h2/h3 está solo para que la pregunta sea un encabezado navegable.
+     No pinta nada: el aspecto lo pone entero el botón de dentro. */
+  .faq-heading{font:inherit; color:inherit;}
   .faq-question{
     width:100%; text-align:left; background:none; border:none; cursor:pointer;
     display:flex; justify-content:space-between; align-items:center; gap:20px;
