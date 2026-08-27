@@ -18,14 +18,17 @@ setTimeout(function(){
     document.documentElement.classList.remove('preload');
     setTimeout(() => splash.remove(), 900);
   };
-  const minDelay = new Promise(res => setTimeout(res, 1100));
+  // 600 ms es el suelo: aunque la portada esté lista antes (se mide en 166 ms
+  // en local), no aparece hasta entonces. Da tiempo a ver el logo sin que la
+  // espera se coma medio segundo del presupuesto de carga.
+  const minDelay = new Promise(res => setTimeout(res, 600));
   const pageLoaded = new Promise(res => {
     if (document.readyState === 'complete') res();
     else window.addEventListener('load', res, {once:true});
   });
   Promise.all([minDelay, pageLoaded]).then(reveal);
-  // safety net: never trap the user behind the splash
-  setTimeout(reveal, 4000);
+  // techo: si el evento load se atasca, la portada sale igual a los 2 s
+  setTimeout(reveal, 2000);
 })();
 
 // nav scroll state (harmless on subpages: they force the "scrolled" look via CSS)
