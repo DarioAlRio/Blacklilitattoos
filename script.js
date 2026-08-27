@@ -210,20 +210,35 @@ if (lightbox) {
     }
   }
 
+  // desde qué foto se abrió el visor, para devolver ahí el foco al cerrarlo
+  let fotoDeOrigen = null;
+
   function openLightbox(img){
+    fotoDeOrigen = img;
     currentGroup = allGalleryImgs.filter(i => groupOf(i) === groupOf(img));
     showImage(currentGroup.indexOf(img), 0);
     lightbox.classList.add('open');
     lockScroll();
+    lightboxClose.focus();
   }
   function closeLightbox(){
     lightbox.classList.remove('open');
     unlockScroll();
+    // sin esto, quien navega con teclado vuelve al principio de la página
+    if (fotoDeOrigen) { fotoDeOrigen.focus(); fotoDeOrigen = null; }
   }
 
   allGalleryImgs.forEach((img) => {
     img.style.cursor = 'zoom-in';
+    // una <img> no entra en el recorrido del tabulador ni responde a Enter:
+    // hay que decirle al navegador que aquí se comporta como un botón
+    img.tabIndex = 0;
+    img.setAttribute('role', 'button');
+    img.setAttribute('aria-haspopup', 'dialog');
     img.addEventListener('click', () => openLightbox(img));
+    img.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(img); }
+    });
   });
   lightboxClose.addEventListener('click', closeLightbox);
   lightboxPrev.addEventListener('click', () => showImage(currentIndex - 1, -1));
@@ -234,6 +249,17 @@ if (lightbox) {
     if(e.key === 'Escape') closeLightbox();
     if(e.key === 'ArrowLeft') showImage(currentIndex - 1, -1);
     if(e.key === 'ArrowRight') showImage(currentIndex + 1, 1);
+    if(e.key === 'Tab'){
+      // el visor tapa la pantalla entera: el foco no debe escaparse a la
+      // página de detrás, así que da vueltas entre sus tres botones
+      const botones = [lightboxClose, lightboxPrev, lightboxNext];
+      const i = botones.indexOf(document.activeElement);
+      const siguiente = e.shiftKey
+        ? (i <= 0 ? botones.length - 1 : i - 1)
+        : (i === botones.length - 1 ? 0 : i + 1);
+      e.preventDefault();
+      botones[siguiente].focus();
+    }
   });
 
   // mobile swipe: swipe down to close, swipe left/right to navigate (the X button still works too)
