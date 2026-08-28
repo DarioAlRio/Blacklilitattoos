@@ -744,6 +744,64 @@
 
   :focus-visible{outline:2px solid var(--wine); outline-offset:3px;}
 
+  /* ---------- AVISO DE COOKIES ---------- */
+  /* Papel, línea y vino: los mismos tokens que el resto. No es un modal,
+     no bloquea nada y no atrapa el foco; solo espera abajo a que decidas. */
+  .cookie-bar{
+    position:fixed; left:0; right:0; bottom:0; z-index:450;
+    display:flex; justify-content:center;
+    padding:0 18px 18px;
+    pointer-events:none;
+  }
+  .cookie-bar[hidden]{display:none;}
+  .cookie-card{
+    pointer-events:auto;
+    width:100%; max-width:540px;
+    background:var(--paper); border:1px solid var(--line); border-radius:6px;
+    box-shadow:0 18px 44px rgba(24,20,15,0.20);
+    padding:22px 24px 20px;
+    /* sin fill-mode a propósito: el estado normal de la tarjeta es visible.
+       Con "both" se quedaría invisible si la animación no llegara a correr. */
+    animation:cookieSube .45s cubic-bezier(.22,.61,.36,1);
+  }
+  @keyframes cookieSube{ from{ opacity:0; transform:translateY(14px); } }
+  @media (prefers-reduced-motion: reduce){ .cookie-card{animation:none;} }
+  .cookie-card .eyebrow{color:var(--wine);}
+  .cookie-card p{
+    margin:10px 0 0; font-size:14px; line-height:1.65; color:var(--ink-soft);
+  }
+  .cookie-card p strong{color:var(--ink); font-weight:700;}
+  .cookie-actions{
+    display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin-top:18px;
+  }
+  /* mismos botones del sitio, un punto más pequeños: aquí no deben gritar */
+  .cookie-actions .btn{padding:11px 24px; font-size:11.5px;}
+  .cookie-mas{
+    background:none; border:none; cursor:pointer;
+    margin-left:auto; padding:6px 0;
+    font-family:var(--sans); font-size:12px; font-weight:600;
+    letter-spacing:.04em; color:var(--ink-soft);
+    border-bottom:1px solid var(--line);
+  }
+  .cookie-mas:hover{color:var(--wine); border-bottom-color:var(--wine);}
+  @media (max-width:520px){
+    .cookie-bar{padding:0 12px 12px;}
+    .cookie-card{padding:20px 20px 18px;}
+    .cookie-actions .btn{flex:1 1 auto; justify-content:center;}
+    .cookie-mas{margin-left:0; width:100%; text-align:left;}
+  }
+
+  /* el hueco del mapa mientras no hay permiso para cargarlo */
+  .map-consent{
+    position:absolute; inset:0;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:16px; padding:28px; text-align:center;
+  }
+  .map-consent p{font-size:14px; line-height:1.6; color:var(--ink-soft); max-width:340px;}
+  .map-consent .btn{padding:12px 26px; font-size:12px;}
+  .map-consent a{font-size:13px; color:var(--ink-soft); border-bottom:1px solid var(--line); padding:4px 0;}
+  .map-consent a:hover{color:var(--wine); border-bottom-color:var(--wine);}
+
   /* ---------- LEGAL MODALS ---------- */
   .legal-links{display:flex; gap:22px; flex-wrap:wrap;}
   .legal-links button{
