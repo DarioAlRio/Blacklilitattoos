@@ -653,21 +653,18 @@
   /* teléfono e instagram, uno debajo del otro y con su icono delante.
      El subrayado se quita aquí: con un icono al lado, la raya bajo el
      conjunto quedaba suelta. El enlace entero es clicable, icono incluido. */
-  .footer-contacto{display:flex; flex-direction:column; align-items:flex-start; gap:10px;}
+  .footer-contacto{display:flex; flex-direction:column; align-items:flex-start; gap:4px;}
   .footer-contacto a{
-    display:inline-flex; align-items:center; gap:10px;
+    display:inline-flex; align-items:center; gap:8px;
     border-bottom:none; padding:4px 0;
   }
   .footer-contacto a span{border-bottom:1px solid rgba(241,236,230,0.3); transition:border-color .3s ease;}
   .footer-contacto a:hover span{border-color:var(--gold);}
   .footer-contacto svg{
-    width:15px; height:15px; flex-shrink:0;
+    width:14px; height:14px; flex-shrink:0;
     stroke:currentColor; fill:none; stroke-width:1.5;
     stroke-linecap:round; stroke-linejoin:round;
     transition:color .3s ease;
-  }
-  @media (max-width:900px){
-    .footer-contacto{align-items:flex-start;}
   }
 
   /* ---------- reveal ---------- */
@@ -753,6 +750,10 @@
     .footer-top{gap:28px;}
     .footer-links{gap:22px; flex-wrap:wrap; font-size:12px;}
     .footer-bottom{flex-direction:column; gap:6px;}
+    /* En columna, el teléfono quedaba a 10px del copyright y a 18px del
+       Instagram: el bloque de contacto se leía partido. Se separa del
+       copyright para que teléfono e Instagram se agrupen entre ellos. */
+    .footer-contacto{margin-top:12px;}
   }
 
   @media (max-width:400px){
