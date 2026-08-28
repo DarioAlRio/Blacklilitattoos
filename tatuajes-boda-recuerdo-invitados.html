@@ -378,10 +378,10 @@
 
 <!-- LEGAL MODALS -->
 
-<div class="legal-modal" id="modal-aviso" aria-hidden="true">
+<div class="legal-modal" id="modal-aviso" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="titulo-aviso">
   <div class="legal-card">
     <div class="legal-card-head">
-      <h3>Aviso Legal</h3>
+      <h3 id="titulo-aviso">Aviso Legal</h3>
       <button class="legal-close" data-close-legal aria-label="Cerrar">✕</button>
     </div>
     <div class="legal-card-body">
@@ -406,10 +406,10 @@
   </div>
 </div>
 
-<div class="legal-modal" id="modal-privacidad" aria-hidden="true">
+<div class="legal-modal" id="modal-privacidad" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="titulo-privacidad">
   <div class="legal-card">
     <div class="legal-card-head">
-      <h3>Política de Privacidad</h3>
+      <h3 id="titulo-privacidad">Política de Privacidad</h3>
       <button class="legal-close" data-close-legal aria-label="Cerrar">✕</button>
     </div>
     <div class="legal-card-body">
@@ -438,10 +438,10 @@
   </div>
 </div>
 
-<div class="legal-modal" id="modal-cookies" aria-hidden="true">
+<div class="legal-modal" id="modal-cookies" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="titulo-cookies">
   <div class="legal-card">
     <div class="legal-card-head">
-      <h3>Política de Cookies</h3>
+      <h3 id="titulo-cookies">Política de Cookies</h3>
       <button class="legal-close" data-close-legal aria-label="Cerrar">✕</button>
     </div>
     <div class="legal-card-body">
@@ -449,13 +449,30 @@
       <p>Las cookies son pequeños archivos que se almacenan en tu dispositivo al visitar un sitio web, y que permiten recordar información sobre tu visita.</p>
 
       <h4>Cookies utilizadas en este sitio</h4>
-      <p>Esta web no instala cookies propias de ningún tipo: ni de analítica, ni de publicidad, ni de seguimiento, ni técnicas. Tampoco guarda nada en el almacenamiento local de tu navegador.</p>
+      <p>Esta web no instala cookies propias de ningún tipo: ni de analítica, ni de publicidad, ni de seguimiento, ni técnicas. Lo único que guarda en tu navegador es tu respuesta al aviso de cookies, en el almacenamiento local y bajo la clave <code>bl-mapa-google</code>. Sirve para no volver a preguntarte y para saber si puede cargarse el mapa. No es una cookie, no se envía a ningún servidor y puedes borrarla cuando quieras.</p>
 
       <h4>Contenido incrustado de terceros</h4>
-      <p>La página de Contacto incluye un mapa de Google Maps para mostrar dónde está el estudio. Al cargarse ese mapa, Google puede tratar tu dirección IP e instalar sus propias cookies, conforme a su política de privacidad y cookies, ajena a BlackLili Tattoos. Es el único contenido de terceros de esta web: el resto de páginas no cargan nada externo, y las tipografías se sirven desde este mismo dominio.</p>
+      <p>La página de Contacto incluye un mapa de Google Maps para mostrar dónde está el estudio. <strong>Ese mapa no se carga solo:</strong> hasta que lo aceptas, en su lugar hay un recuadro con un botón. Si decides cargarlo, Google puede tratar tu dirección IP e instalar sus propias cookies, conforme a su política de privacidad y cookies, ajena a BlackLili Tattoos. Es el único contenido de terceros de esta web: el resto de páginas no cargan nada externo, y las tipografías se sirven desde este mismo dominio.</p>
 
       <h4>Cómo gestionar las cookies</h4>
       <p>Puedes permitir, bloquear o eliminar las cookies instaladas en tu equipo mediante la configuración de tu navegador. Ten en cuenta que bloquear ciertas cookies puede afectar a la visualización de contenido de terceros, como el mapa incrustado.</p>
+      <p><button class="cookie-mas" id="cookieReset">Cambiar mi decisión sobre el mapa</button></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- AVISO DE COOKIES -->
+<div class="cookie-bar" id="cookieBar" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookie-card">
+    <span class="eyebrow">Cookies</span>
+    <p><strong>Esta web no instala cookies propias.</strong> La única excepción es el mapa de Google de la página de Contacto: si se carga, Google puede instalar las suyas. Tú decides si quieres verlo.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-solid" id="cookieOk">Aceptar</button>
+      <button class="btn btn-ghost" id="cookieNo">Rechazar</button>
+      <button class="cookie-mas" data-legal="cookies">Más información</button>
     </div>
   </div>
 </div>
