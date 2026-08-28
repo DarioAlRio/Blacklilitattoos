@@ -94,18 +94,52 @@ if (flowerPath && !reduceMotion) {
 }
 
 // legal modals (Aviso Legal, Privacidad, Cookies) — present in the footer on every page
+// qué botón abrió el modal, para devolverle el foco al cerrarlo
+let disparadorLegal = null;
+
 document.querySelectorAll('[data-legal]').forEach(btn => {
   btn.addEventListener('click', () => {
     const modal = document.getElementById('modal-' + btn.dataset.legal);
-    if (modal) { modal.classList.add('open'); lockScroll(); }
+    if (!modal) return;
+    disparadorLegal = btn;
+    modal.classList.add('open');
+    // sin esto el diálogo sigue oculto para los lectores de pantalla aun abierto
+    modal.setAttribute('aria-hidden', 'false');
+    lockScroll();
+    modal.querySelector('[data-close-legal]').focus();
   });
 });
+
 document.querySelectorAll('.legal-modal').forEach(modal => {
-  const close = () => { modal.classList.remove('open'); unlockScroll(); };
-  modal.querySelector('[data-close-legal]').addEventListener('click', close);
+  const cerrar = modal.querySelector('[data-close-legal]');
+  const cuerpo = modal.querySelector('.legal-card-body');
+  // el texto legal es largo y tiene scroll propio: sin tabindex no hay forma
+  // de recorrerlo con el teclado
+  if (cuerpo) cuerpo.tabIndex = 0;
+  const focos = [cerrar, cuerpo].filter(Boolean);
+
+  const close = () => {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    unlockScroll();
+    if (disparadorLegal) { disparadorLegal.focus(); disparadorLegal = null; }
+  };
+
+  cerrar.addEventListener('click', close);
   modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('open')) close();
+    if (!modal.classList.contains('open')) return;
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'Tab') {
+      // el modal tapa la página entera: el foco no debe irse detrás
+      const i = focos.indexOf(document.activeElement);
+      const siguiente = e.shiftKey
+        ? (i <= 0 ? focos.length - 1 : i - 1)
+        : (i === focos.length - 1 ? 0 : i + 1);
+      e.preventDefault();
+      focos[siguiente].focus();
+    }
   });
 });
 
@@ -305,6 +339,60 @@ if (lightbox) {
   });
 }
 
-// llegar hasta aqui significa que el archivo se ha ejecutado entero: la red de
+// ---------- cookies y mapa de Google ----------
+// Esta web no instala cookies propias. Lo único capaz de instalarlas es el mapa
+// de Google de la página de Contacto, así que el aviso va sobre eso y sobre nada
+// más: sin decisión, el mapa no se carga. La propia decisión se guarda en
+// localStorage, y es lo único que este sitio escribe en el navegador.
+(function(){
+  const CLAVE = 'bl-mapa-google';
+  const leerDecision = () => { try { return localStorage.getItem(CLAVE); } catch (e) { return null; } };
+  const guardar = (v) => { try { localStorage.setItem(CLAVE, v); } catch (e) {} };
+
+  const zona = document.getElementById('mapaZona');
+
+  function cargarMapa(){
+    if (!zona || zona.querySelector('iframe')) return;
+    const aviso = zona.querySelector('.map-consent');
+    const marco = document.createElement('iframe');
+    marco.src = zona.dataset.mapa;
+    marco.loading = 'lazy';
+    marco.title = 'Mapa con la ubicación del estudio';
+    marco.referrerPolicy = 'no-referrer-when-downgrade';
+    zona.appendChild(marco);
+    if (aviso) aviso.remove();
+  }
+
+  if (zona && leerDecision() === 'si') cargarMapa();
+
+  // el botón del propio recuadro vale como permiso para esta vez, sin obligar
+  // a aceptar el aviso de todo el sitio
+  const botonMapa = document.getElementById('mapaCargar');
+  if (botonMapa) botonMapa.addEventListener('click', cargarMapa);
+
+  // esto va antes que nada: el botón de cambiar de idea vive en la política de
+  // cookies y hace falta justamente cuando ya hay una decisión guardada
+  const rehacer = document.getElementById('cookieReset');
+  if (rehacer) rehacer.addEventListener('click', () => {
+    try { localStorage.removeItem(CLAVE); } catch (e) {}
+    location.reload();
+  });
+
+  const barra = document.getElementById('cookieBar');
+  if (!barra) return;
+
+  const responder = (valor) => {
+    guardar(valor);
+    barra.hidden = true;
+    if (valor === 'si') cargarMapa();
+  };
+  document.getElementById('cookieOk').addEventListener('click', () => responder('si'));
+  document.getElementById('cookieNo').addEventListener('click', () => responder('no'));
+
+  if (leerDecision()) return;   // ya decidió: no se le vuelve a preguntar
+  barra.hidden = false;
+})();
+
+// llegar hasta aquí significa que el archivo se ha ejecutado entero: la red de
 // seguridad de arriba se desactiva sola y las animaciones siguen su curso normal.
 window.__blOk = true;
