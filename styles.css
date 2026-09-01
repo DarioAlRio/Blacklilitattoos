@@ -754,6 +754,7 @@
        Instagram: el bloque de contacto se leía partido. Se separa del
        copyright para que teléfono e Instagram se agrupen entre ellos. */
     .footer-contacto{margin-top:12px;}
+    .footer-firma{gap:14px;}
   }
 
   @media (max-width:400px){
@@ -824,7 +825,25 @@
   .map-consent a:hover{color:var(--wine); border-bottom-color:var(--wine);}
 
   /* ---------- LEGAL MODALS ---------- */
+  /* La fila de abajo del todo: enlaces legales a la izquierda y la firma de
+     quien ha hecho la web a la derecha. La firma va en el tono más apagado de
+     todo el pie; el único que levanta la voz es el nombre, y solo al pasar
+     por encima. En móvil la fila se apila y la firma queda al final. */
+  .footer-firma{
+    display:flex; justify-content:space-between; align-items:baseline;
+    flex-wrap:wrap; gap:16px 28px; margin-top:18px;
+  }
   .legal-links{display:flex; gap:22px; flex-wrap:wrap;}
+  .firma{
+    font-size:11.5px; letter-spacing:.05em;
+    color:rgba(241,236,230,0.52); margin:0;
+  }
+  .firma a{
+    color:rgba(241,236,230,0.7); white-space:nowrap;
+    border-bottom:1px solid transparent; padding-bottom:2px;
+    transition:color .3s ease, border-color .3s ease;
+  }
+  .firma a:hover, .firma a:focus-visible{color:var(--gold); border-color:rgba(201,162,75,0.5);}
   .legal-links button{
     background:none; border:none; padding:6px 0; margin:-6px 0; cursor:pointer;
     font-family:var(--sans); font-size:12px; color:rgba(241,236,230,0.55);
