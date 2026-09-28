@@ -55,7 +55,7 @@ function trozo(texto, inicio, fin, incluirInicio) {
 // Versión de los estáticos: styles.css, script.js y logo.png se sirven con caché
 // de un año (ver vercel.json), así que al cambiar cualquiera de los tres hay que
 // subir este número aquí Y en las 7 páginas escritas a mano.
-const V = '?v=3';
+const V = '?v=4';
 
 const molde = leer(PAGINA_MOLDE);
 const FAVICONS = trozo(molde, '<link rel="icon"', '<meta name="theme-color"', true).trimEnd();
@@ -107,6 +107,7 @@ for (const a of nuevos) {
     resumen: a.resumenTarjeta,
     minutos: a.minutos,
     fecha: a.fecha,
+    actualizado: a.actualizado,
     categoria: a.categoria,
     generado: true
   };
@@ -236,7 +237,7 @@ function jsonLd(a) {
     }
   },
   "datePublished": "${a.fecha}",
-  "dateModified": "${a.fecha}",
+  "dateModified": "${a.actualizado || a.fecha}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "${url}"
@@ -650,7 +651,7 @@ function renderSitemap() {
   for (const a of Object.values(registro)) {
     const meta = SITEMAP_ARTICULOS[a.slug];
     if (!meta) throw new Error('artículo sin entrada en SITEMAP_ARTICULOS: ' + a.slug);
-    urls.push({ loc: `${DOMINIO}/${a.slug}`, fecha: a.fecha, ...meta });
+    urls.push({ loc: `${DOMINIO}/${a.slug}`, fecha: a.actualizado || a.fecha, ...meta });
   }
 
   const cuerpo = urls.map(u => `<!--  ${u.com}  -->

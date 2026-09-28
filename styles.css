@@ -1067,6 +1067,27 @@
   .prose ul li{position:relative; padding-left:24px; font-size:16px; line-height:1.65; color:var(--ink-soft);}
   .prose ul li::before{content:"—"; color:var(--wine); position:absolute; left:0; top:0;}
 
+  /* tablas de datos (mapa del dolor, tiempos por tamaño): el contenedor hace
+     scroll lateral en móvil para que la página nunca se desborde */
+  .table-wrap{margin-top:26px; overflow-x:auto; -webkit-overflow-scrolling:touch;}
+  .prose table{width:100%; border-collapse:collapse; font-size:15px;}
+  .prose caption{
+    caption-side:top; text-align:left; padding-bottom:12px;
+    font-size:13.5px; color:var(--ink-soft);
+  }
+  .prose th, .prose td{padding:12px 14px; border-bottom:1px solid var(--line-soft); text-align:left; vertical-align:top; line-height:1.5;}
+  .prose thead th{
+    font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--wine); border-bottom:1px solid var(--line);
+  }
+  .prose tbody th{color:var(--ink); font-weight:600;}
+  .prose td{color:var(--ink-soft);}
+  .prose td.nivel{font-variant-numeric:tabular-nums; color:var(--ink); font-weight:600; white-space:nowrap;}
+  @media (max-width:600px){
+    .prose table{font-size:14px;}
+    .prose th, .prose td{padding:10px 8px;}
+  }
+
   .keypoints{
     border:1px solid var(--line); border-left:2px solid var(--gold); border-radius:6px;
     background:var(--paper-dim); padding:28px 30px; margin-top:34px;

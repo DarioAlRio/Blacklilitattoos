@@ -1,6 +1,18 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/tatuajes-discretos-para-the-trabajo",
+      "destination": "/tatuajes-discretos-para-el-trabajo",
+      "permanent": true
+    },
+    {
+      "source": "/cuanto-se-tarda-en-tatuaje",
+      "destination": "/cuanto-se-tarda-en-hacer-un-tatuaje",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
