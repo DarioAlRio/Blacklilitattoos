@@ -3,8 +3,8 @@
   "titulo": "Tatuajes minimalistas: por qué duran más de lo que crees",
   "tituloCorto": "Tatuajes minimalistas",
   "migaCorta": "Tatuajes minimalistas",
-  "titleTag": "Tatuajes minimalistas: guía completa | BlackLili",
-  "descripcion": "Qué es un tatuaje minimalista, en qué se diferencia de la línea fina, qué diseños funcionan, tamaños recomendados y cómo envejecen con los años.",
+  "titleTag": "Qué es un tatuaje minimalista: significado, ideas y tamaños",
+  "descripcion": "Tatuaje minimalista: diseño reducido a lo esencial, con pocas líneas, sin relleno y mucho espacio vacío. En qué se diferencia de la línea fina, ideas y tamaños.",
   "ogDescripcion": "Qué es, en qué se diferencia de la línea fina, qué diseños funcionan y cómo envejecen.",
   "eyebrow": "Estilos",
   "lead": "Minimalista no significa pequeño. Significa que no sobra nada. Esa diferencia es exactamente la que separa un tatuaje que envejece bien de uno que se convierte en una mancha.",
@@ -22,7 +22,7 @@
     "Menos elementos significa menos cosas que se puedan cerrar con los años.",
     "El espacio vacío es parte del dibujo: no lo rellenes."
   ],
-  "intro": "        <p>El tatuaje minimalista es probablemente el estilo más pedido y el peor entendido. Se confunde con \"tatuaje pequeño\", y no es lo mismo. Un tatuaje puede ser diminuto y estar sobrecargado; puede ser grande y ser radicalmente minimalista.</p>\n\n        <p>Lo que define el minimalismo es la <strong>economía</strong>: cada línea que está tiene una razón para estar, y todo lo demás se ha eliminado. Y resulta que esa disciplina es también la mejor estrategia de longevidad que existe en tatuaje.</p>",
+  "intro": "        <p><strong>Un tatuaje minimalista es un diseño reducido a lo esencial: pocas líneas, casi siempre en negro, sin relleno y con mucho espacio vacío alrededor.</strong> No se define por el tamaño sino por la economía: cada trazo que está tiene una razón para estar, y todo lo demás se ha eliminado.</p>\n\n        <p>Es probablemente el estilo más pedido y el peor entendido, porque se confunde con \"tatuaje pequeño\". Un tatuaje puede ser diminuto y estar sobrecargado; puede ser grande y ser radicalmente minimalista. Y resulta que esa disciplina de quitar es también la mejor estrategia de longevidad que existe en tatuaje.</p>\n\n        <p>Si quieres ver cómo queda en piel real, tienes ejemplos en nuestro <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio de línea fina</a>.</p>",
   "secciones": [
     {
       "id": "que-es",
@@ -71,6 +71,10 @@
   },
   "faq": [
     {
+      "q": "¿Qué es un tatuaje minimalista?",
+      "a": "Un diseño reducido a lo esencial: pocas líneas, normalmente en negro, sin relleno y con espacio vacío alrededor. No tiene por qué ser pequeño; lo que lo define es que no le sobra nada."
+    },
+    {
       "q": "¿Un tatuaje minimalista tiene que ser pequeño?",
       "a": "No. Minimalista se refiere a la economía del diseño, no al tamaño. Una pieza grande con muy pocos elementos es plenamente minimalista, y además envejece mejor que la misma idea reducida a tres centímetros."
     },
@@ -98,5 +102,6 @@
     "disenos-tatuajes-linea-fina-ideas",
     "tatuajes-pequenos-donde-hacerlos",
     "tatuajes-florales-linea-fina"
-  ]
+  ],
+  "actualizado": "2026-09-28"
 }

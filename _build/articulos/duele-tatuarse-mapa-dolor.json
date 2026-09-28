@@ -1,29 +1,36 @@
 {
   "slug": "duele-tatuarse-mapa-dolor",
-  "titulo": "¿Duele tatuarse? Mapa de dolor por zonas del cuerpo",
-  "tituloCorto": "¿Duele tatuarse? Mapa por zonas",
+  "titulo": "Mapa del dolor de los tatuajes: qué zonas duelen más (tabla del 1 al 10)",
+  "tituloCorto": "Mapa del dolor: zonas que más duelen",
   "migaCorta": "Mapa de dolor",
-  "titleTag": "¿Duele tatuarse? Mapa de dolor por zonas | BlackLili Tattoos",
-  "descripcion": "Qué zonas duelen más y menos al tatuarse, por qué, cómo se siente realmente, qué influye en tu tolerancia y qué hacer si te mareas durante la sesión.",
-  "ogDescripcion": "Qué zonas duelen más y menos, cómo se siente de verdad y qué hacer si te mareas.",
+  "titleTag": "Mapa del dolor de tatuajes: zonas que más duelen (tabla 1-10)",
+  "descripcion": "Mapa del dolor del tatuaje con tabla por zonas del 1 al 10: costillas, pie, muñeca, antebrazo... Qué duele más en mujer y hombre y cómo aguantar mejor.",
+  "ogDescripcion": "Tabla del dolor por zonas del 1 al 10, diferencias entre mujer y hombre y cómo aguantar mejor la sesión.",
   "eyebrow": "Antes de tatuarte",
-  "lead": "La pregunta que todo el mundo hace y casi nadie responde con detalle. La respuesta corta: duele, pero no como te imaginas, y depende muchísimo de dónde.",
-  "minutos": 6,
+  "lead": "Respuesta corta: sí duele, pero menos de lo que imaginas, y depende sobre todo de la zona. Abajo tienes el mapa del dolor completo, zona por zona y puntuado del 1 al 10.",
+  "minutos": 8,
   "contexto": "Antes de tatuarte",
   "fecha": "2026-08-21",
   "tema": "Dolor al tatuarse",
   "categoria": "practico",
   "orden": 4,
-  "resumenTarjeta": "Qué zonas duelen más y menos, por qué, cómo se siente de verdad y qué hacer si te mareas.",
+  "resumenTarjeta": "Tabla del dolor por zonas del 1 al 10, qué duele más en mujer y hombre y cómo aguantar mejor.",
   "resumenTitulo": "Lo esencial",
   "resumen": [
+    "Lo que menos duele: <strong>antebrazo exterior, brazo, gemelo y muslo</strong> (2-4 sobre 10).",
+    "Lo que más duele: <strong>costillas, esternón, pie, manos, codo y rodilla</strong> (7-9 sobre 10).",
     "El factor decisivo es la <strong>zona</strong>, no el estilo ni el tamaño del dibujo.",
-    "Carne y músculo amortiguan; hueso y nervios superficiales, no.",
-    "Lo que más cansa no es la intensidad: es la duración.",
-    "Comer antes y dormir bien cambia tu tolerancia de forma notable."
+    "Lo que más cansa no es la intensidad: es la duración. Comer y dormir bien cambia tu tolerancia."
   ],
   "intro": "        <p>La descripción que más se repite entre quienes salen de su primera sesión es esta: <em>\"como un arañazo continuo\"</em> o <em>\"como la sensación de calor de un rasguño\"</em>. Molesto, sí. Insoportable, casi nunca.</p>\n\n        <p>Y una aclaración que evita muchas dudas: <strong>la línea fina no duele más que otros estilos</strong>. Usa agujas con menos puntas y no requiere pasadas repetidas de relleno. Lo que determina el dolor es dónde te lo haces.</p>",
   "secciones": [
+    {
+      "id": "tabla",
+      "titulo": "Tabla del dolor por zonas, del 1 al 10",
+      "toc": "Tabla del dolor 1-10",
+      "html": "        <p>Esta es la escala que usamos en el estudio para orientar a quien viene por primera vez. Es una media: cada piel es distinta, pero el orden entre zonas se repite muchísimo.</p>\n        <div class=\"table-wrap\">\n          <table>\n            <caption>Dolor aproximado por zona del cuerpo, de 1 (casi nada) a 10 (muy intenso)</caption>\n            <thead>\n              <tr><th scope=\"col\">Zona</th><th scope=\"col\">Dolor</th><th scope=\"col\">Por qué</th></tr>\n            </thead>\n            <tbody>\n              <tr><th scope=\"row\">Antebrazo, cara externa</th><td class=\"nivel\">2-3 / 10</td><td>Músculo y piel gruesa. La mejor zona para estrenarse.</td></tr>\n              <tr><th scope=\"row\">Brazo superior, cara externa</th><td class=\"nivel\">2-3 / 10</td><td>Mucho músculo y pocas terminaciones nerviosas.</td></tr>\n              <tr><th scope=\"row\">Muslo, cara externa y frontal</th><td class=\"nivel\">3 / 10</td><td>Grasa y músculo que amortiguan.</td></tr>\n              <tr><th scope=\"row\">Gemelo</th><td class=\"nivel\">3-4 / 10</td><td>Cómodo y con espacio.</td></tr>\n              <tr><th scope=\"row\">Omóplato y espalda alta</th><td class=\"nivel\">3-4 / 10</td><td>Zona amplia; molesta más cerca del hueso.</td></tr>\n              <tr><th scope=\"row\">Antebrazo interior</th><td class=\"nivel\">4 / 10</td><td>Piel algo más fina y sensible.</td></tr>\n              <tr><th scope=\"row\">Nuca</th><td class=\"nivel\">4-5 / 10</td><td>Más llevadera de lo que se teme.</td></tr>\n              <tr><th scope=\"row\">Hombro y clavícula</th><td class=\"nivel\">5-6 / 10</td><td>El hueso de la clavícula se nota.</td></tr>\n              <tr><th scope=\"row\">Muñeca</th><td class=\"nivel\">5-6 / 10</td><td>Piel fina sobre tendones y hueso.</td></tr>\n              <tr><th scope=\"row\">Tobillo</th><td class=\"nivel\">6 / 10</td><td>Poco tejido encima del hueso.</td></tr>\n              <tr><th scope=\"row\">Espalda baja y lumbar</th><td class=\"nivel\">5-6 / 10</td><td>Sensible a los lados de la columna.</td></tr>\n              <tr><th scope=\"row\">Cara interna del brazo y del muslo</th><td class=\"nivel\">6-7 / 10</td><td>Piel fina con muchas terminaciones.</td></tr>\n              <tr><th scope=\"row\">Cuello y garganta</th><td class=\"nivel\">7 / 10</td><td>Piel fina y zona muy sensible.</td></tr>\n              <tr><th scope=\"row\">Manos y dedos</th><td class=\"nivel\">7-8 / 10</td><td>Poco tejido y muchísimos nervios.</td></tr>\n              <tr><th scope=\"row\">Columna vertebral</th><td class=\"nivel\">7-8 / 10</td><td>Directamente sobre las vértebras.</td></tr>\n              <tr><th scope=\"row\">Codo y rodilla</th><td class=\"nivel\">8 / 10</td><td>Hueso justo debajo y piel que se pliega.</td></tr>\n              <tr><th scope=\"row\">Pie y empeine</th><td class=\"nivel\">8 / 10</td><td>Hueso, tendones y nervios casi en superficie.</td></tr>\n              <tr><th scope=\"row\">Esternón</th><td class=\"nivel\">8 / 10</td><td>Piel fina sobre hueso y vibración en el pecho.</td></tr>\n              <tr><th scope=\"row\">Costillas y costado</th><td class=\"nivel\">8-9 / 10</td><td>Hueso, piel fina y el movimiento de respirar.</td></tr>\n              <tr><th scope=\"row\">Axila</th><td class=\"nivel\">9 / 10</td><td>La zona más sensible que tatuamos.</td></tr>\n            </tbody>\n          </table>\n        </div>\n        <p>Regla rápida para leerla: <strong>cuanto más cerca está el hueso de la piel, más duele</strong>. Donde puedes pellizcar carne, duele poco.</p>",
+      "paso": false
+    },
     {
       "id": "por-que",
       "titulo": "Por qué unas zonas duelen más que otras",
@@ -49,6 +56,12 @@
       "html": "        <p>Aquí ya es dolor de verdad. Se puede perfectamente, pero conviene saber a qué vas y planificar pausas:</p>\n        <ul>\n          <li><strong>Costillas y costado.</strong> La zona que más se menciona. Piel fina sobre hueso, y además el propio movimiento de respirar.</li>\n          <li><strong>Esternón y centro del pecho.</strong></li>\n          <li><strong>Columna vertebral.</strong> Directamente sobre las vértebras.</li>\n          <li><strong>Empeine y planta del pie.</strong></li>\n          <li><strong>Manos, dedos y nudillos.</strong> Poco tejido y muchas terminaciones.</li>\n          <li><strong>Cuello y garganta.</strong></li>\n          <li><strong>Codo y hueco del codo.</strong> Sobre el hueso, muy intenso.</li>\n          <li><strong>Rodilla y hueco poplíteo.</strong></li>\n          <li><strong>Interior del bíceps y axila.</strong></li>\n        </ul>\n        <p>Que estén aquí no significa que haya que evitarlas: hay piezas preciosas en costillas y esternón. Significa que no son la mejor idea para estrenarse.</p>"
     },
     {
+      "id": "mujer-hombre",
+      "titulo": "¿Duele más en mujer o en hombre?",
+      "toc": "Mujer y hombre",
+      "html": "        <p>Es una de las búsquedas más repetidas, así que vamos al grano: <strong>el mapa del dolor es prácticamente el mismo para mujeres y hombres</strong>. Las zonas que duelen son las mismas porque la anatomía que explica el dolor (hueso, nervios, grosor de la piel) es la misma.</p>\n        <p>Las diferencias que sí vemos en cabina son de matiz:</p>\n        <ul>\n          <li><strong>Mujeres:</strong> el pecho, la cadera y el bajo vientre suelen ser más sensibles, y muchas notan más dolor los días previos a la regla. Si puedes elegir fecha, evítalos.</li>\n          <li><strong>Hombres:</strong> el vello obliga a rasurar la zona antes, y el pecho y el abdomen se notan más si hay poca grasa. Con más masa muscular, brazo y muslo son todavía más llevaderos.</li>\n          <li><strong>En ambos casos</strong> pesa mucho más cómo llegas a la sesión (descanso, comida, nervios) que tu sexo.</li>\n        </ul>"
+    },
+    {
       "id": "influye",
       "titulo": "Lo que sí puedes controlar",
       "toc": "Lo que puedes controlar",
@@ -61,12 +74,19 @@
       "html": "        <p>Pasa con relativa frecuencia y no tiene ninguna importancia. Las señales: sudor frío, visión borrosa o con puntos, oídos taponados, náusea, sensación de calor repentino.</p>\n        <p><strong>Dilo en ese momento.</strong> No esperes a ver si se pasa. Se para la sesión, te tumbas con las piernas en alto, bebes algo azucarado y en cinco o diez minutos se continúa con normalidad.</p>\n        <p>Ningún tatuador se va a molestar. Es una respuesta fisiológica normal, no tiene nada que ver con ser valiente, y quien lleva años tatuando lo ha visto cientos de veces.</p>"
     }
   ],
-  "ctaTras": 3,
+  "ctaTras": 4,
   "cta": {
     "titulo": "¿Es tu primera vez?",
     "texto": "Te contamos qué vas a notar en la zona que tengas pensada y planificamos la sesión con las pausas que necesites. Sin prisa.",
-    "btn1": { "label": "Reservar una valoración", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
+    "btn1": {
+      "label": "Reservar una valoración",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver horarios del estudio",
+      "href": "contacto-tatuajes-puente-vallecas"
+    }
   },
   "faq": [
     {
@@ -84,14 +104,31 @@
     {
       "q": "¿Puedo usar crema anestésica?",
       "a": "Consúltalo con el estudio antes de aplicarte nada. Algunas cremas alteran la textura de la piel y dificultan que la tinta asiente, así que no todos los tatuadores trabajan con ellas."
+    },
+    {
+      "q": "¿Duele más la muñeca o el tobillo?",
+      "a": "Son parecidos: los dos rondan un 5-6 sobre 10 porque hay poco tejido encima del hueso. El tobillo suele notarse un poco más, sobre todo en la parte del hueso."
+    },
+    {
+      "q": "¿Duele más tatuarse en mujer o en hombre?",
+      "a": "El mapa del dolor es prácticamente el mismo. Influyen más el descanso, la comida y los nervios del día que el sexo. En mujeres, los días previos a la regla suele haber más sensibilidad."
+    },
+    {
+      "q": "¿Cuánto dura el dolor después de tatuarse?",
+      "a": "La zona queda como una quemadura solar leve uno o dos días. Después pica más de lo que duele, sobre todo cuando empieza a pelar."
     }
   ],
-  "cierre": "Cruza esta información con <a href=\"tatuajes-discretos-para-el-trabajo\">las zonas que se tapan con la ropa</a> y tendrás casi decidida la ubicación. El resto de la preparación está en <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>.",
+  "cierre": "Cruza este mapa con <a href=\"tatuajes-discretos-para-el-trabajo\">las zonas que se tapan con la ropa</a> y con <a href=\"cuanto-se-tarda-en-hacer-un-tatuaje\">lo que dura la sesión</a>, y tendrás casi decidida la ubicación. Si quieres que lo valoremos contigo, estamos en <a href=\"contacto-tatuajes-puente-vallecas\">Puente de Vallecas, Madrid</a>.",
   "tarjetaLateral": {
     "titulo": "Sin prisa",
     "texto": "Planificamos la sesión con las pausas que necesites. Parar un momento es completamente normal.",
     "label": "Pedir cita",
     "href": "contacto-tatuajes-puente-vallecas"
   },
-  "relacionados": ["primer-tatuaje-linea-fina-consejos", "cuanto-se-tarda-en-hacer-un-tatuaje", "tatuajes-discretos-para-el-trabajo"]
+  "relacionados": [
+    "primer-tatuaje-linea-fina-consejos",
+    "cuanto-se-tarda-en-hacer-un-tatuaje",
+    "tatuajes-discretos-para-el-trabajo"
+  ],
+  "actualizado": "2026-09-28"
 }

@@ -1,20 +1,20 @@
 {
   "slug": "cuanto-se-tarda-en-hacer-un-tatuaje",
-  "titulo": "Cuánto se tarda en hacer un tatuaje",
+  "titulo": "Cuánto se tarda en hacer un tatuaje: tiempos por tamaño (5, 10, 15 y 20 cm)",
   "tituloCorto": "Cuánto se tarda en hacer un tatuaje",
   "migaCorta": "Duración de la sesión",
-  "titleTag": "Cuánto se tarda en hacer un tatuaje | BlackLili Tattoos",
-  "descripcion": "Cuánto dura una sesión de tatuaje según tamaño y estilo, qué parte del tiempo no es tatuar, cuándo hacen falta varias sesiones y cómo planificar el día.",
-  "ogDescripcion": "Duración por tipo de pieza, qué parte del tiempo no es tatuar y cuándo hacen falta varias sesiones.",
+  "titleTag": "Cuánto se tarda en hacer un tatuaje: de 30 min a 4 h según tamaño",
+  "descripcion": "Un tatuaje pequeño tarda 30-60 min; uno de 15 cm, 2-4 horas; uno de 20 cm, 3-5 horas o dos sesiones. Tabla de tiempos por tamaño y cuánto dura una sesión.",
+  "ogDescripcion": "Tabla de tiempos por tamaño: de 30 minutos para uno pequeño a varias sesiones para piezas grandes.",
   "eyebrow": "Antes de tatuarte",
-  "lead": "Una cita de \"un tatuaje pequeño\" rara vez son quince minutos. Entre que entras y sales pasan más cosas de las que parece, y conviene saberlo para organizar el día.",
-  "minutos": 5,
+  "lead": "Respuesta rápida: un tatuaje pequeño de línea fina se hace en <strong>30 a 60 minutos</strong>, uno de 10 cm en <strong>1 a 2 horas</strong>, uno de 15 cm en <strong>2 a 4 horas</strong> y uno de 20 cm en <strong>3 a 5 horas</strong>, a veces en dos sesiones.",
+  "minutos": 6,
   "contexto": "Antes de tatuarte",
   "fecha": "2026-07-06",
   "tema": "Duración de una sesión de tatuaje",
   "categoria": "practico",
   "orden": 5,
-  "resumenTarjeta": "Duración por tipo de pieza, qué parte del tiempo no es tatuar y cuándo hacen falta varias sesiones.",
+  "resumenTarjeta": "Tabla de tiempos por tamaño (5, 10, 15 y 20 cm), qué parte de la cita no es tatuar y cuándo hacen falta varias sesiones.",
   "resumenTitulo": "Cálculo rápido",
   "resumen": [
     "Pieza pequeña de línea fina: <strong>30 a 60 minutos</strong> en total.",
@@ -24,6 +24,13 @@
   ],
   "intro": "        <p>Calcular mal la duración es lo que hace que la gente llegue con prisa, se ponga nerviosa a mitad de sesión o tenga que irse antes de terminar. Merece la pena reservar la tarde entera aunque la pieza sea pequeña.</p>\n\n        <p>Estos son los tiempos reales.</p>",
   "secciones": [
+    {
+      "id": "tabla",
+      "titulo": "Tabla de tiempos por tamaño",
+      "toc": "Tiempos por tamaño",
+      "html": "        <p>Tiempos totales de cita en el estudio, contando diseño, plantilla, tatuaje y cuidados. Son para línea fina; un relleno o sombreado denso suma tiempo.</p>\n        <div class=\"table-wrap\">\n          <table>\n            <caption>Duración aproximada de un tatuaje según su tamaño</caption>\n            <thead>\n              <tr><th scope=\"col\">Tamaño</th><th scope=\"col\">Tiempo total</th><th scope=\"col\">Ejemplo</th></tr>\n            </thead>\n            <tbody>\n              <tr><th scope=\"row\">Pequeño (3-5 cm)</th><td class=\"nivel\">30-60 min</td><td>Símbolo, inicial, fecha, flor sencilla.</td></tr>\n              <tr><th scope=\"row\">5-8 cm</th><td class=\"nivel\">1-1,5 h</td><td>Flor con algo de detalle, frase corta.</td></tr>\n              <tr><th scope=\"row\">10 cm</th><td class=\"nivel\">1-2 h</td><td>Ramillete pequeño, lettering de una línea.</td></tr>\n              <tr><th scope=\"row\">15 cm</th><td class=\"nivel\">2-4 h</td><td>Composición botánica, pieza de antebrazo.</td></tr>\n              <tr><th scope=\"row\">20 cm</th><td class=\"nivel\">3-5 h</td><td>Pieza de brazo o costado; a menudo 2 sesiones.</td></tr>\n              <tr><th scope=\"row\">Más de 25 cm</th><td class=\"nivel\">Varias sesiones</td><td>Media manga, espalda. Se cuenta en sesiones.</td></tr>\n            </tbody>\n          </table>\n        </div>\n        <p>El factor que más mueve estos números no es el tamaño: es el <strong>nivel de detalle</strong>. Dos piezas de 15 cm pueden llevar una hora y media o cuatro.</p>",
+      "paso": false
+    },
     {
       "id": "por-tipo",
       "titulo": "Cuánto dura según el tipo de pieza",
@@ -55,14 +62,33 @@
       "html": "        <p>Los tiempos no se suman de forma lineal, se suman con fricción. Entre persona y persona hay que limpiar, montar material nuevo y elegir el siguiente diseño.</p>\n        <p>Cálculo realista con piezas pequeñas: entre <strong>20 y 30 minutos por persona</strong>. Un grupo de seis son entre dos y tres horas.</p>\n        <p>Lo que más acorta ese total es llevar <strong>los diseños decididos de antemano</strong>. Elegir sobre la marcha, en grupo y con opiniones cruzadas, puede comerse una hora entera. Lo detallamos en <a href=\"tatuajes-despedida-de-soltera\">tatuajes en una despedida de soltera</a>.</p>"
     }
   ],
-  "ctaTras": 2,
+  "ctaTras": 3,
   "cta": {
     "titulo": "¿Cuánto va a durar lo tuyo?",
     "texto": "Mándanos la referencia, la zona y el tamaño, y te decimos cuánto tiempo reservar y si hace falta más de una sesión.",
-    "btn1": { "label": "Consultar mi pieza", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
+    "btn1": {
+      "label": "Consultar mi pieza",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver horarios del estudio",
+      "href": "contacto-tatuajes-puente-vallecas"
+    }
   },
   "faq": [
+    {
+      "q": "¿Cuánto se tarda en hacer un tatuaje de 15 cm?",
+      "a": "Entre 2 y 4 horas de cita completa en línea fina. Si lleva mucho detalle o sombreado, puede alargarse o dividirse en dos sesiones."
+    },
+    {
+      "q": "¿Cuánto se tarda en hacer un tatuaje de 20 cm?",
+      "a": "Entre 3 y 5 horas. Con mucho detalle es habitual dividirlo en dos sesiones separadas por tres o cuatro semanas."
+    },
+    {
+      "q": "¿Cuánto dura una sesión de tatuaje?",
+      "a": "Una sesión normal dura entre 1 y 4 horas. El límite práctico está en 4 o 5 horas seguidas: a partir de ahí la piel deja de aceptar bien la tinta."
+    },
     {
       "q": "¿Cuánto se tarda en hacer un tatuaje pequeño?",
       "a": "Entre 30 y 60 minutos de cita completa para una pieza de línea fina de 3 a 5 cm, contando la revisión del diseño, la plantilla, el tatuaje y la limpieza final."
@@ -80,12 +106,17 @@
       "a": "Porque alrededor de un tercio de la cita es preparación: revisar el diseño, ajustar el tamaño, colocar la plantilla, montar el campo estéril y explicar los cuidados al terminar."
     }
   ],
-  "cierre": "Para calcular el coste asociado a esos tiempos, tienes <a href=\"precio-tatuaje-linea-fina-madrid\">qué determina el precio de un tatuaje</a>, y para preparar bien el día, <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>.",
+  "cierre": "Para calcular el coste asociado a esos tiempos, tienes <a href=\"precio-tatuaje-linea-fina-madrid\">qué determina el precio de un tatuaje</a>, y para preparar bien el día, <a href=\"primer-tatuaje-linea-fina-consejos\">tu primer tatuaje</a>. Si quieres saber cuánto llevará tu diseño en concreto, escríbenos y te lo decimos antes de reservar: estamos en <a href=\"contacto-tatuajes-puente-vallecas\">Puente de Vallecas, Madrid</a>.",
   "tarjetaLateral": {
     "titulo": "Reserva la tarde",
     "texto": "Trabajamos con cita previa y sin solapar clientes, para que nadie vaya con prisa.",
     "label": "Ver horarios",
     "href": "contacto-tatuajes-puente-vallecas"
   },
-  "relacionados": ["precio-tatuaje-linea-fina-madrid", "duele-tatuarse-mapa-dolor", "reservar-cita-tatuaje-madrid"]
+  "relacionados": [
+    "precio-tatuaje-linea-fina-madrid",
+    "duele-tatuarse-mapa-dolor",
+    "reservar-cita-tatuaje-madrid"
+  ],
+  "actualizado": "2026-09-28"
 }
