@@ -119,6 +119,7 @@ for (const a of nuevos) {
 // siempre la misma persona; el día en que haya más de una, esto pasa a ser
 // un campo más de _build/articulos/*.json.
 const AUTORA = 'Lidia Domínguez García';
+const PAGINA_AUTORA = 'sobre-lidia';
 
 const MESES = ['enero','febrero','marzo','abril','mayo','junio',
                'julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -178,6 +179,16 @@ ${items}
         </div>\n\n`;
 }
 
+// Fuentes oficiales al pie del artículo: [{ texto, url }]. Solo en los temas
+// de salud y normativa, donde citar a la Administración aporta confianza.
+function bloqueFuentes(fuentes) {
+  if (!fuentes || !fuentes.length) return '';
+  const enlaces = fuentes.map(f =>
+    `<a href="${attr(f.url)}" target="_blank" rel="noopener">${texto(f.texto)}</a>`).join(' · ');
+  return `        <p class="article-foot">Fuentes oficiales: ${enlaces}.</p>
+`;
+}
+
 function bloqueCta(cta) {
   return `        <div class="article-cta">
           <h3>${texto(cta.titulo)}</h3>
@@ -220,16 +231,21 @@ function jsonLd(a) {
   "inLanguage": "es-ES",
   "author": {
     "@type": "Person",
+    "@id": "${DOMINIO}/${PAGINA_AUTORA}#lidia",
     "name": "${AUTORA}",
+    "url": "${DOMINIO}/${PAGINA_AUTORA}",
     "jobTitle": "Tatuadora",
+    "sameAs": ["https://www.instagram.com/blacklilitattoos/"],
     "worksFor": {
-      "@type": "Organization",
+      "@type": "TattooParlor",
+      "@id": "${DOMINIO}/#estudio",
       "name": "BlackLili Tattoos",
       "url": "${DOMINIO}/"
     }
   },
   "publisher": {
     "@type": "Organization",
+    "@id": "${DOMINIO}/#estudio",
     "name": "BlackLili Tattoos",
     "logo": {
       "@type": "ImageObject",
@@ -371,9 +387,11 @@ ${NAV}
       <p class="article-lead">${a.lead}</p>
 
       <div class="article-meta">
-        <span>Por ${AUTORA}</span>
+        <span>Por <a href="${PAGINA_AUTORA}">${AUTORA}</a></span>
         <span class="sep">·</span>
-        <time datetime="${a.fecha}">${fechaLarga(a.fecha)}</time>
+        <time datetime="${a.fecha}">${fechaLarga(a.fecha)}</time>${a.actualizado ? `
+        <span class="sep">·</span>
+        <span>Actualizado el <time datetime="${a.actualizado}">${fechaLarga(a.actualizado)}</time></span>` : ''}
         <span class="sep">·</span>
         <span>${a.minutos} min de lectura</span>
         <span class="sep">·</span>
@@ -390,7 +408,7 @@ ${NAV}
 ${bloqueResumen(a)}${a.intro.trimEnd()}
 
 ${cuerpo}${bloqueFaq(a.faq)}        <p class="article-foot">${a.cierre}</p>
-
+${bloqueFuentes(a.fuentes)}
       </div>
 
       <aside class="article-aside">
@@ -603,12 +621,13 @@ ${FOOTER}
 // comentario de cada línea son decisiones editoriales. Viven aquí para que
 // regenerar no las borre. Lo único que sale de los datos es el lastmod.
 const PAGINAS_FIJAS = [
-  { ruta: '/', fecha: '2026-07-17', freq: 'weekly', pri: '1.0', com: 'Página de Inicio' },
-  { ruta: '/portfolio-tatuajes-linea-fina-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Portfolio' },
-  { ruta: '/tatuajes-para-bodas-y-eventos-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Tatuajes para Bodas y Eventos' },
-  { ruta: '/cursos-tatuaje-linea-fina-madrid', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Cursos de Tatuaje Línea Fina' },
-  { ruta: '/preguntas-frecuentes-tatuaje-linea-fina', fecha: '2026-07-17', freq: 'monthly', pri: '0.7', com: 'Preguntas Frecuentes' },
-  { ruta: '/contacto-tatuajes-puente-vallecas', fecha: '2026-07-17', freq: 'monthly', pri: '0.9', com: 'Contacto' },
+  { ruta: '/', fecha: '2026-08-08', freq: 'weekly', pri: '1.0', com: 'Página de Inicio' },
+  { ruta: '/portfolio-tatuajes-linea-fina-madrid', fecha: '2026-08-08', freq: 'monthly', pri: '0.9', com: 'Portfolio' },
+  { ruta: '/tatuajes-para-bodas-y-eventos-madrid', fecha: '2026-10-01', freq: 'monthly', pri: '0.9', com: 'Tatuajes para Bodas y Eventos' },
+  { ruta: '/cursos-tatuaje-linea-fina-madrid', fecha: '2026-10-01', freq: 'monthly', pri: '0.9', com: 'Cursos de Tatuaje Línea Fina' },
+  { ruta: '/preguntas-frecuentes-tatuaje-linea-fina', fecha: '2026-08-08', freq: 'monthly', pri: '0.7', com: 'Preguntas Frecuentes' },
+  { ruta: '/contacto-tatuajes-puente-vallecas', fecha: '2026-08-08', freq: 'monthly', pri: '0.9', com: 'Contacto' },
+  { ruta: '/sobre-lidia', fecha: '2026-10-01', freq: 'monthly', pri: '0.7', com: 'Sobre Lidia' },
   { ruta: '/blog-tatuajes-linea-fina', fecha: '2026-08-08', freq: 'weekly', pri: '0.8', com: 'Blog: Índice' }
 ];
 

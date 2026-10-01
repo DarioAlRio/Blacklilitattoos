@@ -10,7 +10,7 @@
   "lead": "Un tatuaje es una herida controlada. Todo lo que rodea a esa herida está regulado, y como cliente tienes derecho a verlo. Esto es lo que deberías comprobar sin pedir permiso a nadie.",
   "minutos": 6,
   "contexto": "Madrid",
-  "fecha": "2026-07-11",
+  "fecha": "2026-08-08",
   "tema": "Higiene en estudios de tatuaje",
   "lugar": "Madrid",
   "categoria": "vallecas",
@@ -95,6 +95,20 @@
     }
   ],
   "cierre": "Si vas a tatuarte en el barrio, en la guía de <a href=\"tatuajes-en-vallecas-donde-tatuarse\">tatuajes en Vallecas</a> tienes el resto de criterios para elegir estudio, y en <a href=\"preguntas-frecuentes-tatuaje-linea-fina\">preguntas frecuentes</a> las dudas más habituales.",
+  "fuentes": [
+    {
+      "texto": "Decreto 35/2005 de la Comunidad de Madrid",
+      "url": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&idnorma=3650"
+    },
+    {
+      "texto": "Comunidad de Madrid: registro de centros y cursos de tatuaje",
+      "url": "https://www.comunidad.madrid/salud/registros-centros-cursos-tatuaje-micropigmentacion-piercing"
+    },
+    {
+      "texto": "Madrid Salud: tatuaje y anillado",
+      "url": "https://madridsalud.es/salud-publica/salud-ambiental/cuidado-ejercicio-y-estetica/tatuaje-y-anillado/"
+    }
+  ],
   "tarjetaLateral": {
     "titulo": "Puedes venir a verlo",
     "texto": "Enseñamos la cabina y el material antes de que reserves nada. Es lo normal, no un favor.",

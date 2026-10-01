@@ -10,7 +10,7 @@
   "lead": "Sí se puede tatuar en verano. Lo que no se puede es tatuarse el jueves e irse a la playa el sábado. Toda la cuestión es de calendario.",
   "minutos": 5,
   "contexto": "Verano",
-  "fecha": "2026-07-20",
+  "fecha": "2026-08-08",
   "tema": "Tatuajes y verano",
   "categoria": "practico",
   "orden": 6,
@@ -59,8 +59,15 @@
   "cta": {
     "titulo": "¿Te tatúas antes o después del viaje?",
     "texto": "Cuéntanos tus fechas y te decimos qué margen necesitas para llegar con el tatuaje cicatrizado y poder bañarte tranquilo.",
-    "btn1": { "label": "Consultar fechas", "href": "https://www.instagram.com/blacklilitattoos/", "externo": true },
-    "btn2": { "label": "Ver horarios del estudio", "href": "contacto-tatuajes-puente-vallecas" }
+    "btn1": {
+      "label": "Consultar fechas",
+      "href": "https://www.instagram.com/blacklilitattoos/",
+      "externo": true
+    },
+    "btn2": {
+      "label": "Ver horarios del estudio",
+      "href": "contacto-tatuajes-puente-vallecas"
+    }
   },
   "faq": [
     {
@@ -81,11 +88,21 @@
     }
   ],
   "cierre": "La rutina completa de cicatrización, día a día, está en <a href=\"cuidados-tatuaje-linea-fina\">cuidados de un tatuaje semana a semana</a>.",
+  "fuentes": [
+    {
+      "texto": "Madrid Salud: tatuaje y anillado",
+      "url": "https://madridsalud.es/salud-publica/salud-ambiental/cuidado-ejercicio-y-estetica/tatuaje-y-anillado/"
+    }
+  ],
   "tarjetaLateral": {
     "titulo": "Calculamos tus fechas",
     "texto": "Dinos cuándo te vas de viaje y te decimos si compensa tatuarte antes o a la vuelta.",
     "label": "Consultar",
     "href": "contacto-tatuajes-puente-vallecas"
   },
-  "relacionados": ["cuidados-tatuaje-linea-fina", "tatuajes-y-deporte-gimnasio", "tatuarse-antes-de-la-boda-plazos"]
+  "relacionados": [
+    "cuidados-tatuaje-linea-fina",
+    "tatuajes-y-deporte-gimnasio",
+    "tatuarse-antes-de-la-boda-plazos"
+  ]
 }

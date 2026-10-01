@@ -10,7 +10,7 @@
   "lead": "En línea fina, la cicatrización es la mitad del trabajo. El trazo lo pone el tatuador; que ese trazo siga siendo nítido dentro de cinco años depende bastante de lo que hagas el primer mes.",
   "minutos": 6,
   "contexto": "Guía de cicatrización",
-  "fecha": "2026-06-09",
+  "fecha": "2026-08-08",
   "tema": "Cuidados de un tatuaje",
   "categoria": "practico",
   "orden": 3,
@@ -87,6 +87,12 @@
     }
   ],
   "cierre": "Estas indicaciones son generales. En tu cita en BlackLili Tattoos te damos las instrucciones concretas para tu tatuaje y tu tipo de piel. Puedes consultar el resto de dudas habituales en <a href=\"preguntas-frecuentes-tatuaje-linea-fina\">preguntas frecuentes</a> o <a href=\"contacto-tatuajes-puente-vallecas\">escribirnos directamente</a>.",
+  "fuentes": [
+    {
+      "texto": "Madrid Salud: tatuaje y anillado",
+      "url": "https://madridsalud.es/salud-publica/salud-ambiental/cuidado-ejercicio-y-estetica/tatuaje-y-anillado/"
+    }
+  ],
   "tarjetaLateral": {
     "titulo": "Revisión sin coste",
     "texto": "Si te has tatuado en el estudio y algo no te convence al cicatrizar, tráelo y lo valoramos contigo.",
