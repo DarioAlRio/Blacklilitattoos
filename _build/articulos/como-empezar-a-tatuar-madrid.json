@@ -10,7 +10,7 @@
   "lead": "Se puede aprender. Lo que no se puede es aprender en un fin de semana, ni con un kit de internet, ni practicando sobre la piel de tus amigos. Esto es lo que hace falta de verdad.",
   "minutos": 6,
   "contexto": "Madrid",
-  "fecha": "2026-07-31",
+  "fecha": "2026-08-08",
   "tema": "Formación en tatuaje",
   "lugar": "Madrid",
   "categoria": "formacion",
@@ -95,6 +95,16 @@
     }
   ],
   "cierre": "Si quieres ver cómo trabajamos antes de decidirte, tienes el <a href=\"portfolio-tatuajes-linea-fina-madrid\">portfolio del estudio</a> y el detalle de la <a href=\"cursos-tatuaje-linea-fina-madrid\">formación en línea fina</a>.",
+  "fuentes": [
+    {
+      "texto": "Decreto 35/2005 de la Comunidad de Madrid",
+      "url": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&idnorma=3650"
+    },
+    {
+      "texto": "Comunidad de Madrid: registro de centros y cursos de tatuaje",
+      "url": "https://www.comunidad.madrid/salud/registros-centros-cursos-tatuaje-micropigmentacion-piercing"
+    }
+  ],
   "tarjetaLateral": {
     "titulo": "Formación en el estudio",
     "texto": "Grupos reducidos, técnica de línea fina paso a paso y bioseguridad desde el primer día.",
